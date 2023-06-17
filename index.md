@@ -2,10 +2,8 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
-
+Hello, I am Gürhan Camgöz. This is a portfolio web site showcasing some of my work as well as various collaborations. For further inquiries: [gurhan.camgoz@gmail.com](mailto:gurhan.camgoz@gmail.com).
 
 
 ## Articles
