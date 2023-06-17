@@ -6,91 +6,54 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
-There should be whitespace between paragraphs.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+## Articles
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+> These articles have been written in 2017 when I was an editor intern at 140journos news media agency.
 
-## Header 2
+  - https://140journos.com/turkey-starts-trying-cumhuriyet-journalists-61316bfda29d
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+  - https://140journos.com/cost-of-urban-transformation-for-turkey-33b01cd734d0
 
-### Header 3
+  - https://140journos.com/turkish-governments-measures-on-academia-decrease-research-output-3a54671a2434
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+  - https://140journos.com/turkeys-southeastern-city-of-sirnak-destructed-after-months-long-curfew-and-clashes-with-the-pkk-6e7b406095c
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+  - https://140journos.com/the-banned-theory-evolution-e772fa968339
 
-#### Header 4
+>This article have been written  in 2018 for the course ‘Truth in Fiction’, which I participated in Tilburg University, in the Netherlands, where I had studied for a semester through the Erasmus exchange program
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+  - https://www.diggitmagazine.com/papers/waking-life-and-aesthetics-liminality
 
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
 
 * * *
 
-### Here is an unordered list:
+## Videos
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+>These two music videos have been produced as a part of the collective ‘Gizli Özneler’, which formed during the 2021 Bogazici University protests. 
 
-### And an ordered list:
+  - https://www.youtube.com/watch?v=IIjpuF9Qh3U
+  - https://www.youtube.com/watch?v=0S781HzRvVk
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+>This documentary/video report have been produced as a part of the protests in 2018, which were about the price increases in Bogazici University’s cafeteria.
 
-### And a nested list:
+  - https://www.youtube.com/watch?v=1Cwr7CYV1X4
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+>This documentary/video report have been produced in 2022 for the course ‘Visual Anthropology’, which I participated in KU Leuven while studying in the masters programme of Social and Cultural Anthropology.
+
+  - https://drive.google.com/file/d/1XQOABK8wUs_Q2hEPk-pZWlCfzWKTczo5/view?usp=share_link
+
+
+>These videos are produced as part of the experimental audiovisual art project ‘xecuc’ in 2020. 
+
+  - https://www.youtube.com/watch?v=mUgH7NmtXNY
+
+  - https://www.youtube.com/watch?v=VFju_XPVWZE
+
+  - https://www.youtube.com/watch?v=YF-JR7h7m5w
+
+* * *
 
 ### Small image
 
@@ -101,23 +64,3 @@ end
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
 
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
