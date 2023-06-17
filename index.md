@@ -2,7 +2,6 @@
 layout: default
 ---
 
-
 Hello, I am Gürhan Camgöz. This is a portfolio web site showcasing some of my work as well as various collaborations. For further inquiries: [gurhan.camgoz@gmail.com](mailto:gurhan.camgoz@gmail.com).
 
 * * *
@@ -11,9 +10,9 @@ Hello, I am Gürhan Camgöz. This is a portfolio web site showcasing some of my 
 
 > These articles have been written in 2017 when I was an editor intern at 140journos news media agency.
 
-  - [https://140journos.com/turkey-starts-trying-cumhuriyet-journalists-61316bfda29d] (https://140journos.com/turkey-starts-trying-cumhuriyet-journalists-61316bfda29d)
+  - [- https://140journos.com/turkey-starts-trying-cumhuriyet-journalists-61316bfda29d](https://140journos.com/turkey-starts-trying-cumhuriyet-journalists-61316bfda29d)
 
-  - [https://140journos.com/cost-of-urban-transformation-for-turkey-33b01cd734d0] (https://140journos.com/cost-of-urban-transformation-for-turkey-33b01cd734d0)
+  - [- https://140journos.com/cost-of-urban-transformation-for-turkey-33b01cd734d0](https://140journos.com/cost-of-urban-transformation-for-turkey-33b01cd734d0)
 
   - [https://140journos.com/turkish-governments-measures-on-academia-decrease-research-output-3a54671a2434](https://140journos.com/turkish-governments-measures-on-academia-decrease-research-output-3a54671a2434)
 
