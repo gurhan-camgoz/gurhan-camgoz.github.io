@@ -5,20 +5,21 @@ layout: default
 
 Hello, I am Gürhan Camgöz. This is a portfolio web site showcasing some of my work as well as various collaborations. For further inquiries: [gurhan.camgoz@gmail.com](mailto:gurhan.camgoz@gmail.com).
 
+* * *
 
 ## Articles
 
 > These articles have been written in 2017 when I was an editor intern at 140journos news media agency.
 
-  - https://140journos.com/turkey-starts-trying-cumhuriyet-journalists-61316bfda29d
+  - [https://140journos.com/turkey-starts-trying-cumhuriyet-journalists-61316bfda29d] (https://140journos.com/turkey-starts-trying-cumhuriyet-journalists-61316bfda29d)
 
-  - https://140journos.com/cost-of-urban-transformation-for-turkey-33b01cd734d0
+  - [https://140journos.com/cost-of-urban-transformation-for-turkey-33b01cd734d0] (https://140journos.com/cost-of-urban-transformation-for-turkey-33b01cd734d0)
 
-  - https://140journos.com/turkish-governments-measures-on-academia-decrease-research-output-3a54671a2434
+  - [https://140journos.com/turkish-governments-measures-on-academia-decrease-research-output-3a54671a2434](https://140journos.com/turkish-governments-measures-on-academia-decrease-research-output-3a54671a2434)
 
-  - https://140journos.com/turkeys-southeastern-city-of-sirnak-destructed-after-months-long-curfew-and-clashes-with-the-pkk-6e7b406095c
+  - [https://140journos.com/turkeys-southeastern-city-of-sirnak-destructed-after-months-long-curfew-and-clashes-with-the-pkk-6e7b406095c](https://140journos.com/turkeys-southeastern-city-of-sirnak-destructed-after-months-long-curfew-and-clashes-with-the-pkk-6e7b406095c)
 
-  - https://140journos.com/the-banned-theory-evolution-e772fa968339
+  - [https://140journos.com/the-banned-theory-evolution-e772fa968339](https://140journos.com/the-banned-theory-evolution-e772fa968339)
 
 >This article have been written  in 2018 for the course ‘Truth in Fiction’, which I participated in Tilburg University, in the Netherlands, where I had studied for a semester through the Erasmus exchange program
 
