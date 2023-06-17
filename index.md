@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
+<p>
 ![imagetooltip](/assets/images/photo1.jpg)
-
+</p>
 Hello, I am Gürhan Camgöz. This is a portfolio web site showcasing some of my work as well as various collaborations. For further inquiries: [gurhan.camgoz@gmail.com](mailto:gurhan.camgoz@gmail.com).
 
 * * *
