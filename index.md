@@ -5,9 +5,11 @@ layout: default
 ![profile]({{ "/assets/images/photo11.JPG" | https://gurhan-camgoz.github.io/assets/images/photo11.JPG }}){:style="display:block; margin-left:auto; margin-right:auto"}
 
 
-Hello, I am Gürhan Camgöz. This is a portfolio web site showcasing some of my work as well as various collaborations. 
+This is a portfolio web site showcasing some of my work as well as various collaborations with different collectives. 
 
-My research areas take shape at the intersection of urban studies and disaster studies: Dealing with themes such as memory, victims, violence, risk, aid, and housing; employing an anthropological lens to initiate a critique of capitalist catastrophism. My current fieldwork focuses on the (re)construction activities in the post-disaster territory of Turkey's eastern Marmara region, which was devasted by dual earthquakes in 1999. 
+My research areas take shape at the intersection of urban studies and disaster studies: Dealing with themes such as memory, victims, violence, risk, aid, and housing; employing an anthropological lens to initiate a critique of capitalist catastrophism. 
+
+My current fieldwork focuses on the (re)construction activities in the post-disaster territory of Turkey's eastern Marmara region, which was devasted by two earthquakes in 1999. 
 
 For further inquiries: [gurhan.camgoz@gmail.com](mailto:gurhan.camgoz@gmail.com).
 
@@ -17,9 +19,9 @@ For further inquiries: [gurhan.camgoz@gmail.com](mailto:gurhan.camgoz@gmail.com)
 
 > These articles have been written in 2017 when I was an editor intern at 140journos news media agency.
 
-  - [Turkey starts trying Cumhuriyet journalists](https://140journos.com/turkey-starts-trying-cumhuriyet-journalists-61316bfda29d)
+  - [Turkey's Cumhuriyet journalists in terrorism trial](https://140journos.com/turkey-starts-trying-cumhuriyet-journalists-61316bfda29d)
 
-  - [Cost of urban transformation for Turkey](https://140journos.com/cost-of-urban-transformation-for-turkey-33b01cd734d0)
+  - [The cost of urban transformation for Turkey](https://140journos.com/cost-of-urban-transformation-for-turkey-33b01cd734d0)
 
   - [Turkish government's measures on academia decrease research output](https://140journos.com/turkish-governments-measures-on-academia-decrease-research-output-3a54671a2434)
 
@@ -50,13 +52,13 @@ For further inquiries: [gurhan.camgoz@gmail.com](mailto:gurhan.camgoz@gmail.com)
   - [A Food for Thought](https://drive.google.com/file/d/1XQOABK8wUs_Q2hEPk-pZWlCfzWKTczo5/view?usp=share_link)
 
 
->These videos have been produced as a part of the experimental audiovisual art project ‘xecuc’ in 2020. 
+>These assemblages have been produced as a part of the experimental audiovisual project ‘xecuc’ in 2020. 
 
-  - [Xecuc - Ornitopoloji](https://www.youtube.com/watch?v=mUgH7NmtXNY)
+  - [xecuc - Ornitopoloji](https://www.youtube.com/watch?v=mUgH7NmtXNY)
 
-  - [Xecuc - Aseksüel Porn](https://www.youtube.com/watch?v=VFju_XPVWZE)
+  - [xecuc - Aseksüel Porn](https://www.youtube.com/watch?v=VFju_XPVWZE)
 
-  - [Xecuc - XXX](https://www.youtube.com/watch?v=YF-JR7h7m5w)
+  - [xecuc - XXX](https://www.youtube.com/watch?v=YF-JR7h7m5w)
 
 * * *
 
