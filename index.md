@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![imagetooltip]({{ "/assets/images/photo11.jpg" | https://gurhan-camgoz.github.io/assets/images/photo11.jpg }}){:style="display:block; margin-left:auto; margin-right:auto"}
+![profile]({{ "/assets/images/photo11.JPG" | https://gurhan-camgoz.github.io/assets/images/photo11.JPG }}){:style="display:block; margin-left:auto; margin-right:auto"}
 
 
 Hello, I am Gürhan Camgöz. This is a portfolio web site showcasing some of my work as well as various collaborations. 
