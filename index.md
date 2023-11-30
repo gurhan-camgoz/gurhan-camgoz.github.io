@@ -7,10 +7,6 @@ layout: default
 
 This is a portfolio web site showcasing some of my work as well as various collaborations with different collectives. 
 
-My research areas take shape at the intersection of urban studies and disaster studies: Dealing with themes such as memory, victims, violence, risk, aid, and housing.
-
-My current fieldwork focuses on the (re)construction practices in the post-disaster territory of Turkey's eastern Marmara region, which was devasted by two earthquakes in 1999. 
-
 For further communication: [gurhan.camgoz@gmail.com](mailto:gurhan.camgoz@gmail.com).
 
 * * *
