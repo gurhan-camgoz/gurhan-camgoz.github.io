@@ -62,6 +62,24 @@ For further communication: [gurhan.camgoz@gmail.com](mailto:gurhan.camgoz@gmail.
 
 * * *
 
+## Master's Thesis
+
+>Master's thesis submitted to Social and Cultural Anthropology at KU Leuven.
+
+  - ['Tremble Lasts Forever': Cultural Tectonics and Seismopolitics](https://drive.google.com/file/d/1wBNBvt0ggFPBVUzFeFPVlLwbjRSeyZy5/view?usp=sharing)
+
+* * *
+
+## CV
+
+>This file contains the current Curriculum Vitae, last updated 11/2023
+
+  - [Current CV](https://drive.google.com/file/d/1V1gCC9uC3MMzSh3v8dHfSBwKUrvZ5px3/view?usp=sharing)
+
+* * *
+
+
+
 
 
 
