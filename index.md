@@ -5,7 +5,7 @@ layout: default
 ![profile]({{ "/assets/images/photo11.JPG" | https://gurhan-camgoz.github.io/assets/images/photo11.JPG }}){:style="display:block; margin-left:auto; margin-right:auto"}
 
 
-This is a portfolio web site showcasing some of my work as well as various collaborations with different collectives. 
+This is a simple portfolio web site containing links to some of my works, as well as various other collaborations with different collectives. 
 
 For further communication: [gurhan.camgoz@gmail.com](mailto:gurhan.camgoz@gmail.com).
 
@@ -32,9 +32,10 @@ For further communication: [gurhan.camgoz@gmail.com](mailto:gurhan.camgoz@gmail.
 * * *
 
 ## Images
->A portfolio showcasing mostly analog photography, and some other still images.
+>A portfolio showcasing mostly analog photography, and some other still images. In progress - August 2024
+
   - [Image Portfolio](https://www.behance.net/gurhancamgoz)
-  
+
 * * *
 ## Videos
 
@@ -73,9 +74,9 @@ For further communication: [gurhan.camgoz@gmail.com](mailto:gurhan.camgoz@gmail.
 
 ## CV
 
->This file contains the current Curriculum Vitae, last updated 11/2023
+>This file contains the current Curriculum Vitae, last updated August 2024
 
-  - [Current CV](https://drive.google.com/file/d/1V1gCC9uC3MMzSh3v8dHfSBwKUrvZ5px3/view?usp=sharing)
+  - [Current CV](https://drive.google.com/file/d/1Ipnww9ESIvRtl7xYCikLtBZLanrgBNZc/view?usp=sharing)
 
 * * *
 
