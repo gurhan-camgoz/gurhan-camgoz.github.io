@@ -36,6 +36,10 @@ For further communication: [gurhan.camgoz@gmail.com](mailto:gurhan.camgoz@gmail.
 
   - [Image Portfolio](https://www.behance.net/gurhancamgoz)
 
+>A folder containing the photographs, videos, and the poster from solidarity and fundaraising events for the victims of the 2023 earthquake in Turkey and Syria.
+
+  - [Solidarity Night](https://drive.google.com/drive/folders/1CWuA2EA2gvlbtGlEKtBvPhC40zs3QEa5?usp=sharing)
+
 * * *
 ## Videos
 
