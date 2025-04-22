@@ -76,13 +76,6 @@ For further communication: [gurhan.camgoz@gmail.com](mailto:gurhan.camgoz@gmail.
 
 * * *
 
-## CV
-
->This file contains the current Curriculum Vitae, last updated August 2024
-
-  - [Current CV](https://drive.google.com/file/d/1Ipnww9ESIvRtl7xYCikLtBZLanrgBNZc/view?usp=sharing)
-
-* * *
 
 
 
