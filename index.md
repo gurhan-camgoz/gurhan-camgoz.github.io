@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![profile]({{ "/assets/images/LinkedinPP.jpeg" | https://gurhan-camgoz.github.io/assets/images/LinkedinPP.jpeg }}){:style="display:block; margin-left:auto; margin-right:auto"}
+![profile]({{ "/assets/images/photo11.JPG" | https://gurhan-camgoz.github.io/assets/images/photo11.JPG }}){:style="display:block; margin-left:auto; margin-right:auto"}
 
 
 This is a simple portfolio web site containing links to some of my works, as well as various other collaborations with different collectives. 
