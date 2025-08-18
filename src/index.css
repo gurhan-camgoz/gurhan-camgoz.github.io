@@ -1,38 +1,60 @@
+/* Import the Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
 
-@tailwind base;
+/* Import all of Tailwind's styles */
+@import "tailwindcss";
 
-@layer base {
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    font-family: 'Inter', system-ui, sans-serif;
-  }
-}
+/* Define your theme customizations */
+@theme {
+  --font-family-sans: "Inter", system-ui, sans-serif;
+  --font-family-mono: "Fira Code", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
-@layer utilities {
-  @keyframes fadeIn {
+  --animation-fade-in: fadeIn 1s ease-out;
+  --animation-slide-up: slideUp 1s ease-out;
+
+  --keyframes-fade-in: {
     from {
       opacity: 0;
     }
     to {
       opacity: 1;
     }
-  }
-  
-  @keyframes slideUp {
+  };
+
+  --keyframes-slide-up: {
     from {
       opacity: 0;
       transform: translateY(20px);
     }
     to {
-      opacity: 1;
       transform: translateY(0);
+      opacity: 1;
     }
-  }
+  };
 }
 
-@tailwind components;
-@tailwind utilities;
+/* Add any custom base styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: var(--font-family-sans);
+  }
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient 15s ease infinite;
+  }
+}

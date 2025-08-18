@@ -6,34 +6,34 @@ export const About: React.FC = () => {
       <div className="max-w-4xl mx-auto">
         {/* Section Header */}
         <div className="flex items-center mb-12">
-          <span className="text-primary-400 font-mono text-lg mr-4">01.</span>
-          <h2 className="text-3xl font-bold text-slate-100 mr-8">About Me</h2>
-          <div className="flex-1 h-px bg-slate-600"></div>
+          <span className="text-stone-400 font-mono text-lg mr-4">01.</span>
+          <h2 className="text-3xl font-bold text-stone-700 mr-8">About Me</h2>
+          <div className="flex-1 h-px bg-stone-600"></div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-12 items-start">
           {/* Content */}
           <div className="md:col-span-2 space-y-6">
-            <p className="text-slate-300 leading-relaxed text-lg">
+            <p className="text-stone-700 leading-relaxed text-lg">
               Hello! I'm a passionate researcher working at the intersection of artificial intelligence 
               and human-centered design. My journey started back in undergraduate studies when I first 
               discovered the power of combining technical innovation with social impact.
             </p>
             
-            <p className="text-slate-300 leading-relaxed text-lg">
+            <p className="text-stone-700 leading-relaxed text-lg">
               Fast-forward to today, and I've had the privilege of working on research projects ranging 
-              from <span className="text-primary-400">machine learning algorithms</span> to 
-              <span className="text-primary-400"> accessibility tools</span>, always with the goal 
+              from <span className="text-stone-700">machine learning algorithms</span> to 
+              <span className="text-stone-700"> accessibility tools</span>, always with the goal 
               of making technology more inclusive and beneficial for diverse communities.
             </p>
             
-            <p className="text-slate-300 leading-relaxed text-lg">
+            <p className="text-stone-700 leading-relaxed text-lg">
               My main focus these days is on developing AI systems that are not just powerful, 
               but also transparent, fair, and accessible to everyone. I also enjoy mentoring 
               students and contributing to open-source projects in my spare time.
             </p>
 
-            <p className="text-slate-300 leading-relaxed text-lg">
+            <p className="text-stone-700 leading-relaxed text-lg">
               Here are a few technologies I've been working with recently:
             </p>
 
@@ -48,8 +48,8 @@ export const About: React.FC = () => {
                 'Accessibility Research'
               ].map((tech) => (
                 <div key={tech} className="flex items-center">
-                  <span className="text-primary-400 mr-3 text-sm">▶</span>
-                  <span className="text-slate-300 font-mono text-sm">{tech}</span>
+                  <span className="text-stone-600 mr-3 text-sm">▶</span>
+                  <span className="text-stone-700 font-mono text-sm">{tech}</span>
                 </div>
               ))}
             </div>
