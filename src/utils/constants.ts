@@ -3,7 +3,7 @@ export const personalInfo = {
   title: "MSc in Social and Cultural Anthropology - MSc(Engineering) in Artificial Intelligence",
   email: "gurhan.camgoz@gmail.com",
   location: "KU Leuven, Belgium",
-  bio: "I'm a researcher passionate about the intersection of computer science and anthropology, focusing on how technology can assist human experiences. My work involves developing AI systems that are transparent, fair, and accessible, with a strong emphasis on human-centered design.",
+  bio: "I'm a researcher working at the intersection of computer science and anthropology, exploring how to engage ethically and creatively with the emerging technologies. My work develops frameworks for AI systems to align normatively as partners in explainable, fair, and accessible human-AI collaborations.",
   links: {
     github: "https://github.com/gurhan-camgoz",
     linkedin: "https://linkedin.com/in/yourusername",
