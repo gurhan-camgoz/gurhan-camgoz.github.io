@@ -30,13 +30,14 @@ export const Header: React.FC = () => {
         isScrolled ? 'bg-amber-900/95 backdrop-blur-sm shadow-lg border-b border-amber-800' : 'bg-transparent'
       }`}
     >
-      <nav className="container mx-auto px-6 py-4">
+      
+      <nav className="container mx-auto px-6 py-4 relative z-10">
         <div className="flex items-center justify-between">
           <button
             onClick={scrollToTop}
             className="text-xl font-bold text-white font-mono opacity-75 hover:opacity-100 transition-opacity focus:outline-none"
           >
-            &lt;Gürhan Camgöz&gt;
+            &lt;gurhan-camgoz.github.io&gt;
           </button>
 
           {/* Desktop Navigation */}

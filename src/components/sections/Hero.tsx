@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, ExternalLink, ArrowDown } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { personalInfo } from '../../utils/constants';
 
 export const Hero: React.FC = () => {
+  const textRef = useRef<HTMLSpanElement>(null);
+
+  useEffect(() => {
+    if (textRef.current) {
+      const randomDelay = Math.random() * 2;
+      textRef.current.style.setProperty('--random-delay', randomDelay.toString());
+    }
+  }, []);
+
   const scrollToAbout = () => {
     const aboutSection = document.getElementById('about');
     if (aboutSection) {
@@ -18,12 +27,17 @@ export const Hero: React.FC = () => {
 
       <div className="container mx-auto px-6 text-center relative z-10">
         <motion.p
-          className="text-stone-400 text-lg mb-4 font-medium"
+          className="text-5xl md:text-7xl lg:text-8xl font-mono font-bold text-transparent mb-4 relative z-10"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.8 }}
         >
-        
+          <span
+            ref={textRef}
+            className="text-stroke text-stroke-green-500 opacity-0 animate-random-pulse"
+          >
+            Mașallah
+          </span>
         </motion.p>
 
         <motion.h1
@@ -43,7 +57,6 @@ export const Hero: React.FC = () => {
         >
          Bridging Computer Science and Anthropology
         </motion.h2>
-
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -82,7 +95,7 @@ export const Hero: React.FC = () => {
           )}
           {personalInfo.links.linkedin && (
             <a href={personalInfo.links.linkedin} target="_blank" rel="noopener noreferrer">
-              <Button variant="outline" size="md" className="border-2 border-stone-600 text-stone-300 hover:border-stone-400 hover:text-stone-400">
+              <Button variant="outline" size="md" className="border-2 border-stone-600 text-stone-300 hover:border-green-400 hover:text-stone-400">
                 <Linkedin size={18} className="mr-2" />
                 LinkedIn
               </Button>
@@ -94,3 +107,4 @@ export const Hero: React.FC = () => {
     </section>
   );
 };
+
