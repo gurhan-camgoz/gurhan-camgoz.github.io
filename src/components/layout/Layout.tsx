@@ -4,7 +4,6 @@ interface LayoutProps {
   children: React.ReactNode;
 }
 
-// I've extracted your SVGs into their own components for clarity.
 const TopWave = () => (
   <svg
     id="wave-top"
@@ -102,8 +101,8 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
       </div>
 
       {/* Gradient backgrounds */}
-      <div className="absolute inset-0 bg-linear-to-l from-amber-800 via-stone-500 to-amber-800 animate-gradient opacity-100 z-0" />
-      <div className="absolute inset-0 bg-linear-to-b from-green-500 via-blue-500 to-purple-800 animate-gradient opacity-15 z-0" />
+      <div className="absolute inset-0 bg-linear-to-bl from-amber-800 via-stone-500 to-amber-800 opacity-100 z-0" />
+      <div className="absolute inset-0 bg-linear-to-br from-green-500 via-blue-500 to-purple-800 opacity-15 z-0" />
       
       {/* Bottom SVG Wave Background */}
       <div className="absolute left-0 bottom-0 w-full h-[490px] pointer-events-none opacity-10 z-0">

@@ -46,9 +46,9 @@ export const Header: React.FC = () => {
               <button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
-                className="text-stone-300 hover:text-stone-400 transition-colors font-mono text-sm relative group"
+                className="text-stone-200 hover:text-stone-300 transition-colors font-mono text-sm relative group"
               >
-                <span className="text-stone-400 mr-1">0{index + 1}.</span>
+                <span className="text-stone-300 mr-1">0{index + 1}.</span>
                 {item.name}
                 <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-stone-400 transition-all duration-300 group-hover:w-full"></div>
               </button>

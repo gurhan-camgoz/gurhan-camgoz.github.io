@@ -10,30 +10,30 @@ export const About: React.FC = () => {
         <div className="max-w-4xl mx-auto">
           {/* Section Header */}
           <div className="flex items-center mb-12">
-            <span className="text-stone-400 font-mono text-lg mr-4">01.</span>
-            <h2 className="text-3xl font-bold text-stone-700 mr-8">About Me</h2>
-            <div className="flex-1 h-px bg-stone-600"></div>
+            <span className="text-stone-100 font-mono text-lg mr-4">01.</span>
+            <h2 className="text-3xl font-bold text-stone-100 mr-8">About Me</h2>
+            <div className="flex-1 h-px bg-stone-400"></div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-12 items-start">
             {/* Content */}
             <div className="md:col-span-2 space-y-6">
-              <p className="text-stone-700 leading-relaxed text-lg">
+              <p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
                 I am a researcher at the intersection of anthropology and artificial intelligence, specializing
-                in the methodological and ethical challenges of {" "} <span className="font-bold text-stone-950"> human-AI collaboration.</span> My master thesis
+                in the methodological and ethical challenges of {" "} <span className="font-bold text-blue-200"> human-AI collaboration.</span> My master thesis
                 developed a normative alignment framework that enables large language models to act as reflexive
                 partners in ethnographic analysis.
               </p>
               
-              <p className="text-stone-700 leading-relaxed text-lg">
-                Drawing on both computational methods and ethnographic theory, my research reframes AI alignment
-                in qualitative domains as the preservation of evaluative richness rather than the reduction of human
+              <p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
+                Drawing on both computational methods and ethnographic theory, my research reframes AI{" "} <span className="font-bold text-blue-200"> alignment
+                in qualitative domains </span> as the preservation of evaluative richness rather than the reduction of human
                 judgment to simple preferences. 
               </p>
               
-              <p className="text-stone-700 leading-relaxed text-lg">
+              <p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
                 Beyond technical design, I explore the infrastructural, normative, and epistemic conditions that shape
-                how AI systems participate in social inquiry, with the broader aim of advancing interdisciplinary
+                how AI systems<span className="font-bold text-blue-200"> participate in social inquiry, </span>  with the broader aim of advancing interdisciplinary
                 models of genuine human-machine collaboration.
               </p>
             </div>
@@ -45,7 +45,7 @@ export const About: React.FC = () => {
                   className="w-full aspect-square bg-gradient-to-br from-primary-500/20 to-primary-600/20 rounded-lg border border-primary-500/30 object-cover"
                 />
                 {/* Decorative border */}
-                <div className="absolute -top-4 -left-4 w-full h-full border-2 border-primary-500 rounded-lg -z-10 group-hover:top-3 group-hover:left-3 transition-all duration-300"></div>
+                <div className="absolute -top-4 -left-4 w-full h-full border-2 border-green-400 rounded-lg -z-10 group-hover:top-3 group-hover:left-3 group-hover:border-purple-400 transition-all duration-300"></div>
               </div>
             </div>
           </div>
@@ -53,12 +53,12 @@ export const About: React.FC = () => {
 
         <div className="mt-16 max-w-4xl mx-auto">
           <div className="flex items-center mb-8">
-            <span className="text-stone-400 font-mono text-lg mr-4"></span>
-            <h2 className="text-3xl font-bold text-stone-700 mr-8">Tech Stack</h2>
-            <div className="flex-1 h-px bg-stone-600"></div>
+            <span className="text-stone-100 font-mono text-lg mr-4"></span>
+            <h2 className="text-3xl font-bold text-stone-100 mr-8">Tech Stack</h2>
+            <div className="flex-1 h-px bg-stone-400"></div>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-3 gap-6 ">
             {[
               {
                 title: "Machine Learning & AI",
@@ -122,11 +122,11 @@ export const About: React.FC = () => {
             ].map((category) => (
               <div
                 key={category.title}
-                className="bg-stone-50 rounded-2xl shadow-sm p-6 hover:shadow-md transition-shadow"
+                className="bg-gradient-to-br from-purple-300/50 to-green-300/50 rounded-2xl shadow-sm p-6 hover:shadow-md transition-shadow"
               >
                 <div className="flex items-center gap-3 mb-4">
                   {category.icon}
-                  <h3 className="text-lg font-semibold text-stone-800">
+                  <h3 className="text-lg font-semibold text-stone-900">
                     {category.title}
                   </h3>
                 </div>
@@ -134,9 +134,9 @@ export const About: React.FC = () => {
                   {category.items.map((item) => (
                     <li
                       key={item}
-                      className="flex items-start text-stone-700 text-sm leading-relaxed"
+                      className="flex items-start text-stone-800 text-sm leading-relaxed"
                     >
-                      <span className="text-stone-500 mr-2">•</span>
+                      <span className="text-stone-600 mr-2">•</span>
                       <span dangerouslySetInnerHTML={{ __html: item.replace(/([^(]+)/, '<strong>$1</strong>') }} />
                     </li>
                   ))}

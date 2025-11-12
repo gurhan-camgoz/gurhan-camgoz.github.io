@@ -3,10 +3,11 @@ export const personalInfo = {
   title: "Social and Cultural Anthropologist - Artificial Intelligence Researcher",
   email: "gurhan.camgoz@gmail.com",
   location: "Brussels, Belgium",
-  bio: "It is what it is",
+  bio: "Interdisciplinary researcher bridging social theory and computer science to explore the socio-cultural dimensions of AI.",
   links: {
     github: "https://github.com/gurhan-camgoz",
     linkedin: "https://linkedin.com/in/yourusername",
+    cv: "/Gurhan_Camgoz_CV.pdf"
   }
 };
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, ExternalLink, ArrowDown } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, ArrowDown, FileUser } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { personalInfo } from '../../utils/constants';
 
@@ -67,7 +67,7 @@ export const Hero: React.FC = () => {
         </svg>
       </div>
       <div className="absolute inset-0 bg-linear-to-l from-amber-800 via-stone-500 to-amber-800 animate-gradient opacity-100 z-0" />
-      <div className="absolute inset-0 bg-linear-to-b from-green-500 via-blue-500 to-purple-800 animate-gradient opacity-15 z-0" />
+      <div className="absolute inset-0 bg-linear-to-b from-green-500 via-orange-500 to-purple-800 animate-gradient opacity-15 z-0" />
 
       {/* Bottom SVG Wave Background */}
       <div className="absolute left-0 bottom-0 w-screen pointer-events-none opacity-10 z-0">
@@ -124,12 +124,16 @@ export const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.8 }}
         >
-          <span
-            ref={textRef}
-            className="text-stroke text-stroke-green-500 opacity-100"
-          >
+          <span className="text-stroke text-stroke-green-500 opacity-100">
           {personalInfo.name}
           </span>
+          <span
+          ref={textRef}
+          className="absolute inset-0 text-stroke text-stroke-green-500 opacity-100 drop-shadow-purple-800 drop-shadow-[0_0_12px_rgba(168,85,247,0.7)] animate-random-pulse"
+          style={{ mixBlendMode: 'overlay' }}
+        >
+          {personalInfo.name}
+        </span>
         </motion.h1>
 
         <motion.h2
@@ -138,7 +142,7 @@ export const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.8 }}
         >
-         Computational Socio-acoustics &amp; Ethnographic AI
+         Exploring Culture  &amp; Ethnographic AI
         </motion.h2>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -148,13 +152,13 @@ export const Hero: React.FC = () => {
           <p className="text-xl md:text-2xl text-stone-300 mb-2 font-medium">
             {personalInfo.title}
           </p>
-          <p className="text-lg text-stone-900 mb-8">
+          <p className="text-lg font-bold font-mono text-stone-900 mb-8">
             {personalInfo.location}
           </p>
         </motion.div>
 
         <motion.p
-          className="text-lg text-stone-800 max-w-2xl mx-auto mb-12 leading-relaxed"
+          className="text-lg text-stone-800 font-semibold font-mono max-w-2xl mx-auto mb-12 leading-relaxed"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.8 }}
@@ -170,7 +174,7 @@ export const Hero: React.FC = () => {
         >
           {personalInfo.links.github && (
             <a href={personalInfo.links.github} target="_blank" rel="noopener noreferrer">
-              <Button variant="outline" size="md" className="border-2 border-stone-600 text-stone-300 hover:border-stone-400 hover:text-stone-400">
+              <Button variant="outline" size="md" className="border-2 border-stone-600 text-stone-100 hover:border-green-400 hover:text-stone-800 hover:bg-gradient-to-tl from-green-500 to-purple-500 hover:bg-opacity-20 hover:shadow-lg hover:shadow-green-400/50 transition-all duration-300">
                 <Github size={18} className="mr-2" />
                 GitHub
               </Button>
@@ -178,9 +182,17 @@ export const Hero: React.FC = () => {
           )}
           {personalInfo.links.linkedin && (
             <a href={personalInfo.links.linkedin} target="_blank" rel="noopener noreferrer">
-              <Button variant="outline" size="md" className="border-2 border-stone-600 text-stone-300 hover:border-green-400 hover:text-stone-400">
+              <Button variant="outline" size="md" className="border-2 border-stone-600 text-stone-100 hover:border-green-400 hover:text-stone-800 hover:bg-gradient-to-tl from-green-500 to-purple-500 hover:bg-opacity-20 hover:shadow-lg hover:shadow-green-400/50 transition-all duration-300">
                 <Linkedin size={18} className="mr-2" />
                 LinkedIn
+              </Button>
+            </a>
+          )}
+          {personalInfo.links.cv && (
+            <a href={personalInfo.links.cv} target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" size="md" className="border-2 border-stone-600 text-stone-100 hover:border-green-400 hover:text-stone-800 hover:bg-gradient-to-tl from-green-500 to-purple-500 hover:bg-opacity-20 hover:shadow-lg hover:shadow-green-400/50 transition-all duration-300">
+                <FileUser size={18} className="mr-2" />
+                CV
               </Button>
             </a>
           )}
