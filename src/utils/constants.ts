@@ -6,9 +6,10 @@ export const personalInfo = {
   bio: "Interdisciplinary researcher bridging social theory and computer science to explore the socio-cultural dimensions of AI.",
   links: {
     github: "https://github.com/gurhan-camgoz",
-    linkedin: "https://linkedin.com/in/yourusername",
-    cv: "/Gurhan_Camgoz_CV.pdf"
-  }
+    linkedin: "https://www.linkedin.com/in/g%C3%BCrhan-c-27bb3a113/",
+    cv: "/CV-Gurhan-Camgoz.pdf"
+  },
+  profileImage: "/Profile.jpeg"
 };
 
 export const navigation = [

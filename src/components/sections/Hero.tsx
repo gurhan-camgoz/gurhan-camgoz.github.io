@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, ExternalLink, ArrowDown, FileUser } from 'lucide-react';
+import { Github, Linkedin, FileUser } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { personalInfo } from '../../utils/constants';
 
@@ -13,13 +13,6 @@ export const Hero: React.FC = () => {
       textRef.current.style.setProperty('--random-delay', randomDelay.toString());
     }
   }, []);
-
-  const scrollToAbout = () => {
-    const aboutSection = document.getElementById('about');
-    if (aboutSection) {
-      aboutSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">

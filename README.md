@@ -1,69 +1,93 @@
-# React + TypeScript + Vite
+# Gürhan Camgöz - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website showcasing research, articles, and projects in the intersection of social anthropology and artificial intelligence.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 18** - UI library
+- **TypeScript** - Type-safe development
+- **Vite** - Fast build tool and dev server
+- **Tailwind CSS** - Utility-first styling
+- **Framer Motion** - Smooth animations
+- **Lucide React** - Icon library
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+src/
+├── components/
+│   ├── layout/
+│   │   ├── Header.tsx      - Navigation header
+│   │   ├── Footer.tsx      - Footer section
+│   │   └── Layout.tsx      - Main layout wrapper
+│   ├── sections/
+│   │   ├── Hero.tsx        - Hero/landing section
+│   │   ├── About.tsx       - About me section
+│   │   ├── Research.tsx    - Research & publications
+│   │   └── Contact.tsx     - Contact section
+│   └── ui/
+│       ├── Button.tsx      - Reusable button component
+│       ├── Card.tsx        - Card component
+│       └── Section.tsx     - Section wrapper
+├── types/
+│   └── index.ts            - TypeScript type definitions
+├── utils/
+│   └── constants.ts        - App constants & personal info
+├── App.tsx                 - Root component
+├── main.tsx                - Entry point
+└── index.css               - Global styles
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Installation & Setup
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/gurhan-camgoz/gurhan-camgoz.github.io.git
+   cd gurhan-camgoz.github.io
+   ```
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**:
+   ```bash
+   npm run dev
+   ```
+   Visit `http://localhost:5173`
+
+## 📦 Available Scripts
+
+- `npm run dev` - Start development server with HMR
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint
+
+## 🚀 Deployment
+
+This site is deployed to GitHub Pages via the `/docs` folder:
+
+```bash
+npm run build
+rm -rf docs
+mv dist docs
+git add docs/
+git commit -m "Deploy updates"
+git push origin main
 ```
+
+Live at: [gurhan-camgoz.github.io](https://gurhan-camgoz.github.io)
+
+## 👤 About
+
+Social and Cultural Anthropologist & AI Researcher exploring the socio-cultural dimensions of artificial intelligence.
+
+- **Email**: gurhan.camgoz@gmail.com
+- **Location**: Brussels, Belgium
+- **GitHub**: [gurhan-camgoz](https://github.com/gurhan-camgoz)
+- **LinkedIn**: [gürhan-c](https://www.linkedin.com/in/g%C3%BCrhan-c-27bb3a113/)
+
+## 📄 License
+
+This project is open source and available under the MIT License.
