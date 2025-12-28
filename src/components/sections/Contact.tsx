@@ -41,7 +41,7 @@ export const Contact: React.FC = () => {
             </div>
 
             {/* Links */}
-            <div className="pt-6 border-t border-stone-300">
+            <div className="pt-6 border-t border-stone-400">
               <p className="font-mono text-stone-800 mb-4">
                 You can also find me here:
               </p>
