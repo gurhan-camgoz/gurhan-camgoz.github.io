@@ -16,31 +16,35 @@ export const Research: React.FC = () => {
           <div className="grid md:grid-cols-3 gap-12 items-start">
             {/* Content */}
             <div className="md:col-span-2 space-y-6">
-              <p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
-                My master’s thesis, <span className="font-bold text-blue-200">Beyond the Academic Mirror</span>, explored how large 
-                language models can move from acting as static “mirrors” of knowledge to becoming reflexive partners 
-                in <span className="font-bold text-blue-200">ethnographic analysis</span>.
-              </p>
+<p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
+  My master’s thesis, <span className="font-bold text-blue-200">Beyond the Academic Mirror</span>, examined how large
+  language models can support <span className="font-bold text-blue-200">interpretive and educational practices</span>
+  by moving beyond static representations of knowledge toward more reflexive forms of human–AI collaboration.
+</p>
 
-              <p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
-                The project developed <span className="font-bold text-blue-200">Vector-HCAS</span>, a multi-dimensional alignment framework that 
-                preserves the richness of human reasoning. Instead of reducing judgments to binary preferences, 
-                it identifies and models evaluative dimensions such as <em>Narrative Discipline</em>, 
-                <em> Productive Defamiliarization</em>, and <em>Analytical Grounding</em>.
-              </p>
+<p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
+  At the core of the project is <span className="font-bold text-blue-200">Vector-HCAS</span>, a multi-dimensional
+  alignment framework designed to preserve the richness of human reasoning in qualitative domains. Rather than
+  reducing judgment to simplified preferences, the framework models evaluative dimensions such as{" "}
+  <em>Narrative Discipline</em>, <em>Productive Defamiliarization</em>, and <em>Analytical Grounding</em>.
+</p>
 
-              <p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
-                Methodologically, the research combined supervised fine-tuning with LoRA/QLoRA for efficient training, 
-                a cloud-based human feedback collection app, and synthetic data augmentation with clustering analysis. 
-                These approaches allowed the framework to emerge directly from <span className="font-bold text-blue-200">participant evaluations</span>, 
-                making the alignment empirically grounded and resource-efficient.
-              </p>
+<p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
+  Methodologically, the research combined efficient fine-tuning approaches (LoRA/QLoRA), a lightweight human
+  feedback collection interface, and synthetic data augmentation informed by clustering analysis. This design
+  allowed evaluative criteria to emerge directly from{" "}
+  <span className="font-bold text-blue-200">participant and user perspectives</span>, making the system both
+  empirically grounded and accessible.
+</p>
 
-              <p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
-                <span className="font-bold text-blue-200">Applications</span> of this work include educational assessment, ethically sensitive 
-                therapeutic AI, and creative collaboration tools. More broadly, it demonstrates how alignment methods 
-                can be democratized — enabling AI research that is rigorous, reflective, and accessible without massive compute resources.
-              </p>
+<p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
+  <span className="font-bold text-blue-200">Potential applications</span> include educational assessment,
+  reflective learning tools, and ethically sensitive AI systems that support interpretation rather than automation.
+  More broadly, the work demonstrates how alignment research can contribute to{" "}
+  <span className="font-bold text-blue-200">human-centred and educational uses of AI</span> without relying on
+  large-scale computational resources.
+</p>
+
             </div>
           </div>
         </div>

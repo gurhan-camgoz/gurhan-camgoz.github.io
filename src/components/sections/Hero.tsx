@@ -135,7 +135,7 @@ export const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.8 }}
         >
-         Exploring Culture  &amp; Ethnographic AI
+         Media, Education, &amp; Audiovisual Production
         </motion.h2>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -189,10 +189,10 @@ export const Hero: React.FC = () => {
               </Button>
             </a>
           )}
-
         </motion.div>
       </div>
     </section>
   );
 };
+
 

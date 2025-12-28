@@ -1,9 +1,9 @@
 export const personalInfo = {
   name: "Gürhan Camgöz",
-  title: "Social and Cultural Anthropologist - Artificial Intelligence Researcher",
+  title:  "Communication & Audiovisual Producer | Anthropology & AI",
   email: "gurhan.camgoz@gmail.com",
   location: "Brussels, Belgium",
-  bio: "Interdisciplinary researcher bridging social theory and computer science to explore the socio-cultural dimensions of AI.",
+  bio: "Communication and audiovisual producer with a background in social and cultural anthropology and advanced training in Artificial Intelligence. ",
   links: {
     github: "https://github.com/gurhan-camgoz",
     linkedin: "https://www.linkedin.com/in/g%C3%BCrhan-c-27bb3a113/",
@@ -17,5 +17,6 @@ export const navigation = [
   { name: "Research", href: "#research" },
   { name: "Articles", href: "#articles" },
   { name: "Projects", href: "#projects" },
+  { name: "Photography", href: "#photography" },
   { name: "Contact", href: "#contact" }
 ];

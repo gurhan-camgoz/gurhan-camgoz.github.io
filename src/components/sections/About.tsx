@@ -19,23 +19,23 @@ export const About: React.FC = () => {
             {/* Content */}
             <div className="md:col-span-2 space-y-6">
               <p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
-                I am a researcher at the intersection of anthropology and artificial intelligence, specializing
-                in the methodological and ethical challenges of {" "} <span className="font-bold text-blue-200"> human-AI collaboration.</span> My master thesis
-                developed a normative alignment framework that enables large language models to act as reflexive
-                partners in ethnographic analysis.
-              </p>
-              
-              <p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
-                Drawing on both computational methods and ethnographic theory, my research reframes AI{" "} <span className="font-bold text-blue-200"> alignment
-                in qualitative domains </span> as the preservation of evaluative richness rather than the reduction of human
-                judgment to simple preferences. 
-              </p>
-              
-              <p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
-                Beyond technical design, I explore the infrastructural, normative, and epistemic conditions that shape
-                how AI systems<span className="font-bold text-blue-200"> participate in social inquiry, </span>  with the broader aim of advancing interdisciplinary
-                models of genuine human-machine collaboration.
-              </p>
+  I am a communication and audiovisual producer with a research background in anthropology and artificial intelligence,
+  focusing on translating complex scientific and technological topics into{" "}
+  <span className="font-bold text-blue-200"> accessible educational and media formats.</span> My work combines
+  documentary filmmaking, video editing, and editorial writing with interdisciplinary research.
+</p>
+
+<p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
+  Drawing on both computational methods and ethnographic theory, I work at the intersection of{" "}
+  <span className="font-bold text-blue-200"> science, education, and digital technologies </span>
+  to communicate issues such as AI, digital citizenship, and knowledge production to diverse audiences.
+</p>
+
+<p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
+  Alongside my media practice, I research the methodological and ethical conditions under which AI systems{" "}
+  <span className="font-bold text-blue-200"> participate in social and educational inquiry, </span>
+  with the broader aim of supporting responsible, human-centred approaches to technology and learning.
+</p>
             </div>
             <div className="relative group">
               <div className="relative">
@@ -60,6 +60,16 @@ export const About: React.FC = () => {
 
           <div className="grid md:grid-cols-3 gap-6 ">
             {[
+              {
+                title: "Audio-Visual Design & Creative Tools",
+                icon: <Wand className="w-6 h-6 text-stone-700" />,
+                items: [
+                  "Ableton Live (music production & sound design)",
+                  "Adobe Premiere Pro (video editing)",
+                  "Adobe Lightroom (photo editing)", 
+                  "Figma (UI/UX design)"
+                ]
+              },
               {
                 title: "Machine Learning & AI",
                 icon: <Cpu className="w-6 h-6 text-stone-700" />,
@@ -108,17 +118,8 @@ export const About: React.FC = () => {
                   "Vite (fast build tooling & dev environment)",
                   "TailwindCSS (utility-first CSS framework for styling)"
                 ]
-              },
-              {
-                title: "Audio-Visual Design & Creative Tools",
-                icon: <Wand className="w-6 h-6 text-stone-700" />,
-                items: [
-                  "Ableton Live (music production & sound design)",
-                  "Adobe Premiere Pro (video editing)",
-                  "Adobe Lightroom (photo editing)", 
-                  "Figma (UI/UX design)"
-                ]
               }
+
             ].map((category) => (
               <div
                 key={category.title}
