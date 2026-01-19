@@ -1,6 +1,6 @@
 # Gürhan Camgöz - Personal Portfolio
 
-A modern, responsive portfolio website showcasing research, articles, and projects in the intersection of social anthropology and artificial intelligence.
+A modernß responsive portfolio website showcasing research, articles, and projects in the intersection of social anthropology and artificial intelligence.
 
 ## 🚀 Tech Stack
 
