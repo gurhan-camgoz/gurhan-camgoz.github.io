@@ -1,5 +1,5 @@
 import { Section } from "../ui/Section";
-import { Layout } from "../layout/Layout";
+import { Layout } from "./Layout";
 import food from '../../assets/thumbnails/food.png';
 import alternatif from '../../assets/thumbnails/alternatif.png';
 import yetti from '../../assets/thumbnails/yetti.jpg';

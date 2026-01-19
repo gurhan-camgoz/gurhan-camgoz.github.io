@@ -59,14 +59,14 @@ export const Hero: React.FC = () => {
           />
         </svg>
       </div>
-      <div className="absolute inset-0 bg-linear-to-l from-amber-800 via-stone-500 to-amber-800 animate-gradient opacity-100 z-0" />
-      <div className="absolute inset-0 bg-linear-to-b from-green-500 via-orange-500 to-purple-800 animate-gradient opacity-15 z-0" />
+      <div className="absolute inset-0 bg-gradient-to-l from-amber-800 via-stone-500 to-amber-800 animate-gradient opacity-100 z-0" />
+      <div className="absolute inset-0 bg-gradient-to-b from-green-500 via-orange-500 to-purple-800 animate-gradient opacity-15 z-0" />
 
       {/* Bottom SVG Wave Background */}
       <div className="absolute left-0 bottom-0 w-screen pointer-events-none opacity-10 z-0">
         <svg
           id="wave"
-          style={{ width: '100vw', height: '490px', position: 'absolute', left: 0, bottom:0, zIndex: 0 }}
+          style={{ width: '100vw', height: '490px', position: 'absolute', left: 0, bottom: 0, zIndex: 0 }}
           preserveAspectRatio="none"
           viewBox="0 0 1440 490"
           version="1.1"
@@ -107,7 +107,7 @@ export const Hero: React.FC = () => {
             ref={textRef}
             className="text-stroke text-stroke-green-500 opacity-0 animate-random-pulse"
           >
-          
+
           </span>
         </motion.p>
 
@@ -118,15 +118,15 @@ export const Hero: React.FC = () => {
           transition={{ delay: 0.2, duration: 0.8 }}
         >
           <span className="text-stroke text-stroke-green-500 opacity-100">
-          {personalInfo.name}
+            {personalInfo.name}
           </span>
           <span
-          ref={textRef}
-          className="absolute inset-0 text-stroke text-stroke-green-500 opacity-100 drop-shadow-purple-800 drop-shadow-[0_0_12px_rgba(168,85,247,0.7)] animate-random-pulse"
-          style={{ mixBlendMode: 'overlay' }}
-        >
-          {personalInfo.name}
-        </span>
+            ref={textRef}
+            className="absolute inset-0 text-stroke text-stroke-green-500 opacity-100 drop-shadow-purple-800 drop-shadow-[0_0_12px_rgba(168,85,247,0.7)] animate-random-pulse"
+            style={{ mixBlendMode: 'overlay' }}
+          >
+            {personalInfo.name}
+          </span>
         </motion.h1>
 
         <motion.h2
@@ -135,7 +135,7 @@ export const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.8 }}
         >
-         Media, Education, &amp; Audiovisual Production
+          Media, Education, &amp; Audiovisual Production
         </motion.h2>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

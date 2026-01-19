@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, ArrowLeft } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { navigation } from '../../utils/constants';
 
 export const Header: React.FC = () => {
@@ -26,19 +27,24 @@ export const Header: React.FC = () => {
 
   return (
     <header
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-amber-900/95 backdrop-blur-sm shadow-lg border-b border-amber-800' : 'bg-transparent'
-      }`}
+      className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-amber-900/95 backdrop-blur-sm shadow-lg border-b border-amber-800' : 'bg-transparent'
+        }`}
     >
-      
+
       <nav className="container mx-auto px-6 py-4 relative z-10">
         <div className="flex items-center justify-between">
-          <button
-            onClick={scrollToTop}
-            className="text-xl font-bold text-white font-mono opacity-75 hover:opacity-100 transition-opacity focus:outline-none"
-          >
-            &lt;gurhan-camgoz.github.io&gt;
-          </button>
+
+          <div className="flex items-center gap-4">
+            <Link to="/" className="text-stone-300 hover:text-white transition-colors">
+              <ArrowLeft size={20} />
+            </Link>
+            <button
+              onClick={scrollToTop}
+              className="text-xl font-bold text-white font-mono opacity-75 hover:opacity-100 transition-opacity focus:outline-none"
+            >
+              &lt;gurhan-camgoz.github.io&gt;
+            </button>
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">

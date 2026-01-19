@@ -1,24 +1,32 @@
-import { Header } from './components/layout/Header';
-import { Hero } from './components/sections/Hero';
-import { About } from './components/sections/About';
-import { Research } from './components/sections/Research';
-import { Articles } from './components/sections/Articles';
-import { Projects } from './components/sections/Projects';
-import { Photography } from './components/sections/Photography';
-import { Contact } from './components/sections/Contact';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { MasterLayout } from './layouts/MasterLayout';
+import { Landing } from './pages/Landing';
+import { AnthroLayout } from './layouts/AnthroLayout';
+import { AnthroHome } from './pages/anthro/Home';
+import { AILayout } from './layouts/AILayout';
+import { AIOverview } from './pages/ai/Overview';
 
 function App() {
   return (
-    <div className="min-h-screen bg-stone-200">
-      <Header />
-      <Hero />
-      <About />
-      <Research />
-      <Articles />
-      <Projects />
-      <Photography />
-      <Contact />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MasterLayout />}>
+          <Route index element={<Landing />} />
+        </Route>
+
+        <Route path="/anthro" element={<AnthroLayout />}>
+          <Route index element={<AnthroHome />} />
+        </Route>
+
+        <Route path="/ai" element={<AILayout />}>
+          <Route index element={<AIOverview />} />
+          <Route path="thesis" element={<div className="p-20 text-center">Thesis Page (Coming Soon)</div>} />
+          <Route path="projects" element={<div className="p-20 text-center">Projects Page (Coming Soon)</div>} />
+        </Route>
+
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,5 +1,5 @@
 import { Section } from "../ui/Section";
-import { Layout } from "../layout/Layout";
+import { Layout } from "./Layout";
 import photo1 from "../../assets/photography/1.jpg";
 import photo2 from "../../assets/photography/2.jpg";
 import photo3 from "../../assets/photography/3.jpg";

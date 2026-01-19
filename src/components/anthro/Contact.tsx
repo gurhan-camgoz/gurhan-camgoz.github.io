@@ -1,5 +1,5 @@
 import { Section } from "../ui/Section";
-import { Layout } from "../layout/Layout";
+import { Layout } from "./Layout";
 import { Github, Linkedin, FileUser, Mail, MapPin } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { personalInfo } from '../../utils/constants';

@@ -1,5 +1,5 @@
 import { Section } from "../ui/Section";
-import { Layout } from "../layout/Layout";
+import { Layout } from "./Layout";
 import academia from '../../assets/thumbnails/academia.webp';
 import cumhuriyet from '../../assets/thumbnails/cumhuriyet.webp';
 import evolution from '../../assets/thumbnails/evolution.webp';
@@ -65,14 +65,14 @@ export const Articles: React.FC = () => {
               image={waking}
               link="https://www.diggitmagazine.com/papers/waking-life-and-aesthetics-liminality"
             />
-             {/* Drive */}
+            {/* Drive */}
             <ArticleCard
               title="Ethnographer’s Digital Colleague: Prototyping a Reflexive AI Partner for Fieldwork Analysis"
               source="Drive"
               image={digital}
               link="https://drive.google.com/file/d/16uWmqTIRL4ZF7WM5K-rpa1szMEyIkdRP/view?usp=sharing"
             />
-            
+
           </div>
         </div>
       </Section>

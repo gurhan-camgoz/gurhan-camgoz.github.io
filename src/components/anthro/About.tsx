@@ -1,4 +1,4 @@
-import { Layout } from '../layout/Layout';
+import { Layout } from './Layout';
 import { Section } from '../ui/Section';
 import { Cpu, Database, Server, BookOpen, Webhook, Wand } from 'lucide-react';
 
@@ -19,23 +19,23 @@ export const About: React.FC = () => {
             {/* Content */}
             <div className="md:col-span-2 space-y-6">
               <p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
-  I am a communication and audiovisual producer with a research background in anthropology and artificial intelligence,
-  focusing on translating complex scientific and technological topics into{" "}
-  <span className="font-bold text-blue-200"> accessible educational and media formats.</span> My work combines
-  documentary filmmaking, video editing, and editorial writing with interdisciplinary research.
-</p>
+                I am a communication and audiovisual producer with a research background in anthropology and artificial intelligence,
+                focusing on translating complex scientific and technological topics into{" "}
+                <span className="font-bold text-blue-200"> accessible educational and media formats.</span> My work combines
+                documentary filmmaking, video editing, and editorial writing with interdisciplinary research.
+              </p>
 
-<p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
-  Drawing on both computational methods and ethnographic theory, I work at the intersection of{" "}
-  <span className="font-bold text-blue-200"> science, education, and digital technologies </span>
-  to communicate issues such as AI, digital citizenship, and knowledge production to diverse audiences.
-</p>
+              <p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
+                Drawing on both computational methods and ethnographic theory, I work at the intersection of{" "}
+                <span className="font-bold text-blue-200"> science, education, and digital technologies </span>
+                to communicate issues such as AI, digital citizenship, and knowledge production to diverse audiences.
+              </p>
 
-<p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
-  Alongside my media practice, I research the methodological and ethical conditions under which AI systems{" "}
-  <span className="font-bold text-blue-200"> participate in social and educational inquiry, </span>
-  with the broader aim of supporting responsible, human-centred approaches to technology and learning.
-</p>
+              <p className="text-stone-950 font-medium font-mono leading-relaxed text-lg">
+                Alongside my media practice, I research the methodological and ethical conditions under which AI systems{" "}
+                <span className="font-bold text-blue-200"> participate in social and educational inquiry, </span>
+                with the broader aim of supporting responsible, human-centred approaches to technology and learning.
+              </p>
             </div>
             <div className="relative group">
               <div className="relative">
@@ -66,7 +66,7 @@ export const About: React.FC = () => {
                 items: [
                   "Ableton Live (music production & sound design)",
                   "Adobe Premiere Pro (video editing)",
-                  "Adobe Lightroom (photo editing)", 
+                  "Adobe Lightroom (photo editing)",
                   "Figma (UI/UX design)"
                 ]
               },
