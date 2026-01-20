@@ -1,7 +1,5 @@
 import { Layout } from './Layout';
 import { Section } from '../ui/Section';
-import { Cpu, Database, Server, BookOpen, Webhook, Wand } from 'lucide-react';
-
 
 export const About: React.FC = () => {
   return (
@@ -50,104 +48,7 @@ export const About: React.FC = () => {
             </div>
           </div>
         </div>
-
-        <div className="mt-16 max-w-4xl mx-auto">
-          <div className="flex items-center mb-8">
-            <span className="text-stone-100 font-mono text-lg mr-4"></span>
-            <h2 className="text-3xl font-bold text-stone-100 mr-8">Tech Stack</h2>
-            <div className="flex-1 h-px bg-stone-400"></div>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6 ">
-            {[
-              {
-                title: "Audio-Visual Design & Creative Tools",
-                icon: <Wand className="w-6 h-6 text-stone-700" />,
-                items: [
-                  "Ableton Live (music production & sound design)",
-                  "Adobe Premiere Pro (video editing)",
-                  "Adobe Lightroom (photo editing)",
-                  "Figma (UI/UX design)"
-                ]
-              },
-              {
-                title: "Machine Learning & AI",
-                icon: <Cpu className="w-6 h-6 text-stone-700" />,
-                items: [
-                  "Python (experimentation & pipelines)",
-                  "PyTorch (training, fine-tuning, RLHF)",
-                  "Hugging Face Transformers (LLM integration)",
-                  "RLHF frameworks (PPO, DPO, custom pipelines)",
-                  "Scikit-learn (clustering & validation)"
-                ]
-              },
-              {
-                title: "Data Engineering & Processing",
-                icon: <Database className="w-6 h-6 text-stone-700" />,
-                items: [
-                  "Pandas / NumPy (data wrangling)",
-                  "NLTK / SpaCy (text preprocessing)",
-                  "Synthetic data generation (human-seeded)"
-                ]
-              },
-              {
-                title: "Deployment & Infrastructure",
-                icon: <Server className="w-6 h-6 text-stone-700" />,
-                items: [
-                  "Flask / FastAPI (feedback collection apps)",
-                  "Docker (containerization & portability)",
-                  "Cloud (AWS / GCP / Azure for training)",
-                  "CUDA / GPU acceleration (resource-constrained RLHF)"
-                ]
-              },
-              {
-                title: "Research Methods & Analysis",
-                icon: <BookOpen className="w-6 h-6 text-stone-700" />,
-                items: [
-                  "Qualitative coding tools (NVivo / Atlas.ti)",
-                  "Clustering & dimensionality reduction (k-means, PCA, t-SNE)",
-                  "Mixed-methods integration (ethnography + computation)"
-                ]
-              },
-              {
-                title: "Web & Frontend Development",
-                icon: <Webhook className="w-6 h-6 text-stone-700" />,
-                items: [
-                  "TypeScript (typed development for reliability & scalability)",
-                  "React (UI framework for interactive applications)",
-                  "Vite (fast build tooling & dev environment)",
-                  "TailwindCSS (utility-first CSS framework for styling)"
-                ]
-              }
-
-            ].map((category) => (
-              <div
-                key={category.title}
-                className="bg-gradient-to-br from-purple-300/50 to-green-300/50 rounded-2xl shadow-sm p-6 hover:shadow-md transition-shadow"
-              >
-                <div className="flex items-center gap-3 mb-4">
-                  {category.icon}
-                  <h3 className="text-lg font-semibold text-stone-900">
-                    {category.title}
-                  </h3>
-                </div>
-                <ul className="space-y-2">
-                  {category.items.map((item) => (
-                    <li
-                      key={item}
-                      className="flex items-start text-stone-800 text-sm leading-relaxed"
-                    >
-                      <span className="text-stone-600 mr-2">•</span>
-                      <span dangerouslySetInnerHTML={{ __html: item.replace(/([^(]+)/, '<strong>$1</strong>') }} />
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </div>
       </Section>
     </Layout>
   );
 };
-

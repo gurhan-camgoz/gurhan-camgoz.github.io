@@ -2,7 +2,10 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { MasterLayout } from './layouts/MasterLayout';
 import { Landing } from './pages/Landing';
 import { AnthroLayout } from './layouts/AnthroLayout';
-import { AnthroHome } from './pages/anthro/Home';
+import { AnthroOverview } from './pages/anthro/Overview';
+import { AnthroResearch } from './pages/anthro/Research';
+import { AnthroProductions } from './pages/anthro/Productions';
+import { AnthroPhotography } from './pages/anthro/Photography';
 import { AILayout } from './layouts/AILayout';
 import { AIOverview } from './pages/ai/Overview';
 import { AIProjects } from './pages/ai/Projects';
@@ -18,7 +21,10 @@ function App() {
         </Route>
 
         <Route path="/anthro" element={<AnthroLayout />}>
-          <Route index element={<AnthroHome />} />
+          <Route index element={<AnthroOverview />} />
+          <Route path="research" element={<AnthroResearch />} />
+          <Route path="productions" element={<AnthroProductions />} />
+          <Route path="photography" element={<AnthroPhotography />} />
         </Route>
 
         <Route path="/ai" element={<AILayout />}>
