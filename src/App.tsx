@@ -5,6 +5,9 @@ import { AnthroLayout } from './layouts/AnthroLayout';
 import { AnthroHome } from './pages/anthro/Home';
 import { AILayout } from './layouts/AILayout';
 import { AIOverview } from './pages/ai/Overview';
+import { AIProjects } from './pages/ai/Projects';
+import { AIArchitecture } from './pages/ai/Architecture';
+import { AIEvaluation } from './pages/ai/Evaluation';
 
 function App() {
   return (
@@ -20,8 +23,9 @@ function App() {
 
         <Route path="/ai" element={<AILayout />}>
           <Route index element={<AIOverview />} />
-          <Route path="thesis" element={<div className="p-20 text-center">Thesis Page (Coming Soon)</div>} />
-          <Route path="projects" element={<div className="p-20 text-center">Projects Page (Coming Soon)</div>} />
+          <Route path="projects" element={<AIProjects />} />
+          <Route path="architecture" element={<AIArchitecture />} />
+          <Route path="evaluation" element={<AIEvaluation />} />
         </Route>
 
         <Route path="*" element={<Navigate to="/" replace />} />

@@ -5,7 +5,7 @@ export default function cspPlugin() {
       return html.replace(
         '<head>',
         `<head>
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval'">`
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval' 'unsafe-inline'">`
       );
     }
   };
