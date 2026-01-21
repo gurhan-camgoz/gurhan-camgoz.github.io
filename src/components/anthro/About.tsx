@@ -40,7 +40,7 @@ export const About: React.FC = () => {
             <div className="relative group">
               <div className="relative">
                 <img
-                  src="/Profile.jpeg"
+                  src="/Image.jpg"
                   alt="Gurhan Camgoz - Media researcher and audiovisual producer"
                   className="w-full aspect-square bg-gradient-to-br from-primary-500/20 to-primary-600/20 rounded-lg border border-primary-500/30 object-cover"
                 />

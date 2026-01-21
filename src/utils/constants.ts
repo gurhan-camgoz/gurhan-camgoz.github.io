@@ -9,7 +9,7 @@ export const personalInfo = {
     linkedin: "https://www.linkedin.com/in/g%C3%BCrhan-c-27bb3a113/",
     cv: "/CV-Gurhan-Camgoz.pdf"
   },
-  profileImage: "/Profile.jpeg"
+  profileImage: "/Image.jpg"
 };
 
 // Route-based navigation for Anthro multi-page structure
