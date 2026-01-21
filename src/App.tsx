@@ -4,6 +4,7 @@ import { Landing } from './pages/Landing';
 import { AnthroLayout } from './layouts/AnthroLayout';
 import { AnthroOverview } from './pages/anthro/Overview';
 import { AnthroResearch } from './pages/anthro/Research';
+import { AnthroThesis } from './pages/anthro/Thesis';
 import { AnthroProductions } from './pages/anthro/Productions';
 import { AnthroPhotography } from './pages/anthro/Photography';
 import { AILayout } from './layouts/AILayout';
@@ -23,6 +24,7 @@ function App() {
         <Route path="/anthro" element={<AnthroLayout />}>
           <Route index element={<AnthroOverview />} />
           <Route path="research" element={<AnthroResearch />} />
+          <Route path="thesis" element={<AnthroThesis />} />
           <Route path="productions" element={<AnthroProductions />} />
           <Route path="photography" element={<AnthroPhotography />} />
         </Route>
