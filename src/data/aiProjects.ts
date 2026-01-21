@@ -12,6 +12,7 @@ export interface AIProject {
         repo?: string;
         demo?: string;
         thesis?: string;
+        article?: string;
     };
     icon: LucideIcon;
 }
@@ -29,9 +30,9 @@ export const aiProjects: AIProject[] = [
         status: 'COMPLETED',
         stack: ['Python', 'React', 'Transformers', 'Docker', 'GCP'],
         links: {
-            repo: 'TBD',
+            repo: 'https://github.com/gurhan-camgoz/ethno-colleague-llm',
             demo: 'TBD',
-            thesis: 'TBD',
+            thesis: '/master_theses/MasterThesis_AI_GurhanCamgoz.pdf',
         },
         icon: BookOpen,
     },
@@ -47,7 +48,7 @@ export const aiProjects: AIProject[] = [
         status: 'ACTIVE',
         stack: ['React', 'Python', 'FastAPI'],
         links: {
-            repo: 'TBD',
+            repo: 'https://github.com/gurhan-camgoz/ethno-colleague-llm/tree/main/web-app',
             demo: 'TBD',
         },
         icon: MessageSquare,
@@ -64,7 +65,8 @@ export const aiProjects: AIProject[] = [
         status: 'EXPERIMENTAL',
         stack: ['Python', 'PEFT', 'Transformers', 'scikit-learn'],
         links: {
-            repo: 'TBD',
+            repo: 'https://github.com/gurhan-camgoz/ethno-colleague-llm/tree/main/sft-files',
+            article: '/master_theses/Ethnographers-Digital-Colleague-Gurhan-Camgoz.pdf',
         },
         icon: Database,
     },

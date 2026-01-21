@@ -82,19 +82,25 @@ export function AIProjects() {
                                                 {project.links.repo && (
                                                     <span className="flex items-center text-slate-400">
                                                         <ExternalLink size={12} className="mr-1" aria-hidden="true" />
-                                                        Repo: {project.links.repo === 'TBD' ? <span className="text-slate-500 ml-1">TBD</span> : <a href={project.links.repo} className="text-blue-400 hover:underline ml-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded">{project.links.repo}</a>}
+                                                        Repo: {project.links.repo === 'TBD' ? <span className="text-slate-500 ml-1">TBD</span> : <a href={project.links.repo} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline ml-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded">GitHub</a>}
                                                     </span>
                                                 )}
                                                 {project.links.demo && (
                                                     <span className="flex items-center text-slate-400">
                                                         <ExternalLink size={12} className="mr-1" aria-hidden="true" />
-                                                        Demo: {project.links.demo === 'TBD' ? <span className="text-slate-500 ml-1">TBD</span> : <a href={project.links.demo} className="text-blue-400 hover:underline ml-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded">{project.links.demo}</a>}
+                                                        Demo: {project.links.demo === 'TBD' ? <span className="text-slate-500 ml-1">TBD</span> : <a href={project.links.demo} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline ml-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded">View</a>}
                                                     </span>
                                                 )}
                                                 {project.links.thesis && (
                                                     <span className="flex items-center text-slate-400">
                                                         <ExternalLink size={12} className="mr-1" aria-hidden="true" />
-                                                        Thesis: {project.links.thesis === 'TBD' ? <span className="text-slate-500 ml-1">TBD</span> : <a href={project.links.thesis} className="text-blue-400 hover:underline ml-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded">{project.links.thesis}</a>}
+                                                        Thesis: {project.links.thesis === 'TBD' ? <span className="text-slate-500 ml-1">TBD</span> : <a href={project.links.thesis} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline ml-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded">Download PDF</a>}
+                                                    </span>
+                                                )}
+                                                {project.links.article && (
+                                                    <span className="flex items-center text-slate-400">
+                                                        <ExternalLink size={12} className="mr-1" aria-hidden="true" />
+                                                        Article: <a href={project.links.article} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline ml-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded">Download PDF</a>
                                                     </span>
                                                 )}
                                             </div>

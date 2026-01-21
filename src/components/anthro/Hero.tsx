@@ -190,6 +190,32 @@ export const Hero: React.FC = () => {
             </a>
           )}
         </motion.div>
+
+        {/* Scroll indicator arrow */}
+        <motion.div
+          className="absolute bottom-1 left-1/2 -translate-x-1/2"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1, y: [0, 10, 0] }}
+          transition={{
+            opacity: { delay: 1.2, duration: 0.6 },
+            y: { delay: 1.2, duration: 1.5, repeat: Infinity, ease: "easeInOut" }
+          }}
+        >
+          <svg
+            className="w-8 h-8 text-stone-300"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M19 14l-7 7m0 0l-7-7m7 7V3"
+            />
+          </svg>
+        </motion.div>
       </div>
     </section>
   );
