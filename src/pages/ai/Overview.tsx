@@ -35,26 +35,43 @@ export function AIOverview() {
                             I am an Agentic AI Engineer specializing in human-in-the-loop systems, alignment, and scalable LLM architectures. I bridge the gap between academic theory and production-grade engineering.
                         </p>
 
+                        <h2 className="sr-only">Explore AI Lab sections</h2>
                         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                            <Link to="/ai/projects" className="p-6 border border-slate-800 rounded bg-slate-800/20 hover:border-blue-500/50 transition-colors group">
-                                <Network className="text-blue-400 mb-4" size={32} />
+                            <Link to="/ai/projects" className="p-6 border border-slate-800 rounded bg-slate-800/20 hover:border-blue-500/50 transition-colors group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400">
+                                <Network className="text-blue-400 mb-4" size={32} aria-hidden="true" />
                                 <h3 className="text-lg font-bold mb-2 group-hover:text-blue-400 transition-colors">Projects</h3>
                                 <p className="text-sm text-slate-400">Thesis artifacts and active investigations.</p>
                             </Link>
-                            <Link to="/ai/architecture" className="p-6 border border-slate-800 rounded bg-slate-800/20 hover:border-blue-500/50 transition-colors group">
-                                <Layers className="text-blue-400 mb-4" size={32} />
+                            <Link to="/ai/architecture" className="p-6 border border-slate-800 rounded bg-slate-800/20 hover:border-blue-500/50 transition-colors group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400">
+                                <Layers className="text-blue-400 mb-4" size={32} aria-hidden="true" />
                                 <h3 className="text-lg font-bold mb-2 group-hover:text-blue-400 transition-colors">Architecture</h3>
                                 <p className="text-sm text-slate-400">System design: modules, data flow, and deployment layers.</p>
                             </Link>
-                            <Link to="/ai/evaluation" className="p-6 border border-slate-800 rounded bg-slate-800/20 hover:border-blue-500/50 transition-colors group">
-                                <ClipboardCheck className="text-blue-400 mb-4" size={32} />
+                            <Link to="/ai/evaluation" className="p-6 border border-slate-800 rounded bg-slate-800/20 hover:border-blue-500/50 transition-colors group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400">
+                                <ClipboardCheck className="text-blue-400 mb-4" size={32} aria-hidden="true" />
                                 <h3 className="text-lg font-bold mb-2 group-hover:text-blue-400 transition-colors">Evaluation</h3>
                                 <p className="text-sm text-slate-400">Human-in-the-loop evaluation, Vector-HCAS scoring, failure modes.</p>
                             </Link>
                             <div className="p-6 border border-slate-800 rounded bg-slate-800/20 hover:border-blue-500/50 transition-colors">
-                                <Cpu className="text-blue-400 mb-4" size={32} />
+                                <Cpu className="text-blue-400 mb-4" size={32} aria-hidden="true" />
                                 <h3 className="text-lg font-bold mb-2">Engineering</h3>
                                 <p className="text-sm text-slate-400">Docker, GCP, Python, React, Vector DBs.</p>
+                            </div>
+                        </div>
+
+                        {/* Cross-link to Anthro branch */}
+                        <div className="mt-16 pt-12 border-t border-slate-800">
+                            <div className="p-6 rounded-lg bg-slate-800/30 border border-slate-700/50 hover:border-blue-500/30 transition-colors">
+                                <h3 className="text-lg font-bold text-slate-200 mb-2">Looking for my other work?</h3>
+                                <p className="text-slate-400 mb-4">
+                                    Explore my anthropology, communication, and audiovisual production portfolio.
+                                </p>
+                                <Link
+                                    to="/anthro"
+                                    className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors text-sm font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded"
+                                >
+                                    Visit Media & Anthropology →
+                                </Link>
                             </div>
                         </div>
                     </motion.div>

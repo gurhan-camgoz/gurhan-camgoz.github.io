@@ -21,7 +21,7 @@ export function AnthroProductions() {
                     <div className="max-w-5xl mx-auto">
                         {/* Section Header */}
                         <div className="flex items-center mb-12">
-                            <span className="text-stone-100 font-mono text-lg mr-4">01.</span>
+                            <span className="text-stone-100 font-mono text-lg mr-4"></span>
                             <h2 className="text-3xl font-bold text-stone-100 mr-8">Productions</h2>
                             <div className="flex-1 h-px bg-stone-400"></div>
                         </div>
@@ -97,7 +97,7 @@ const VideoCard: React.FC<VideoCardProps> = ({ title, category, image, link }) =
             href={link}
             target="_blank"
             rel="noopener noreferrer"
-            className="group block border border-stone-300 rounded-lg overflow-hidden hover:shadow-md transition-shadow"
+            className="group block border border-stone-300 rounded-lg overflow-hidden hover:shadow-md transition-shadow focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
         >
             <div className="aspect-video overflow-hidden bg-stone-200">
                 <img

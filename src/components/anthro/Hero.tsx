@@ -166,25 +166,25 @@ export const Hero: React.FC = () => {
           transition={{ delay: 0.7, duration: 0.8 }}
         >
           {personalInfo.links.github && (
-            <a href={personalInfo.links.github} target="_blank" rel="noopener noreferrer">
+            <a href={personalInfo.links.github} target="_blank" rel="noopener noreferrer" className="focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400 rounded-lg">
               <Button variant="outline" size="md" className="border-2 border-stone-600 text-stone-100 hover:border-green-400 hover:text-stone-800 hover:bg-gradient-to-tl from-green-500 to-purple-500 hover:bg-opacity-20 hover:shadow-lg hover:shadow-green-400/50 transition-all duration-300">
-                <Github size={18} className="mr-2" />
+                <Github size={18} className="mr-2" aria-hidden="true" />
                 GitHub
               </Button>
             </a>
           )}
           {personalInfo.links.linkedin && (
-            <a href={personalInfo.links.linkedin} target="_blank" rel="noopener noreferrer">
+            <a href={personalInfo.links.linkedin} target="_blank" rel="noopener noreferrer" className="focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400 rounded-lg">
               <Button variant="outline" size="md" className="border-2 border-stone-600 text-stone-100 hover:border-green-400 hover:text-stone-800 hover:bg-gradient-to-tl from-green-500 to-purple-500 hover:bg-opacity-20 hover:shadow-lg hover:shadow-green-400/50 transition-all duration-300">
-                <Linkedin size={18} className="mr-2" />
+                <Linkedin size={18} className="mr-2" aria-hidden="true" />
                 LinkedIn
               </Button>
             </a>
           )}
           {personalInfo.links.cv && (
-            <a href={personalInfo.links.cv} target="_blank" rel="noopener noreferrer">
+            <a href={personalInfo.links.cv} target="_blank" rel="noopener noreferrer" className="focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400 rounded-lg">
               <Button variant="outline" size="md" className="border-2 border-stone-600 text-stone-100 hover:border-green-400 hover:text-stone-800 hover:bg-gradient-to-tl from-green-500 to-purple-500 hover:bg-opacity-20 hover:shadow-lg hover:shadow-green-400/50 transition-all duration-300">
-                <FileUser size={18} className="mr-2" />
+                <FileUser size={18} className="mr-2" aria-hidden="true" />
                 CV
               </Button>
             </a>

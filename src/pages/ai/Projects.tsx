@@ -80,21 +80,21 @@ export function AIProjects() {
                                             </div>
                                             <div className="flex gap-4 text-xs">
                                                 {project.links.repo && (
-                                                    <span className="flex items-center text-slate-500">
-                                                        <ExternalLink size={12} className="mr-1" />
-                                                        Repo: {project.links.repo === 'TBD' ? <span className="text-slate-600 ml-1">TBD</span> : <a href={project.links.repo} className="text-blue-400 hover:underline ml-1">{project.links.repo}</a>}
+                                                    <span className="flex items-center text-slate-400">
+                                                        <ExternalLink size={12} className="mr-1" aria-hidden="true" />
+                                                        Repo: {project.links.repo === 'TBD' ? <span className="text-slate-500 ml-1">TBD</span> : <a href={project.links.repo} className="text-blue-400 hover:underline ml-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded">{project.links.repo}</a>}
                                                     </span>
                                                 )}
                                                 {project.links.demo && (
-                                                    <span className="flex items-center text-slate-500">
-                                                        <ExternalLink size={12} className="mr-1" />
-                                                        Demo: {project.links.demo === 'TBD' ? <span className="text-slate-600 ml-1">TBD</span> : <a href={project.links.demo} className="text-blue-400 hover:underline ml-1">{project.links.demo}</a>}
+                                                    <span className="flex items-center text-slate-400">
+                                                        <ExternalLink size={12} className="mr-1" aria-hidden="true" />
+                                                        Demo: {project.links.demo === 'TBD' ? <span className="text-slate-500 ml-1">TBD</span> : <a href={project.links.demo} className="text-blue-400 hover:underline ml-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded">{project.links.demo}</a>}
                                                     </span>
                                                 )}
                                                 {project.links.thesis && (
-                                                    <span className="flex items-center text-slate-500">
-                                                        <ExternalLink size={12} className="mr-1" />
-                                                        Thesis: {project.links.thesis === 'TBD' ? <span className="text-slate-600 ml-1">TBD</span> : <a href={project.links.thesis} className="text-blue-400 hover:underline ml-1">{project.links.thesis}</a>}
+                                                    <span className="flex items-center text-slate-400">
+                                                        <ExternalLink size={12} className="mr-1" aria-hidden="true" />
+                                                        Thesis: {project.links.thesis === 'TBD' ? <span className="text-slate-500 ml-1">TBD</span> : <a href={project.links.thesis} className="text-blue-400 hover:underline ml-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded">{project.links.thesis}</a>}
                                                     </span>
                                                 )}
                                             </div>

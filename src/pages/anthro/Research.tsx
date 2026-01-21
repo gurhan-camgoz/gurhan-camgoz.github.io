@@ -22,7 +22,7 @@ export function AnthroResearch() {
                     <div className="max-w-4xl mx-auto">
                         {/* Section Header */}
                         <div className="flex items-center mb-12">
-                            <span className="text-stone-100 font-mono text-lg mr-4">01.</span>
+                            <span className="text-stone-100 font-mono text-lg mr-4"></span>
                             <h2 className="text-3xl font-bold text-stone-100 mr-8">Research</h2>
                             <div className="flex-1 h-px bg-stone-400"></div>
                         </div>
@@ -85,13 +85,13 @@ export function AnthroResearch() {
                                 <div className="flex gap-4">
                                     <Link
                                         to="/ai/architecture"
-                                        className="inline-block px-4 py-2 bg-amber-700/50 hover:bg-amber-600/50 text-stone-100 font-mono text-sm rounded transition-colors"
+                                        className="inline-block px-4 py-2 bg-amber-700/50 hover:bg-amber-600/50 text-stone-100 font-mono text-sm rounded transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
                                     >
                                         View Architecture →
                                     </Link>
                                     <Link
                                         to="/ai/evaluation"
-                                        className="inline-block px-4 py-2 bg-stone-700/50 hover:bg-stone-600/50 text-stone-100 font-mono text-sm rounded transition-colors"
+                                        className="inline-block px-4 py-2 bg-stone-700/50 hover:bg-stone-600/50 text-stone-100 font-mono text-sm rounded transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
                                     >
                                         View Evaluation →
                                     </Link>
@@ -106,7 +106,7 @@ export function AnthroResearch() {
                     <div className="max-w-5xl mx-auto">
                         {/* Section Header */}
                         <div className="flex items-center mb-12">
-                            <span className="text-stone-100 font-mono text-lg mr-4">02.</span>
+                            <span className="text-stone-100 font-mono text-lg mr-4"></span>
                             <h2 className="text-3xl font-bold text-stone-100 mr-8">Articles</h2>
                             <div className="flex-1 h-px bg-stone-400"></div>
                         </div>
@@ -180,7 +180,7 @@ const ArticleCard: React.FC<ArticleCardProps> = ({ title, source, image, link })
             href={link}
             target="_blank"
             rel="noopener noreferrer"
-            className="group block border border-stone-300 rounded-lg overflow-hidden hover:shadow-md transition-shadow"
+            className="group block border border-stone-300 rounded-lg overflow-hidden hover:shadow-md transition-shadow focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
         >
             <div className="aspect-video overflow-hidden bg-stone-200">
                 <img

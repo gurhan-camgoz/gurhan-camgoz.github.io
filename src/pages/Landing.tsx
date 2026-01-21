@@ -11,12 +11,13 @@ export function Landing() {
                 description="Portfolio of Gurhan Camgoz - bridging Media Anthropology, Cultural Studies, and Agentic AI Engineering."
                 path="/"
             />
+            <h1 className="sr-only">Gurhan Camgoz Portfolio - Choose a path</h1>
             <div className="flex flex-col md:flex-row min-h-screen w-full overflow-hidden">
 
                 {/* Human/Anthro Path - Left/Top */}
                 <Link
                     to="/anthro"
-                    className="group relative flex-1 flex flex-col items-center justify-center p-12 bg-stone-200 text-stone-800 transition-all duration-500 hover:flex-[1.2] overflow-hidden"
+                    className="group relative flex-1 flex flex-col items-center justify-center p-12 bg-stone-200 text-stone-800 transition-all duration-500 hover:flex-[1.2] overflow-hidden focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-500 focus-visible:ring-offset-2"
                 >
                     <div className="absolute inset-0 bg-gradient-to-br from-orange-100/50 to-stone-300/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
@@ -74,7 +75,7 @@ export function Landing() {
                 {/* Machine/AI Path - Right/Bottom */}
                 <Link
                     to="/ai"
-                    className="group relative flex-1 flex flex-col items-center justify-center p-12 bg-slate-900 text-slate-100 transition-all duration-500 hover:flex-[1.2] overflow-hidden"
+                    className="group relative flex-1 flex flex-col items-center justify-center p-12 bg-slate-900 text-slate-100 transition-all duration-500 hover:flex-[1.2] overflow-hidden focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                 >
                     <div className="absolute inset-0 bg-gradient-to-tl from-slate-800 to-blue-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
