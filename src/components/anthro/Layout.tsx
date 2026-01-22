@@ -7,9 +7,8 @@ interface LayoutProps {
 const TopWave = () => (
     <svg
         id="wave-top"
+        className="w-full h-[250px] md:h-[490px]"
         style={{
-            width: '100%',
-            height: '490px',
             transform: 'rotate(180deg)',
             transition: '0.3s',
         }}
@@ -46,7 +45,7 @@ const TopWave = () => (
 const BottomWave = () => (
     <svg
         id="wave-bottom"
-        style={{ width: '100%', height: '490px' }}
+        className="w-full h-[250px] md:h-[490px]"
         preserveAspectRatio="none"
         viewBox="0 0 1440 490"
         version="1.1"
@@ -82,7 +81,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
     return (
         <div className="min-h-screen flex flex-col relative overflow-hidden">
             {/* Top SVG Wave Background */}
-            <div className="absolute left-0 top-0 w-full h-[490px] pointer-events-none opacity-10 z-10">
+            <div className="absolute left-0 top-0 w-full h-[250px] md:h-[490px] pointer-events-none opacity-10 z-10">
                 <div
                     className="absolute top-0 left-0 h-full w-[200%]"
                     style={{ animation: `wave-animation 40s linear infinite normal` }}
@@ -101,7 +100,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
             <div className="absolute inset-0 bg-gradient-to-br from-green-500 via-blue-500 to-purple-800 opacity-15 z-0" />
 
             {/* Bottom SVG Wave Background */}
-            <div className="absolute left-0 bottom-0 w-full h-[490px] pointer-events-none opacity-10 z-0">
+            <div className="absolute left-0 bottom-0 w-full h-[250px] md:h-[490px] pointer-events-none opacity-10 z-0">
                 <div
                     className="absolute top-0 left-0 h-full w-[200%]"
                     style={{ animation: `wave-animation 40s linear infinite reverse` }}

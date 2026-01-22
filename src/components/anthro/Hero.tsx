@@ -20,9 +20,8 @@ export const Hero: React.FC = () => {
       <div className="absolute left-0 top-0 w-screen pointer-events-none opacity-10 z-10">
         <svg
           id="wave"
+          className="w-screen h-[250px] md:h-[490px]"
           style={{
-            width: '100vw',
-            height: '490px',
             position: 'absolute',
             left: 0,
             top: 0,
@@ -66,7 +65,8 @@ export const Hero: React.FC = () => {
       <div className="absolute left-0 bottom-0 w-screen pointer-events-none opacity-10 z-0">
         <svg
           id="wave"
-          style={{ width: '100vw', height: '490px', position: 'absolute', left: 0, bottom: 0, zIndex: 0 }}
+          className="w-screen h-[250px] md:h-[490px]"
+          style={{ position: 'absolute', left: 0, bottom: 0, zIndex: 0 }}
           preserveAspectRatio="none"
           viewBox="0 0 1440 490"
           version="1.1"
@@ -220,5 +220,3 @@ export const Hero: React.FC = () => {
     </section>
   );
 };
-
-

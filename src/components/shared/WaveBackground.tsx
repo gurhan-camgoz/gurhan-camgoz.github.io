@@ -23,9 +23,8 @@ export const WaveBackground: React.FC<WaveBackgroundProps> = ({
             {/* Top SVG Wave Background */}
             <div className="absolute left-0 top-0 w-full overflow-hidden pointer-events-none opacity-10 z-0">
                 <svg
+                    className="w-screen h-[250px] md:h-[490px]"
                     style={{
-                        width: '100vw',
-                        height: '490px',
                         transform: 'rotate(180deg)',
                     }}
                     viewBox="0 0 1440 490"
@@ -49,7 +48,7 @@ export const WaveBackground: React.FC<WaveBackgroundProps> = ({
             {/* Bottom SVG Wave Background */}
             <div className="absolute left-0 bottom-0 w-full overflow-hidden pointer-events-none opacity-10 z-0">
                 <svg
-                    style={{ width: '100vw', height: '490px' }}
+                    className="w-screen h-[250px] md:h-[490px]"
                     preserveAspectRatio="none"
                     viewBox="0 0 1440 490"
                     version="1.1"
