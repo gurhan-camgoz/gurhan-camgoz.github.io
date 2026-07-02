@@ -1,41 +1,42 @@
 # Gürhan Camgöz - Personal Portfolio
 
-A modernß responsive portfolio website showcasing research, articles, and projects in the intersection of social anthropology and artificial intelligence.
+A modern, responsive portfolio website showcasing research, articles, and projects in the intersection of social anthropology and artificial intelligence.
 
 ## 🚀 Tech Stack
 
-- **React 18** - UI library
+- **React 19** - UI library
 - **TypeScript** - Type-safe development
-- **Vite** - Fast build tool and dev server
-- **Tailwind CSS** - Utility-first styling
+- **Vite 7** - Fast build tool and dev server
+- **Tailwind CSS 4** - Utility-first styling (via `@tailwindcss/vite`)
+- **React Router 7** - Client-side routing
 - **Framer Motion** - Smooth animations
 - **Lucide React** - Icon library
+- **react-helmet-async** - Per-page SEO metadata
 
 ## 📁 Project Structure
 
 ```
 src/
+├── layouts/            - Theme wrappers per identity (MasterLayout, AnthroLayout, AILayout)
+├── pages/
+│   ├── Landing.tsx     - Split-screen landing page
+│   ├── anthro/         - Anthropology section (/anthro/*)
+│   ├── ai/             - AI section (/ai/*): Overview, Projects, Architecture, Evaluation
+│   └── horeca/         - Horeca page (work in progress)
 ├── components/
-│   ├── layout/
-│   │   ├── Header.tsx      - Navigation header
-│   │   ├── Footer.tsx      - Footer section
-│   │   └── Layout.tsx      - Main layout wrapper
-│   ├── sections/
-│   │   ├── Hero.tsx        - Hero/landing section
-│   │   ├── About.tsx       - About me section
-│   │   ├── Research.tsx    - Research & publications
-│   │   └── Contact.tsx     - Contact section
-│   └── ui/
-│       ├── Button.tsx      - Reusable button component
-│       ├── Card.tsx        - Card component
-│       └── Section.tsx     - Section wrapper
-├── types/
-│   └── index.ts            - TypeScript type definitions
-├── utils/
-│   └── constants.ts        - App constants & personal info
-├── App.tsx                 - Root component
-├── main.tsx                - Entry point
-└── index.css               - Global styles
+│   ├── ai/             - AI-section components (AINav)
+│   ├── anthro/         - Anthro-section components
+│   ├── horeca/         - Horeca components
+│   ├── shared/         - Cross-section components (SeoHead, WaveBackground)
+│   └── ui/             - Primitives (Button, Card, Section, DrawnArrow)
+├── data/               - Data-driven content (aiProjects.ts)
+├── content/            - Page content (horecaCv.ts)
+├── assets/             - Images and thumbnails
+├── types/              - TypeScript type definitions
+├── utils/              - Constants and helpers
+├── App.tsx             - Router setup
+├── main.tsx            - Entry point
+└── index.css           - Global styles and theme customizations
 ```
 
 ## 🛠️ Installation & Setup
@@ -66,12 +67,10 @@ src/
 
 ## 🚀 Deployment
 
-This site is deployed to GitHub Pages via the `/docs` folder:
+This site is deployed to GitHub Pages via the `/docs` folder. The build writes directly to `docs/` (see `vite.config.ts`) and copies `index.html` to `404.html` as a SPA fallback for deep links:
 
 ```bash
 npm run build
-rm -rf docs
-mv dist docs
 git add docs/
 git commit -m "Deploy updates"
 git push origin main
