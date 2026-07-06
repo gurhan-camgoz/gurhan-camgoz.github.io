@@ -21,16 +21,15 @@ src/
 ├── pages/
 │   ├── Landing.tsx     - Split-screen landing page
 │   ├── anthro/         - Anthropology section (/anthro/*)
-│   ├── ai/             - AI section (/ai/*): Overview, Projects, Architecture, Evaluation
-│   └── horeca/         - Horeca page (work in progress)
+│   └── ai/             - AI section (/ai/*): Overview, Projects, Architecture, Evaluation, Lab
+│       └── lab/        - Interactive Lab demos (lazy-loaded routes)
 ├── components/
 │   ├── ai/             - AI-section components (AINav)
+│   │   └── lab/        - Lab demo infrastructure (DemoShell, data loading — see its README)
 │   ├── anthro/         - Anthro-section components
-│   ├── horeca/         - Horeca components
 │   ├── shared/         - Cross-section components (SeoHead, WaveBackground)
 │   └── ui/             - Primitives (Button, Card, Section, DrawnArrow)
-├── data/               - Data-driven content (aiProjects.ts)
-├── content/            - Page content (horecaCv.ts)
+├── data/               - Data-driven content (aiProjects.ts, labDemos.ts)
 ├── assets/             - Images and thumbnails
 ├── types/              - TypeScript type definitions
 ├── utils/              - Constants and helpers
@@ -38,6 +37,10 @@ src/
 ├── main.tsx            - Entry point
 └── index.css           - Global styles and theme customizations
 ```
+
+Lab demo data ships as static JSON in `public/data/` (synthetic-tier thesis data only — see `src/components/ai/lab/README.md` for the data policy), prepared by dev-only scripts in `scripts/` (run with `npx tsx`).
+
+Note: a `/horeca` page is in progress but its files don't exist in `src/` yet — this section will need updating again once that work lands.
 
 ## 🛠️ Installation & Setup
 

@@ -33,6 +33,18 @@
   };
 }
 
+/* Viridis data-viz accents for the AI Lab — the palette of the thesis's
+   cluster figures. Used consistently for cluster/dimension coding across
+   all Lab demos. First real rules carried by the .theme-ai marker class. */
+.theme-ai {
+  --lab-violet: #472d7b;
+  --lab-teal: #21918c;
+  --lab-yellow: #f4e04d;
+  /* Lightened variants readable as text on the slate-900 background. */
+  --lab-violet-text: color-mix(in srgb, #472d7b 45%, white);
+  --lab-teal-text: color-mix(in srgb, #21918c 65%, white);
+}
+
 /* Add any custom base styles */
 @layer base {
   html {

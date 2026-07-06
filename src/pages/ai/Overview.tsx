@@ -1,10 +1,15 @@
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import { Cpu, Network, Layers, ClipboardCheck } from 'lucide-react';
+import { motion, useReducedMotion } from 'framer-motion';
+import { BookOpen, Wrench, Github, ArrowRight } from 'lucide-react';
 import { SeoHead } from '../../components/shared/SeoHead';
 import { AINav } from '../../components/ai/AINav';
+import { labDemos } from '../../data/labDemos';
+
+const flagshipDemo = labDemos.find((d) => d.id === 'preference-collapse-explorer')!;
 
 export function AIOverview() {
+    const prefersReducedMotion = useReducedMotion();
+
     return (
         <>
             <SeoHead
@@ -16,48 +21,105 @@ export function AIOverview() {
 
                 <AINav pageTitle="AI_LAB" />
 
-                <main className="container mx-auto px-6 py-20">
+                <main className="container mx-auto px-6 py-16">
                     <motion.div
-                        initial={{ opacity: 0, y: 30 }}
-                        animate={{ opacity: 1, y: 0 }}
+                        initial={prefersReducedMotion ? undefined : { opacity: 0, y: 30 }}
+                        animate={prefersReducedMotion ? undefined : { opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
-                        className="max-w-6xl mx-auto"
+                        className="max-w-5xl mx-auto"
                     >
                         <div className="inline-block px-3 py-1 mb-6 border border-blue-500/30 rounded-full text-blue-400 text-xs tracking-widest uppercase bg-blue-500/10">
                             System Status: Online
                         </div>
 
-                        <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-                            Building <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-indigo-500">Digital Colleagues</span>,<br />Not Just Chatbots.
+                        <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+                            I build <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-indigo-500">AI systems</span> and study the humans inside them.
                         </h1>
 
-                        <p className="text-xl text-slate-400 mb-12 leading-relaxed max-w-3xl">
-                            I am an Agentic AI Engineer specializing in human-in-the-loop systems, alignment, and scalable LLM architectures. I bridge the gap between academic theory and production-grade engineering.
+                        <p className="text-lg text-slate-400 mb-10 leading-relaxed max-w-3xl">
+                            My thesis built an RLHF pipeline end to end — then used it to show where binary
+                            preference optimization flattens human judgment that isn't actually binary. I work
+                            the same way now: ship it, then study what shipping it did.
                         </p>
 
-                        <h2 className="sr-only">Explore AI Lab sections</h2>
-                        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                            <Link to="/ai/projects" className="p-6 border border-slate-800 rounded bg-slate-800/20 hover:border-blue-500/50 transition-colors group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400">
-                                <Network className="text-blue-400 mb-4" size={32} aria-hidden="true" />
-                                <h3 className="text-lg font-bold mb-2 group-hover:text-blue-400 transition-colors">Projects</h3>
-                                <p className="text-sm text-slate-400">Thesis artifacts and active investigations.</p>
-                            </Link>
-                            <Link to="/ai/architecture" className="p-6 border border-slate-800 rounded bg-slate-800/20 hover:border-blue-500/50 transition-colors group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400">
-                                <Layers className="text-blue-400 mb-4" size={32} aria-hidden="true" />
-                                <h3 className="text-lg font-bold mb-2 group-hover:text-blue-400 transition-colors">Architecture</h3>
-                                <p className="text-sm text-slate-400">System design: modules, data flow, and deployment layers.</p>
-                            </Link>
-                            <Link to="/ai/evaluation" className="p-6 border border-slate-800 rounded bg-slate-800/20 hover:border-blue-500/50 transition-colors group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400">
-                                <ClipboardCheck className="text-blue-400 mb-4" size={32} aria-hidden="true" />
-                                <h3 className="text-lg font-bold mb-2 group-hover:text-blue-400 transition-colors">Evaluation</h3>
-                                <p className="text-sm text-slate-400">Human-in-the-loop evaluation, Vector-HCAS scoring, failure modes.</p>
-                            </Link>
-                            <div className="p-6 border border-slate-800 rounded bg-slate-800/20 hover:border-blue-500/50 transition-colors">
-                                <Cpu className="text-blue-400 mb-4" size={32} aria-hidden="true" />
-                                <h3 className="text-lg font-bold mb-2">Engineering</h3>
-                                <p className="text-sm text-slate-400">Docker, GCP, Python, React, Vector DBs.</p>
+                        <h2 className="sr-only">Choose your path: research or engineering</h2>
+                        <div className="grid md:grid-cols-2 gap-6 mb-8">
+                            <div className="p-6 border border-slate-800 rounded-lg bg-slate-800/20">
+                                <div className="flex items-center mb-3">
+                                    <BookOpen className="text-blue-400 mr-3" size={22} aria-hidden="true" />
+                                    <h3 className="text-lg font-bold">For research</h3>
+                                </div>
+                                <p className="text-sm text-slate-400 mb-4">
+                                    Method, theory, and the empirical findings behind Vector-HCAS.
+                                </p>
+                                <div className="flex flex-col gap-2 text-sm">
+                                    <a
+                                        href="/master_theses/MasterThesis_AI_GurhanCamgoz.pdf"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded w-fit"
+                                    >
+                                        Read the thesis <ArrowRight size={14} className="ml-1" aria-hidden="true" />
+                                    </a>
+                                    <Link
+                                        to="/ai/lab"
+                                        className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded w-fit"
+                                    >
+                                        Methods notes in the Lab <ArrowRight size={14} className="ml-1" aria-hidden="true" />
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className="p-6 border border-slate-800 rounded-lg bg-slate-800/20">
+                                <div className="flex items-center mb-3">
+                                    <Wrench className="text-blue-400 mr-3" size={22} aria-hidden="true" />
+                                    <h3 className="text-lg font-bold">For engineering</h3>
+                                </div>
+                                <p className="text-sm text-slate-400 mb-4">
+                                    Shipped, working, interactive things — not just slides.
+                                </p>
+                                <div className="flex flex-col gap-2 text-sm">
+                                    <Link
+                                        to="/ai/lab"
+                                        className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded w-fit"
+                                    >
+                                        Explore the Lab <ArrowRight size={14} className="ml-1" aria-hidden="true" />
+                                    </Link>
+                                    <Link
+                                        to="/ai/projects"
+                                        className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded w-fit"
+                                    >
+                                        Projects <ArrowRight size={14} className="ml-1" aria-hidden="true" />
+                                    </Link>
+                                    <a
+                                        href="https://github.com/gurhan-camgoz"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded w-fit"
+                                    >
+                                        <Github size={14} className="mr-1.5" aria-hidden="true" />
+                                        GitHub
+                                    </a>
+                                </div>
                             </div>
                         </div>
+
+                        {/* Flagship demo teaser */}
+                        <Link
+                            to="/ai/lab/preference-collapse-explorer"
+                            className="group block p-6 border border-blue-500/20 rounded-lg bg-gradient-to-r from-slate-800/40 to-blue-950/20 hover:border-blue-500/50 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
+                        >
+                            <span className="text-xs text-blue-400 tracking-widest uppercase">Flagship demo</span>
+                            <h3 className="text-xl font-bold mt-1 mb-2 group-hover:text-blue-400 transition-colors">
+                                {flagshipDemo.title}
+                            </h3>
+                            <p className="text-sm text-slate-400 mb-3 max-w-2xl">
+                                Your one click becomes one bit. Watch five dimensions of human judgment get
+                                flattened into it — then re-weight them and watch the winner flip.
+                            </p>
+                            <span className="inline-flex items-center text-sm text-blue-400 group-hover:text-blue-300 transition-colors">
+                                Try it <ArrowRight size={14} className="ml-1" aria-hidden="true" />
+                            </span>
+                        </Link>
 
                         {/* Cross-link to Anthro branch */}
                         <div className="mt-16 pt-12 border-t border-slate-800">

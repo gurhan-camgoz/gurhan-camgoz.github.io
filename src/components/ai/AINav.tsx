@@ -44,6 +44,9 @@ export function AINav({ pageTitle = 'AI_LAB' }: AINavProps) {
                     <NavLink to="/ai/evaluation" className={({ isActive }) => `${navLinkClass({ isActive })} focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded`}>
                         Evaluation
                     </NavLink>
+                    <NavLink to="/ai/lab" className={({ isActive }) => `${navLinkClass({ isActive })} focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded`}>
+                        Lab
+                    </NavLink>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -89,6 +92,13 @@ export function AINav({ pageTitle = 'AI_LAB' }: AINavProps) {
                             onClick={() => setMobileMenuOpen(false)}
                         >
                             Evaluation
+                        </NavLink>
+                        <NavLink
+                            to="/ai/lab"
+                            className={mobileNavLinkClass}
+                            onClick={() => setMobileMenuOpen(false)}
+                        >
+                            Lab
                         </NavLink>
                     </div>
                 </div>

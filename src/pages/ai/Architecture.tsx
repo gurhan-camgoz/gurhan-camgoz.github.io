@@ -1,5 +1,6 @@
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Layers, Cpu, Database, Settings, Cloud, MessageSquare } from 'lucide-react';
+import { Layers, Cpu, Database, Settings, Cloud, MessageSquare, ArrowRight } from 'lucide-react';
 import { SeoHead } from '../../components/shared/SeoHead';
 import { AINav } from '../../components/ai/AINav';
 
@@ -122,6 +123,13 @@ Vector-HCAS Dimensions:
                                         <li>• Alignment represented as vector, not scalar reward</li>
                                         <li>• Human evaluators provide qualitative feedback per dimension</li>
                                     </ul>
+                                    <Link
+                                        to="/ai/lab/preference-collapse-explorer"
+                                        className="inline-flex items-center mt-4 text-sm text-blue-400 hover:text-blue-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded"
+                                    >
+                                        This argument is interactive now — Preference Collapse Explorer
+                                        <ArrowRight size={14} className="ml-1" aria-hidden="true" />
+                                    </Link>
                                 </div>
 
                                 {/* Data Layer */}

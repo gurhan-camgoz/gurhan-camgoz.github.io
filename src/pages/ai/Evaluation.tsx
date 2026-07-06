@@ -1,5 +1,6 @@
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Users, BarChart3, Database, AlertTriangle, Lightbulb } from 'lucide-react';
+import { Users, BarChart3, Database, AlertTriangle, Lightbulb, ArrowRight } from 'lucide-react';
 import { SeoHead } from '../../components/shared/SeoHead';
 import { AINav } from '../../components/ai/AINav';
 
@@ -92,6 +93,13 @@ export function AIEvaluation() {
                                     <li>• Each dimension can be weighted or prioritized depending on use case</li>
                                     <li>• Enables detection of trade-offs (e.g., high novelty but weak grounding)</li>
                                 </ul>
+                                <Link
+                                    to="/ai/lab/preference-collapse-explorer"
+                                    className="inline-flex items-center mt-4 text-sm text-blue-400 hover:text-blue-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded"
+                                >
+                                    This argument is interactive now — Preference Collapse Explorer
+                                    <ArrowRight size={14} className="ml-1" aria-hidden="true" />
+                                </Link>
                             </div>
                         </section>
 
@@ -108,6 +116,13 @@ export function AIEvaluation() {
                                     <li>• <span className="text-slate-300">Diversity preservation:</span> Generate variations that cover underrepresented clusters</li>
                                     <li>• <span className="text-slate-300">Purpose:</span> Scale evaluation signals without losing qualitative grounding</li>
                                 </ul>
+                                <Link
+                                    to="/ai/lab/feedback-clustering-playground"
+                                    className="inline-flex items-center mt-4 text-sm text-blue-400 hover:text-blue-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded"
+                                >
+                                    This argument is interactive now — Feedback Clustering Playground
+                                    <ArrowRight size={14} className="ml-1" aria-hidden="true" />
+                                </Link>
                             </div>
                         </section>
 
