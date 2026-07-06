@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { SeoHead } from '../../../components/shared/SeoHead';
 import { AINav } from '../../../components/ai/AINav';
 import { DemoShell } from '../../../components/ai/lab/DemoShell';
@@ -118,8 +118,9 @@ function SceneProse({
 }) {
     return (
         <section
+            id={scene.id}
             ref={refCallback}
-            className={scrolly ? 'min-h-[85vh] flex flex-col justify-center py-10' : 'py-8'}
+            className={scrolly ? 'min-h-[85vh] flex flex-col justify-center py-10 scroll-mt-24' : 'py-8 scroll-mt-24'}
         >
             <h2 className="text-xl md:text-2xl font-bold mb-4 text-slate-100">
                 <span className="text-slate-500 mr-2">{index + 1} ·</span>
@@ -198,6 +199,14 @@ export function RlhfWalkthrough() {
 
     const { stepRefs, active, progress } = useScrollyScenes(RLHF_SCENES.length, scrolly);
 
+    // Scene anchors (#mirror, #wall, #detour, ...) deep-link from Architecture
+    // and Evaluation. Router navigation doesn't scroll to hashes on its own.
+    const { hash } = useLocation();
+    useEffect(() => {
+        if (!hash) return;
+        document.getElementById(hash.slice(1))?.scrollIntoView();
+    }, [hash]);
+
     // Stage A serves scenes before the wall, stage B the ones after; each
     // clamps so it holds its edge state while the reader is elsewhere.
     const stageAIndex = Math.min(active, WALL_INDEX - 1);
@@ -249,7 +258,7 @@ export function RlhfWalkthrough() {
                                 {/* The Wall: the one scene allowed to break the grid. Prose
                                     first, then a full-width near-black stage that pins while
                                     the gauge overflows and the error line cuts in. */}
-                                <section ref={refCallback(WALL_INDEX)} className="py-10">
+                                <section id={WALL_SCENE.id} ref={refCallback(WALL_INDEX)} className="py-10 scroll-mt-24">
                                     <div className="max-w-prose">
                                         <h2 className="text-xl md:text-2xl font-bold mb-4 text-slate-100">
                                             <span className="text-slate-500 mr-2">{WALL_INDEX + 1} ·</span>

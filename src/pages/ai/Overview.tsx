@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion, useReducedMotion } from 'framer-motion';
-import { BookOpen, Wrench, Github, ArrowRight } from 'lucide-react';
+import { BookOpen, Wrench, Github, ArrowRight, FileText } from 'lucide-react';
 import { SeoHead } from '../../components/shared/SeoHead';
 import { AINav } from '../../components/ai/AINav';
 import { labDemos } from '../../data/labDemos';
@@ -13,13 +13,13 @@ export function AIOverview() {
     return (
         <>
             <SeoHead
-                title="AI Lab | Gurhan Camgoz"
+                title="AI Engineering & Alignment Research | Gurhan Camgoz"
                 description="Agentic AI engineering, human-in-the-loop systems, alignment research, and scalable LLM architectures."
                 path="/ai"
             />
             <div className="min-h-screen bg-transparent text-slate-50 font-mono selection:bg-blue-500/30">
 
-                <AINav pageTitle="AI_LAB" />
+                <AINav pageTitle="OVERVIEW" />
 
                 <main className="container mx-auto px-6 py-16">
                     <motion.div
@@ -98,6 +98,15 @@ export function AIOverview() {
                                     >
                                         <Github size={14} className="mr-1.5" aria-hidden="true" />
                                         GitHub
+                                    </a>
+                                    <a
+                                        href="/CV-Gurhan-Camgoz.pdf"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded w-fit"
+                                    >
+                                        <FileText size={14} className="mr-1.5" aria-hidden="true" />
+                                        CV (PDF)
                                     </a>
                                 </div>
                             </div>

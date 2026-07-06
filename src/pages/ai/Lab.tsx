@@ -5,6 +5,7 @@ import { SeoHead } from '../../components/shared/SeoHead';
 import { AINav } from '../../components/ai/AINav';
 import { labDemos } from '../../data/labDemos';
 import { StatusBadge } from '../../components/ai/lab/status';
+import { NextStop } from '../../components/ai/NextStop';
 
 export function AILab() {
     const prefersReducedMotion = useReducedMotion();
@@ -12,7 +13,7 @@ export function AILab() {
     return (
         <>
             <SeoHead
-                title="Lab | AI Lab | Gurhan Camgoz"
+                title="The Lab | Gurhan Camgoz"
                 description="Interactive demos rebuilding arguments from my AI master's thesis: preference collapse, feedback clustering, and the RLHF pipeline behind them."
                 path="/ai/lab"
             />
@@ -119,6 +120,12 @@ export function AILab() {
                                 Thesis repo
                             </a>
                         </div>
+
+                        <NextStop
+                            to="/ai/projects"
+                            label="Projects"
+                            description="The real system these demos are built from: repo, stack, and what each component produced."
+                        />
                     </motion.div>
                 </main>
             </div>

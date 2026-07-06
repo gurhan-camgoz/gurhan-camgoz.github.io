@@ -7,7 +7,7 @@ interface AINavProps {
     pageTitle?: string;
 }
 
-export function AINav({ pageTitle = 'AI_LAB' }: AINavProps) {
+export function AINav({ pageTitle = 'OVERVIEW' }: AINavProps) {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     const navLinkClass = ({ isActive }: { isActive: boolean }) =>
@@ -35,6 +35,9 @@ export function AINav({ pageTitle = 'AI_LAB' }: AINavProps) {
                     <NavLink to="/ai" end className={({ isActive }) => `${navLinkClass({ isActive })} focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded`}>
                         Overview
                     </NavLink>
+                    <NavLink to="/ai/lab" className={({ isActive }) => `${navLinkClass({ isActive })} focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded`}>
+                        Lab
+                    </NavLink>
                     <NavLink to="/ai/projects" className={({ isActive }) => `${navLinkClass({ isActive })} focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded`}>
                         Projects
                     </NavLink>
@@ -43,9 +46,6 @@ export function AINav({ pageTitle = 'AI_LAB' }: AINavProps) {
                     </NavLink>
                     <NavLink to="/ai/evaluation" className={({ isActive }) => `${navLinkClass({ isActive })} focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded`}>
                         Evaluation
-                    </NavLink>
-                    <NavLink to="/ai/lab" className={({ isActive }) => `${navLinkClass({ isActive })} focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded`}>
-                        Lab
                     </NavLink>
                 </div>
 
@@ -73,6 +73,13 @@ export function AINav({ pageTitle = 'AI_LAB' }: AINavProps) {
                             Overview
                         </NavLink>
                         <NavLink
+                            to="/ai/lab"
+                            className={mobileNavLinkClass}
+                            onClick={() => setMobileMenuOpen(false)}
+                        >
+                            Lab
+                        </NavLink>
+                        <NavLink
                             to="/ai/projects"
                             className={mobileNavLinkClass}
                             onClick={() => setMobileMenuOpen(false)}
@@ -92,13 +99,6 @@ export function AINav({ pageTitle = 'AI_LAB' }: AINavProps) {
                             onClick={() => setMobileMenuOpen(false)}
                         >
                             Evaluation
-                        </NavLink>
-                        <NavLink
-                            to="/ai/lab"
-                            className={mobileNavLinkClass}
-                            onClick={() => setMobileMenuOpen(false)}
-                        >
-                            Lab
                         </NavLink>
                     </div>
                 </div>
