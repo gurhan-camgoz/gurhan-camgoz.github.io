@@ -40,8 +40,6 @@ src/
 
 Lab demo data ships as static JSON in `public/data/` (synthetic-tier thesis data only — see `src/components/ai/lab/README.md` for the data policy), prepared by dev-only scripts in `scripts/` (run with `npx tsx`).
 
-Note: a `/horeca` page is in progress but its files don't exist in `src/` yet — this section will need updating again once that work lands.
-
 ## 🛠️ Installation & Setup
 
 1. **Clone the repository**:
