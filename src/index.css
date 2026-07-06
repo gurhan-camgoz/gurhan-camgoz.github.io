@@ -45,6 +45,19 @@
   --lab-teal-text: color-mix(in srgb, #21918c 65%, white);
 }
 
+/* Crossfade for the RLHF walkthrough's sticky stage. Scene state itself is
+   scroll-driven; this only softens the swap between scenes. */
+.rlhf-fade {
+  animation: rlhf-fade 0.45s ease-out;
+}
+@keyframes rlhf-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rlhf-fade { animation: none; }
+}
+
 /* Add any custom base styles */
 @layer base {
   html {

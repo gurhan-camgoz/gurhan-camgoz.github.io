@@ -30,7 +30,7 @@ export const labDemos: LabDemo[] = [
         id: 'preference-collapse-explorer',
         title: 'Preference Collapse Explorer',
         claim:
-            'A single A/B click collapses five dimensions of human judgment into one bit — re-weight them and watch the winner flip.',
+            'A single A/B click collapses five dimensions of human judgment into one bit. Re-weight them and watch the winner flip.',
         status: 'live',
         thesisRef: '§3.3 / §4.4',
         repoUrl: 'https://github.com/gurhan-camgoz/ethno-colleague-llm',
@@ -41,9 +41,8 @@ export const labDemos: LabDemo[] = [
         id: 'feedback-clustering-playground',
         title: 'Feedback Clustering Playground',
         claim:
-            'Five theoretical dimensions collapse into three empirical clusters — run k-means yourself on real feedback comments.',
-        // NOTE: flips to 'live' at the end of Phase 4, once the interactive build lands.
-        status: 'building',
+            'Five theoretical dimensions collapse into three empirical clusters. Run k-means yourself on the feedback the study generated.',
+        status: 'live',
         thesisRef: '§4.4.3',
         repoUrl: 'https://github.com/gurhan-camgoz/ethno-colleague-llm',
         tags: ['clustering', 'TF-IDF', 'k-means', 'interpretability'],
@@ -53,7 +52,7 @@ export const labDemos: LabDemo[] = [
         id: 'digital-colleague',
         title: 'Digital Colleague',
         claim:
-            'A chat interface onto the fine-tuned model itself — closing the loop from critique back to a working collaborator.',
+            'A chat interface onto the fine-tuned model itself, closing the loop from critique back to a working collaborator.',
         status: 'planned',
         thesisRef: '',
         repoUrl: 'https://github.com/gurhan-camgoz/ethno-colleague-llm',
@@ -63,10 +62,11 @@ export const labDemos: LabDemo[] = [
         id: 'rlhf-pipeline-walkthrough',
         title: 'RLHF Pipeline Walkthrough',
         claim:
-            'SFT → reward model → PPO (failed on VRAM) → IPO pivot — the pipeline that actually happened, step by step.',
-        status: 'planned',
-        thesisRef: '§3.1–§4.3',
+            'The pipeline as it actually happened: SFT, human feedback, a PPO failure, an IPO pivot, and the vector underneath.',
+        status: 'live',
+        thesisRef: '§3–4',
         repoUrl: 'https://github.com/gurhan-camgoz/ethno-colleague-llm',
-        tags: ['RLHF', 'PPO', 'IPO', 'pipeline'],
+        tags: ['RLHF', 'PPO', 'IPO', 'scrollytelling', 'research-narrative'],
+        path: '/ai/lab/rlhf-walkthrough',
     },
 ];

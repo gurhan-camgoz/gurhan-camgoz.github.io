@@ -17,8 +17,14 @@ export interface DemoShellProps {
      */
     fieldnote: string;
     repoUrl: string;
-    /** What's precomputed vs live, and what was anonymized. */
-    methodsAndData: ReactNode;
+    /**
+     * What's precomputed vs live, and what was anonymized. Optional: essay-style
+     * demos (the RLHF walkthrough) suppress the disclosure and render their own
+     * "Sources" section instead.
+     */
+    methodsAndData?: ReactNode;
+    /** Widen the frame (max-w-6xl) for two-column scrollytelling layouts. */
+    wide?: boolean;
     /** The interactive area. */
     children: ReactNode;
 }
@@ -37,10 +43,11 @@ export function DemoShell({
     fieldnote,
     repoUrl,
     methodsAndData,
+    wide = false,
     children,
 }: DemoShellProps) {
     return (
-        <div className="max-w-4xl mx-auto">
+        <div className={`${wide ? 'max-w-6xl' : 'max-w-4xl'} mx-auto`}>
             <Link
                 to="/ai/lab"
                 className="inline-flex items-center text-sm text-slate-400 hover:text-blue-400 transition-colors mb-8 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded"
@@ -76,22 +83,24 @@ export function DemoShell({
                     </a>
                 </div>
 
-                <details className="group border border-slate-800 rounded-lg bg-slate-800/10">
-                    <summary className="cursor-pointer list-none px-4 py-3 flex items-center justify-between text-sm text-slate-300 hover:text-slate-100 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded-lg">
-                        <span className="flex items-center gap-2">
-                            <FlaskConical size={14} aria-hidden="true" />
-                            Methods &amp; data
-                        </span>
-                        <ChevronDown
-                            className="transition-transform duration-200 group-open:rotate-180"
-                            size={16}
-                            aria-hidden="true"
-                        />
-                    </summary>
-                    <div className="px-4 pb-4 pt-3 border-t border-slate-800/60 text-sm text-slate-400 leading-relaxed space-y-2">
-                        {methodsAndData}
-                    </div>
-                </details>
+                {methodsAndData && (
+                    <details className="group border border-slate-800 rounded-lg bg-slate-800/10">
+                        <summary className="cursor-pointer list-none px-4 py-3 flex items-center justify-between text-sm text-slate-300 hover:text-slate-100 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded-lg">
+                            <span className="flex items-center gap-2">
+                                <FlaskConical size={14} aria-hidden="true" />
+                                Methods &amp; data
+                            </span>
+                            <ChevronDown
+                                className="transition-transform duration-200 group-open:rotate-180"
+                                size={16}
+                                aria-hidden="true"
+                            />
+                        </summary>
+                        <div className="px-4 pb-4 pt-3 border-t border-slate-800/60 text-sm text-slate-400 leading-relaxed space-y-2">
+                            {methodsAndData}
+                        </div>
+                    </details>
+                )}
             </footer>
         </div>
     );

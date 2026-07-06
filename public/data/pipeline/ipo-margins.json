@@ -1,0 +1,174 @@
+{
+  "PLACEHOLDER": true,
+  "note": "Placeholder reward-margin series (rising then plateauing shape only; no cited values). Swap with the W&B CSV export.",
+  "series": [
+    {
+      "step": 25,
+      "margin": 0
+    },
+    {
+      "step": 50,
+      "margin": 0.212
+    },
+    {
+      "step": 75,
+      "margin": 0.186
+    },
+    {
+      "step": 100,
+      "margin": 0.383
+    },
+    {
+      "step": 125,
+      "margin": 0.566
+    },
+    {
+      "step": 150,
+      "margin": 0.523
+    },
+    {
+      "step": 175,
+      "margin": 0.699
+    },
+    {
+      "step": 200,
+      "margin": 0.858
+    },
+    {
+      "step": 225,
+      "margin": 0.803
+    },
+    {
+      "step": 250,
+      "margin": 0.961
+    },
+    {
+      "step": 275,
+      "margin": 1.099
+    },
+    {
+      "step": 300,
+      "margin": 1.035
+    },
+    {
+      "step": 325,
+      "margin": 1.177
+    },
+    {
+      "step": 350,
+      "margin": 1.298
+    },
+    {
+      "step": 375,
+      "margin": 1.227
+    },
+    {
+      "step": 400,
+      "margin": 1.356
+    },
+    {
+      "step": 425,
+      "margin": 1.462
+    },
+    {
+      "step": 450,
+      "margin": 1.387
+    },
+    {
+      "step": 475,
+      "margin": 1.505
+    },
+    {
+      "step": 500,
+      "margin": 1.596
+    },
+    {
+      "step": 525,
+      "margin": 1.519
+    },
+    {
+      "step": 550,
+      "margin": 1.627
+    },
+    {
+      "step": 575,
+      "margin": 1.707
+    },
+    {
+      "step": 600,
+      "margin": 1.629
+    },
+    {
+      "step": 625,
+      "margin": 1.728
+    },
+    {
+      "step": 650,
+      "margin": 1.799
+    },
+    {
+      "step": 675,
+      "margin": 1.72
+    },
+    {
+      "step": 700,
+      "margin": 1.812
+    },
+    {
+      "step": 725,
+      "margin": 1.873
+    },
+    {
+      "step": 750,
+      "margin": 1.796
+    },
+    {
+      "step": 775,
+      "margin": 1.881
+    },
+    {
+      "step": 800,
+      "margin": 1.935
+    },
+    {
+      "step": 825,
+      "margin": 1.859
+    },
+    {
+      "step": 850,
+      "margin": 1.939
+    },
+    {
+      "step": 875,
+      "margin": 1.985
+    },
+    {
+      "step": 900,
+      "margin": 1.912
+    },
+    {
+      "step": 925,
+      "margin": 1.986
+    },
+    {
+      "step": 950,
+      "margin": 2.026
+    },
+    {
+      "step": 975,
+      "margin": 1.956
+    },
+    {
+      "step": 1000,
+      "margin": 2.025
+    },
+    {
+      "step": 1025,
+      "margin": 2.06
+    },
+    {
+      "step": 1050,
+      "margin": 1.994
+    }
+  ]
+}

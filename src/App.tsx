@@ -19,6 +19,7 @@ import { AIEvaluation } from './pages/ai/Evaluation';
 const AILab = lazy(() => import('./pages/ai/Lab').then((m) => ({ default: m.AILab })));
 const PreferenceCollapseExplorer = lazy(() => import('./pages/ai/lab/PreferenceCollapseExplorer'));
 const FeedbackClusteringPlayground = lazy(() => import('./pages/ai/lab/FeedbackClusteringPlayground'));
+const RlhfWalkthrough = lazy(() => import('./pages/ai/lab/RlhfWalkthrough'));
 
 function LabRouteFallback() {
     return (
@@ -70,6 +71,14 @@ function App() {
             element={
               <Suspense fallback={<LabRouteFallback />}>
                 <FeedbackClusteringPlayground />
+              </Suspense>
+            }
+          />
+          <Route
+            path="lab/rlhf-walkthrough"
+            element={
+              <Suspense fallback={<LabRouteFallback />}>
+                <RlhfWalkthrough />
               </Suspense>
             }
           />
