@@ -1,0 +1,5341 @@
+{
+  "points": [
+    {
+      "id": "c-001",
+      "x": -0.3998,
+      "y": -0.144,
+      "comment": "No response was generated for either A or B, making them equally unusable.",
+      "topTerms": [
+        "either",
+        "unusable",
+        "generated",
+        "making"
+      ]
+    },
+    {
+      "id": "c-002",
+      "x": 0.0085,
+      "y": 0.1461,
+      "comment": "B asks stronger, more expansive ethnographic questions. A’s questions are more simplistic and less analytical in comparison.",
+      "topTerms": [
+        "stronger",
+        "questions",
+        "comparison",
+        "simplistic"
+      ]
+    },
+    {
+      "id": "c-003",
+      "x": -0.0782,
+      "y": -0.0419,
+      "comment": "A poses relevant ethical questions based on the prompt, whereas B is an empty and therefore useless response.",
+      "topTerms": [
+        "based",
+        "therefore",
+        "useless",
+        "relevant"
+      ]
+    },
+    {
+      "id": "c-004",
+      "x": 0.1229,
+      "y": 0.0701,
+      "comment": "A is repetitive but analytical, while B invents a new story instead of analyzing the original one.",
+      "topTerms": [
+        "one",
+        "original",
+        "invents",
+        "story"
+      ]
+    },
+    {
+      "id": "c-005",
+      "x": -0.0393,
+      "y": 0.2847,
+      "comment": "A provides concrete, actionable strategies. B is more descriptive but offers less practical guidance to resolve the ethical dilemma.",
+      "topTerms": [
+        "guidance",
+        "practical",
+        "strategies",
+        "descriptive"
+      ]
+    },
+    {
+      "id": "c-006",
+      "x": 0.3873,
+      "y": -0.4773,
+      "comment": "A extends the story with relevant questions, while B gets stuck in a nonsensical, repetitive loop, failing completely.",
+      "topTerms": [
+        "extends",
+        "relevant",
+        "completely",
+        "failing"
+      ]
+    },
+    {
+      "id": "c-007",
+      "x": -0.2938,
+      "y": -0.0719,
+      "comment": "Neither model generated a response, representing a complete failure to address the prompt.",
+      "topTerms": [
+        "representing",
+        "complete",
+        "generated",
+        "model"
+      ]
+    },
+    {
+      "id": "c-008",
+      "x": 0.0008,
+      "y": 0.1995,
+      "comment": "B offers broader, more sophisticated methodological strategies. A provides a single, more simplistic and prescriptive suggestion.",
+      "topTerms": [
+        "suggestion",
+        "prescriptive",
+        "sophisticated",
+        "methodological"
+      ]
+    },
+    {
+      "id": "c-009",
+      "x": -0.2835,
+      "y": -0.2251,
+      "comment": "A is repetitive but engages with the prompt's ethical dilemma. B is an empty, failed response.",
+      "topTerms": [
+        "engages",
+        "ethical",
+        "dilemma",
+        "failed"
+      ]
+    },
+    {
+      "id": "c-010",
+      "x": -0.0132,
+      "y": 0.1663,
+      "comment": "A analyzes the prompt's central tension. B shifts focus to the ethnographer's personal discomfort without analyzing the observed actions.",
+      "topTerms": [
+        "ethnographer",
+        "actions",
+        "shifts",
+        "personal"
+      ]
+    },
+    {
+      "id": "c-011",
+      "x": 0.0135,
+      "y": -0.6915,
+      "comment": "Both responses are equally flawed, as they get stuck in a repetitive loop and fail to add any analysis.",
+      "topTerms": [
+        "get",
+        "flawed",
+        "fail",
+        "equally"
+      ]
+    },
+    {
+      "id": "c-012",
+      "x": -0.0076,
+      "y": 0.438,
+      "comment": "B offers a concrete anthropological framework. A is more generally reflective but less analytically specific or actionable for the researcher.",
+      "topTerms": [
+        "analytically",
+        "concrete",
+        "actionable",
+        "framework"
+      ]
+    },
+    {
+      "id": "c-013",
+      "x": -0.3457,
+      "y": -0.2062,
+      "comment": "Both responses are empty and fail to provide any analysis for the complex ethnographic challenge presented.",
+      "topTerms": [
+        "provide",
+        "complex",
+        "challenge",
+        "presented"
+      ]
+    },
+    {
+      "id": "c-014",
+      "x": -0.8913,
+      "y": -0.4874,
+      "comment": "Both responses are empty and failed to generate any text or analysis for the prompt provided.",
+      "topTerms": [
+        "text",
+        "provided",
+        "generate",
+        "failed"
+      ]
+    },
+    {
+      "id": "c-015",
+      "x": 0.1315,
+      "y": 0.2623,
+      "comment": "B provides insightful analysis on the politics of communication. A hijacks the narrative by hallucinating details instead of analyzing the core observation.",
+      "topTerms": [
+        "hallucinating",
+        "details",
+        "hijacks",
+        "observation"
+      ]
+    },
+    {
+      "id": "c-016",
+      "x": -0.0247,
+      "y": 0.2181,
+      "comment": "B directly analyzes the scene from the prompt, while A offers a broad, detached academic definition of the subject.",
+      "topTerms": [
+        "academic",
+        "directly",
+        "scene",
+        "analyzes"
+      ]
+    },
+    {
+      "id": "c-017",
+      "x": 0.0523,
+      "y": 0.0406,
+      "comment": "Response B provides a strong analysis of the prompt's themes and asks reflexive questions, while Response A is empty.",
+      "topTerms": [
+        "themes",
+        "strong",
+        "asks",
+        "reflexive"
+      ]
+    },
+    {
+      "id": "c-018",
+      "x": 0.0015,
+      "y": 0.0639,
+      "comment": "A thoughtfully analyzes the prompt's themes of power and technology, while B hallucinates a completely unrelated story.",
+      "topTerms": [
+        "technology",
+        "unrelated",
+        "themes",
+        "completely"
+      ]
+    },
+    {
+      "id": "c-019",
+      "x": -0.0838,
+      "y": 0.0282,
+      "comment": "Both responses roleplay the scene instead of analyzing the social dynamics. They equally fail by continuing the narrative instead of reflecting on it.",
+      "topTerms": [
+        "reflecting",
+        "social",
+        "continuing",
+        "instead"
+      ]
+    },
+    {
+      "id": "c-020",
+      "x": 0.022,
+      "y": 0.2761,
+      "comment": "A reflects on the prompt's dynamics, while B hijacks the narrative by hallucinating specific, unmentioned details about the research.",
+      "topTerms": [
+        "research",
+        "dynamics",
+        "reflects",
+        "hallucinating"
+      ]
+    },
+    {
+      "id": "c-021",
+      "x": 0.0428,
+      "y": 0.0114,
+      "comment": "A reflects on the prompt's central contradiction. B is highly repetitive and fails to engage with the core tension.",
+      "topTerms": [
+        "contradiction",
+        "engage",
+        "highly",
+        "central"
+      ]
+    },
+    {
+      "id": "c-022",
+      "x": 0.2169,
+      "y": -0.0388,
+      "comment": "A offers a clear analytical path. B gets stuck repeating the prompt's narrative instead of providing guidance.",
+      "topTerms": [
+        "guidance",
+        "providing",
+        "repeating",
+        "clear"
+      ]
+    },
+    {
+      "id": "c-023",
+      "x": 0.0856,
+      "y": 0.0822,
+      "comment": "A analyzes the social dynamics from the prompt. B ignores the prompt and hallucinates new, unrelated scenes instead of offering insight.",
+      "topTerms": [
+        "scenes",
+        "social",
+        "unrelated",
+        "dynamics"
+      ]
+    },
+    {
+      "id": "c-024",
+      "x": 0.0099,
+      "y": 0.17,
+      "comment": "Both responses hijack the narrative, inventing new characters and scenes instead of analyzing the provided observation.",
+      "topTerms": [
+        "scenes",
+        "characters",
+        "hijack",
+        "inventing"
+      ]
+    },
+    {
+      "id": "c-025",
+      "x": 0.0981,
+      "y": 0.319,
+      "comment": "B provides a sharper analytical frame (resistance, agency). A offers a more generic psychological explanation (coping mechanism), which is less insightful.",
+      "topTerms": [
+        "sharper",
+        "explanation",
+        "frame",
+        "insightful"
+      ]
+    },
+    {
+      "id": "c-026",
+      "x": 0.1498,
+      "y": 0.25,
+      "comment": "A is more assistive by asking a reflexive question. B provides a good analysis but is more declarative and less interactive.",
+      "topTerms": [
+        "asking",
+        "good",
+        "less",
+        "reflexive"
+      ]
+    },
+    {
+      "id": "c-027",
+      "x": 0.1653,
+      "y": 0.1517,
+      "comment": "B asks a sharp, reflexive question addressing the prompt's core tension. A hallucinates irrelevant participants and ignores the prompt entirely.",
+      "topTerms": [
+        "irrelevant",
+        "entirely",
+        "ignores",
+        "sharp"
+      ]
+    },
+    {
+      "id": "c-028",
+      "x": 0.2125,
+      "y": -0.1108,
+      "comment": "B provides actionable, ethical advice. A is stuck in a repetitive loop, merely rephrasing the prompt's problem without offering a solution.",
+      "topTerms": [
+        "solution",
+        "rephrasing",
+        "problem",
+        "merely"
+      ]
+    },
+    {
+      "id": "c-029",
+      "x": 0.1165,
+      "y": 0.1608,
+      "comment": "A provides a strong analytical reframe and probing questions. B is a simplistic summary that restates the obvious without offering new insight.",
+      "topTerms": [
+        "summary",
+        "restates",
+        "simplistic",
+        "strong"
+      ]
+    },
+    {
+      "id": "c-030",
+      "x": -0.0462,
+      "y": -0.1181,
+      "comment": "Both hijack the narrative with repetitive dialogue instead of analysis. They are equally flawed, choosing story-telling over ethnographic insight.",
+      "topTerms": [
+        "hijack",
+        "dialogue",
+        "flawed",
+        "ethnographic"
+      ]
+    },
+    {
+      "id": "c-031",
+      "x": 0.057,
+      "y": 0.3358,
+      "comment": "A provides a specific, analytical question connecting tech and power. B is too broad and just restates the researcher's core problem.",
+      "topTerms": [
+        "connecting",
+        "restates",
+        "problem",
+        "power"
+      ]
+    },
+    {
+      "id": "c-032",
+      "x": 0.1192,
+      "y": 0.3113,
+      "comment": "B poses a strong analytical question addressing the prompt's core challenge. A offers only generic, descriptive interview questions.",
+      "topTerms": [
+        "challenge",
+        "descriptive",
+        "poses",
+        "strong"
+      ]
+    },
+    {
+      "id": "c-033",
+      "x": -0.9933,
+      "y": -0.5502,
+      "comment": "Both responses are empty and failed to generate any text for evaluation.",
+      "topTerms": [
+        "text",
+        "generate",
+        "failed",
+        "any"
+      ]
+    },
+    {
+      "id": "c-034",
+      "x": -0.007,
+      "y": 0.1885,
+      "comment": "B analyzes the prompt's concepts insightfully. A invents a backstory instead of analyzing the given scene, acting as a narrative hijacker.",
+      "topTerms": [
+        "given",
+        "hijacker",
+        "backstory",
+        "concepts"
+      ]
+    },
+    {
+      "id": "c-035",
+      "x": 0.04,
+      "y": 0.1626,
+      "comment": "B provides a sharp, analytical interpretation. A invents new facts instead of analyzing the given scenario.",
+      "topTerms": [
+        "given",
+        "interpretation",
+        "scenario",
+        "facts"
+      ]
+    },
+    {
+      "id": "c-036",
+      "x": -0.0354,
+      "y": 0.0228,
+      "comment": "Both responses are nearly identical; they simply rephrase the prompt's core ethical question without offering any new analytical direction or insight.",
+      "topTerms": [
+        "nearly",
+        "direction",
+        "identical",
+        "simply"
+      ]
+    },
+    {
+      "id": "c-037",
+      "x": -0.3454,
+      "y": -0.1135,
+      "comment": "B successfully synthesizes the ethical dilemma from the prompt. Response A is an empty, failed generation.",
+      "topTerms": [
+        "generation",
+        "synthesizes",
+        "ethical",
+        "dilemma"
+      ]
+    },
+    {
+      "id": "c-038",
+      "x": -0.0609,
+      "y": 0.181,
+      "comment": "A analyzes the ethnographic dilemma and the researcher's role, while B simply continues the story.",
+      "topTerms": [
+        "role",
+        "continues",
+        "simply",
+        "ethnographic"
+      ]
+    },
+    {
+      "id": "c-039",
+      "x": -0.0879,
+      "y": 0.0757,
+      "comment": "Response B correctly formulates the core research question from the prompt. Response A is empty and useless.",
+      "topTerms": [
+        "useless",
+        "research",
+        "correctly",
+        "core"
+      ]
+    },
+    {
+      "id": "c-040",
+      "x": -0.011,
+      "y": 0.1679,
+      "comment": "B correctly reframes the research problem methodologically. A simply continues the narrative, becoming the spectator described in the prompt.",
+      "topTerms": [
+        "reframes",
+        "research",
+        "problem",
+        "continues"
+      ]
+    },
+    {
+      "id": "c-041",
+      "x": 0.0032,
+      "y": 0.2314,
+      "comment": "A reframes the translation problem as an analytical opportunity, while B oversimplifies the concept and offers no methodological path forward.",
+      "topTerms": [
+        "reframes",
+        "methodological",
+        "forward",
+        "path"
+      ]
+    },
+    {
+      "id": "c-042",
+      "x": 0.0412,
+      "y": -0.0754,
+      "comment": "A invents dialogue to continue the story; B hallucinates unrelated historical facts. Both fail to analyze.",
+      "topTerms": [
+        "continue",
+        "dialogue",
+        "unrelated",
+        "facts"
+      ]
+    },
+    {
+      "id": "c-043",
+      "x": 0.0872,
+      "y": 0.4052,
+      "comment": "A provides actionable analytical methods, while B invents a speculative narrative and ignores the researcher's core question.",
+      "topTerms": [
+        "ignores",
+        "actionable",
+        "invents",
+        "researcher"
+      ]
+    },
+    {
+      "id": "c-044",
+      "x": 0.5121,
+      "y": -0.6441,
+      "comment": "A gets stuck in a repetitive loop, while B hallucinates a tidy narrative. Both fail to analyze the underlying social conflict.",
+      "topTerms": [
+        "social",
+        "conflict",
+        "analyze",
+        "fail"
+      ]
+    },
+    {
+      "id": "c-045",
+      "x": -0.2783,
+      "y": -0.1865,
+      "comment": "Response A continues the story instead of analyzing. Response B is empty. Both are equally flawed and completely fail to address the prompt.",
+      "topTerms": [
+        "address",
+        "completely",
+        "continues",
+        "flawed"
+      ]
+    },
+    {
+      "id": "c-046",
+      "x": -0.0383,
+      "y": 0.1997,
+      "comment": "B is more specific, focusing on the observable behaviors mentioned in the prompt, while A's 'power dynamics' is more abstract.",
+      "topTerms": [
+        "abstract",
+        "focusing",
+        "dynamics",
+        "power"
+      ]
+    },
+    {
+      "id": "c-047",
+      "x": -0.0532,
+      "y": 0.1423,
+      "comment": "Response A provides a strong analytical reflection on the prompt's central tension, whereas B is empty.",
+      "topTerms": [
+        "reflection",
+        "central",
+        "strong",
+        "tension"
+      ]
+    },
+    {
+      "id": "c-048",
+      "x": 0.3904,
+      "y": -0.3814,
+      "comment": "B correctly identifies the analytical theme. A gets stuck in a repetitive, fabricated loop and completely misses the prompt's insight.",
+      "topTerms": [
+        "misses",
+        "identifies",
+        "theme",
+        "completely"
+      ]
+    },
+    {
+      "id": "c-049",
+      "x": 0.031,
+      "y": 0.2094,
+      "comment": "Both responses hijack the narrative, inventing new conversations rather than analyzing the key observation about performance and hope in the original prompt.",
+      "topTerms": [
+        "rather",
+        "hijack",
+        "original",
+        "key"
+      ]
+    },
+    {
+      "id": "c-050",
+      "x": -0.0408,
+      "y": 0.1748,
+      "comment": "A is a pure narrative hijacker, inventing a story. B is better as it reflects on the researcher's dilemma, despite also hallucinating.",
+      "topTerms": [
+        "pure",
+        "also",
+        "hijacker",
+        "despite"
+      ]
+    },
+    {
+      "id": "c-051",
+      "x": -0.2188,
+      "y": 0.0135,
+      "comment": "B provides a useful analytical question despite hallucinating context. A is an empty, failed response.",
+      "topTerms": [
+        "useful",
+        "despite",
+        "hallucinating",
+        "context"
+      ]
+    },
+    {
+      "id": "c-052",
+      "x": 0.1474,
+      "y": 0.1624,
+      "comment": "B analyzes the prompt's core tension. A hallucinates a new narrative, hijacking the story instead of providing insight.",
+      "topTerms": [
+        "providing",
+        "hijacking",
+        "tension",
+        "hallucinates"
+      ]
+    },
+    {
+      "id": "c-053",
+      "x": 0.3531,
+      "y": -0.2752,
+      "comment": "A provides insightful analysis and a strong follow-up question. B fails by getting stuck in a repetitive, unhelpful loop.",
+      "topTerms": [
+        "follow",
+        "getting",
+        "fails",
+        "strong"
+      ]
+    },
+    {
+      "id": "c-054",
+      "x": 0.1412,
+      "y": -0.0016,
+      "comment": "B is better as it actively analyzes the situation and suggests a reflexive intervention. A is passive and repetitive, adding no new insight.",
+      "topTerms": [
+        "suggests",
+        "passive",
+        "actively",
+        "adding"
+      ]
+    },
+    {
+      "id": "c-055",
+      "x": 0.2837,
+      "y": -0.5292,
+      "comment": "B correctly identifies the ethical dilemma but gets stuck in a repetitive loop. A is an empty, useless response.",
+      "topTerms": [
+        "identifies",
+        "useless",
+        "correctly",
+        "ethical"
+      ]
+    },
+    {
+      "id": "c-056",
+      "x": 0.0774,
+      "y": 0.2657,
+      "comment": "A asks a sharp, analytical question. B hijacks the narrative by inventing a follow-up scene instead of analyzing the provided data.",
+      "topTerms": [
+        "follow",
+        "data",
+        "inventing",
+        "scene"
+      ]
+    },
+    {
+      "id": "c-057",
+      "x": 0.1562,
+      "y": 0.0713,
+      "comment": "B asks excellent analytical questions. A hallucinates a new character (P7), derailing its analysis and hijacking the narrative.",
+      "topTerms": [
+        "character",
+        "derailing",
+        "excellent",
+        "hijacking"
+      ]
+    },
+    {
+      "id": "c-058",
+      "x": 0.1739,
+      "y": -0.1356,
+      "comment": "Both responses fail to analyze, instead hijacking the narrative by inventing new, repetitive conversations.",
+      "topTerms": [
+        "inventing",
+        "hijacking",
+        "analyze",
+        "fail"
+      ]
+    },
+    {
+      "id": "c-059",
+      "x": 0.1344,
+      "y": 0.3592,
+      "comment": "Response B provides a specific analytical framework, while A offers only generic, repetitive observations about being a researcher.",
+      "topTerms": [
+        "observations",
+        "framework",
+        "researcher",
+        "about"
+      ]
+    },
+    {
+      "id": "c-060",
+      "x": 0.1649,
+      "y": 0.0477,
+      "comment": "B synthesizes the observation into a broader theme. A is highly repetitive and offers no new analytical depth.",
+      "topTerms": [
+        "depth",
+        "theme",
+        "highly",
+        "broader"
+      ]
+    },
+    {
+      "id": "c-061",
+      "x": -0.0299,
+      "y": 0.0924,
+      "comment": "A correctly analyzes the provided data. B hallucinates the location ('Istanbul') and reframes the task as a paper outline.",
+      "topTerms": [
+        "reframes",
+        "location",
+        "data",
+        "correctly"
+      ]
+    },
+    {
+      "id": "c-062",
+      "x": 0.0105,
+      "y": 0.1431,
+      "comment": "A analyzes the prompt's core insight on non-confrontation. In contrast, B hijacks the narrative to discuss a completely different event.",
+      "topTerms": [
+        "contrast",
+        "event",
+        "non",
+        "completely"
+      ]
+    },
+    {
+      "id": "c-063",
+      "x": -0.052,
+      "y": 0.1629,
+      "comment": "Both responses hallucinate specific details not in the prompt. They narrate backstory instead of deepening the provided analysis.",
+      "topTerms": [
+        "backstory",
+        "hallucinate",
+        "provided",
+        "details"
+      ]
+    },
+    {
+      "id": "c-064",
+      "x": -0.1809,
+      "y": -0.0048,
+      "comment": "Both responses hallucinate conflicting backstories. They hijack the narrative instead of offering any analytical tools, representing the same flawed persona.",
+      "topTerms": [
+        "representing",
+        "persona",
+        "hijack",
+        "hallucinate"
+      ]
+    },
+    {
+      "id": "c-065",
+      "x": -0.9424,
+      "y": -0.5447,
+      "comment": "Both models failed to generate any response to the prompt, making them equally unhelpful.",
+      "topTerms": [
+        "models",
+        "generate",
+        "making",
+        "unhelpful"
+      ]
+    },
+    {
+      "id": "c-066",
+      "x": -0.3046,
+      "y": 0.0335,
+      "comment": "A analyzes the provided text directly. B invents a setting, making it a weaker, narrative response.",
+      "topTerms": [
+        "directly",
+        "text",
+        "provided",
+        "invents"
+      ]
+    },
+    {
+      "id": "c-067",
+      "x": 0.0715,
+      "y": 0.2754,
+      "comment": "Both are strong, but B offers more sophisticated analytical concepts. A's questions are good but more straightforward and less theoretically grounded.",
+      "topTerms": [
+        "grounded",
+        "sophisticated",
+        "concepts",
+        "strong"
+      ]
+    },
+    {
+      "id": "c-068",
+      "x": 0.0393,
+      "y": 0.0208,
+      "comment": "A introduces an analytical frame and a reflexive question. B merely paraphrases the prompt's observations without providing any new insight or direction.",
+      "topTerms": [
+        "observations",
+        "providing",
+        "direction",
+        "frame"
+      ]
+    },
+    {
+      "id": "c-069",
+      "x": 0.0214,
+      "y": 0.1514,
+      "comment": "B provides an insightful analysis. A continues the narrative instead of analyzing the provided ethnographic data.",
+      "topTerms": [
+        "data",
+        "continues",
+        "ethnographic",
+        "provided"
+      ]
+    },
+    {
+      "id": "c-070",
+      "x": 0.0467,
+      "y": -0.1487,
+      "comment": "B provides relevant analysis based on the prompt's insight, while A is empty. B does get stuck repeating itself.",
+      "topTerms": [
+        "get",
+        "based",
+        "repeating",
+        "relevant"
+      ]
+    },
+    {
+      "id": "c-071",
+      "x": 0.0369,
+      "y": 0.2099,
+      "comment": "A reflects on the researcher's role as prompted. B hijacks the narrative by inventing a new interaction instead of observing the moment.",
+      "topTerms": [
+        "interaction",
+        "role",
+        "inventing",
+        "reflects"
+      ]
+    },
+    {
+      "id": "c-072",
+      "x": 0.1114,
+      "y": 0.2325,
+      "comment": "B better assists the researcher by suggesting a path for inquiry, while A offers a pre-packaged analysis instead of reflexive questions.",
+      "topTerms": [
+        "inquiry",
+        "path",
+        "researcher",
+        "reflexive"
+      ]
+    },
+    {
+      "id": "c-073",
+      "x": -0.258,
+      "y": -0.2963,
+      "comment": "Response A provides some analysis despite being repetitive, while Response B is an empty, failed response.",
+      "topTerms": [
+        "despite",
+        "failed",
+        "empty",
+        "repetitive"
+      ]
+    },
+    {
+      "id": "c-074",
+      "x": -0.3198,
+      "y": -0.2671,
+      "comment": "Both responses fail. Response A is empty, while Response B just repeats the prompt without offering any analysis.",
+      "topTerms": [
+        "repeats",
+        "offering",
+        "fail",
+        "without"
+      ]
+    },
+    {
+      "id": "c-075",
+      "x": 0.0335,
+      "y": 0.2837,
+      "comment": "B insightfully analyzes the prompt's core observation. A ignores the observation, invents a story, and becomes a narrative hijacker.",
+      "topTerms": [
+        "observation",
+        "hijacker",
+        "insightfully",
+        "ignores"
+      ]
+    },
+    {
+      "id": "c-076",
+      "x": 0.0807,
+      "y": 0.2569,
+      "comment": "B poses a sharp, reflexive question. A is less effective as it offers prescriptive advice rather than prompting further thought.",
+      "topTerms": [
+        "thought",
+        "prescriptive",
+        "rather",
+        "further"
+      ]
+    },
+    {
+      "id": "c-077",
+      "x": -0.1989,
+      "y": -0.0463,
+      "comment": "No responses were generated, failing to address the ethical dilemma in the prompt.",
+      "topTerms": [
+        "generated",
+        "address",
+        "failing",
+        "ethical"
+      ]
+    },
+    {
+      "id": "c-078",
+      "x": 0.0052,
+      "y": 0.2583,
+      "comment": "A provides clear analytical framing for the researcher's dilemma, while B falls into narrative speculation about the altar's objects.",
+      "topTerms": [
+        "framing",
+        "clear",
+        "researcher",
+        "dilemma"
+      ]
+    },
+    {
+      "id": "c-079",
+      "x": 0.0354,
+      "y": 0.2474,
+      "comment": "A introduces a specific analytical concept ('moral personhood'). B is more descriptive and less theoretically sharp, though still relevant.",
+      "topTerms": [
+        "though",
+        "descriptive",
+        "relevant",
+        "introduces"
+      ]
+    },
+    {
+      "id": "c-080",
+      "x": 0.1497,
+      "y": 0.14,
+      "comment": "B correctly synthesizes the prompt's core paradox. A hallucinates new participants and hijacks the narrative instead of analyzing it.",
+      "topTerms": [
+        "synthesizes",
+        "correctly",
+        "hijacks",
+        "hallucinates"
+      ]
+    },
+    {
+      "id": "c-081",
+      "x": 0.0613,
+      "y": 0.094,
+      "comment": "Both hallucinate locations, but B's reflexive question is more helpful than A's simple description of the scene.",
+      "topTerms": [
+        "description",
+        "simple",
+        "hallucinate",
+        "helpful"
+      ]
+    },
+    {
+      "id": "c-082",
+      "x": -0.0033,
+      "y": 0.2195,
+      "comment": "A provides a sharper political analysis, directly extending the prompt. B is good but uses more generic sociological terms like 'resistance' and 'cultural exchange'.",
+      "topTerms": [
+        "uses",
+        "cultural",
+        "sharper",
+        "like"
+      ]
+    },
+    {
+      "id": "c-083",
+      "x": -0.2897,
+      "y": -0.0939,
+      "comment": "Both responses are empty and therefore equally flawed; neither engages with the ethnographic observation.",
+      "topTerms": [
+        "engages",
+        "therefore",
+        "flawed",
+        "ethnographic"
+      ]
+    },
+    {
+      "id": "c-084",
+      "x": -0.7926,
+      "y": -0.4784,
+      "comment": "Both responses are equally flawed as neither model was able to generate any text.",
+      "topTerms": [
+        "model",
+        "flawed",
+        "text",
+        "generate"
+      ]
+    },
+    {
+      "id": "c-085",
+      "x": -0.7478,
+      "y": -0.354,
+      "comment": "Both models failed to generate a response, making them equally unusable and impossible to evaluate.",
+      "topTerms": [
+        "evaluate",
+        "unusable",
+        "impossible",
+        "models"
+      ]
+    },
+    {
+      "id": "c-086",
+      "x": 0.0842,
+      "y": 0.0372,
+      "comment": "B asks excellent, broadening questions. A hallucinates a source and only restates the prompt's analysis.",
+      "topTerms": [
+        "source",
+        "restates",
+        "excellent",
+        "asks"
+      ]
+    },
+    {
+      "id": "c-087",
+      "x": 0.2089,
+      "y": 0.1409,
+      "comment": "B provides a strong analytical framework. A gets lost in narrative hijacking, inventing a story instead of analyzing the phenomenon.",
+      "topTerms": [
+        "inventing",
+        "hijacking",
+        "strong",
+        "framework"
+      ]
+    },
+    {
+      "id": "c-088",
+      "x": -0.0485,
+      "y": 0.1831,
+      "comment": "A's focus on 'critiquing structural inequalities' is more analytically precise. B's phrasing on 'implications' is slightly more general.",
+      "topTerms": [
+        "structural",
+        "focus",
+        "analytically",
+        "slightly"
+      ]
+    },
+    {
+      "id": "c-089",
+      "x": 0.0396,
+      "y": 0.3328,
+      "comment": "A is more developed and grounds the inquiry in the specific community. B's questions are good but more general and less contextual.",
+      "topTerms": [
+        "inquiry",
+        "general",
+        "good",
+        "specific"
+      ]
+    },
+    {
+      "id": "c-090",
+      "x": -0.2049,
+      "y": -0.0283,
+      "comment": "Both responses are useless, simply repeating the prompt. Neither offers the requested analytical framework for coding the 'non-event', making them equally unhelpful.",
+      "topTerms": [
+        "event",
+        "requested",
+        "useless",
+        "repeating"
+      ]
+    },
+    {
+      "id": "c-091",
+      "x": -0.8098,
+      "y": -0.4219,
+      "comment": "Both responses are empty and failed to generate any text for the given prompt.",
+      "topTerms": [
+        "given",
+        "text",
+        "generate",
+        "failed"
+      ]
+    },
+    {
+      "id": "c-092",
+      "x": -0.0023,
+      "y": 0.1806,
+      "comment": "A gives a concrete analytical path using the metaphor. B's advice to ignore the metaphor is less helpful and nuanced.",
+      "topTerms": [
+        "metaphor",
+        "nuanced",
+        "gives",
+        "concrete"
+      ]
+    },
+    {
+      "id": "c-093",
+      "x": -0.2836,
+      "y": -0.1257,
+      "comment": "Both responses are empty and equally fail to engage with the prompt's core analytical problem.",
+      "topTerms": [
+        "engage",
+        "problem",
+        "fail",
+        "equally"
+      ]
+    },
+    {
+      "id": "c-094",
+      "x": 0.0601,
+      "y": 0.1326,
+      "comment": "B introduces new analytical concepts like 'strategic vagueness,' while A largely rephrases the insight already present in the prompt.",
+      "topTerms": [
+        "largely",
+        "already",
+        "like",
+        "present"
+      ]
+    },
+    {
+      "id": "c-095",
+      "x": 0.4289,
+      "y": -0.4351,
+      "comment": "A actively reflects and proposes an insightful intervention. B gets stuck in a repetitive loop, offering no real analysis.",
+      "topTerms": [
+        "actively",
+        "proposes",
+        "reflects",
+        "offering"
+      ]
+    },
+    {
+      "id": "c-096",
+      "x": 0.0071,
+      "y": 0.1719,
+      "comment": "Both are good analyses, but A uses a more sophisticated conceptual framework to interpret the conflict.",
+      "topTerms": [
+        "uses",
+        "conceptual",
+        "sophisticated",
+        "conflict"
+      ]
+    },
+    {
+      "id": "c-097",
+      "x": 0.1741,
+      "y": -0.0262,
+      "comment": "A is reflexive and analytical, connecting to broader themes. B hallucinates a simplistic, repetitive dialogue instead of analyzing the prompt.",
+      "topTerms": [
+        "connecting",
+        "broader",
+        "dialogue",
+        "themes"
+      ]
+    },
+    {
+      "id": "c-098",
+      "x": 0.4223,
+      "y": -0.4071,
+      "comment": "Response A gets stuck in a repetitive loop. B is marginally better as it attempts to build on its initial, generic point.",
+      "topTerms": [
+        "point",
+        "initial",
+        "attempts",
+        "generic"
+      ]
+    },
+    {
+      "id": "c-099",
+      "x": 0.0589,
+      "y": 0.1745,
+      "comment": "Both are narrative hijackers. They invent new scenes and dialogue instead of analyzing the core observation from the prompt.",
+      "topTerms": [
+        "scenes",
+        "hijackers",
+        "dialogue",
+        "invent"
+      ]
+    },
+    {
+      "id": "c-100",
+      "x": -0.0039,
+      "y": 0.2323,
+      "comment": "A provides a strong, grounded analysis. B is penalized for hallucinating specific government policies not present in the prompt.",
+      "topTerms": [
+        "grounded",
+        "present",
+        "hallucinating",
+        "strong"
+      ]
+    },
+    {
+      "id": "c-101",
+      "x": 0.0998,
+      "y": 0.2719,
+      "comment": "A provides a sharp analytical framework using theory. B ignores the prompt's question and instead writes a fictional narrative.",
+      "topTerms": [
+        "theory",
+        "fictional",
+        "ignores",
+        "framework"
+      ]
+    },
+    {
+      "id": "c-102",
+      "x": -0.0272,
+      "y": 0.1868,
+      "comment": "A analyzes the object's symbolism as requested. B hijacks the narrative by inventing a dramatic, unprompted backstory.",
+      "topTerms": [
+        "unprompted",
+        "requested",
+        "backstory",
+        "inventing"
+      ]
+    },
+    {
+      "id": "c-103",
+      "x": 0.0156,
+      "y": 0.1407,
+      "comment": "Both responses hallucinate facts. A is unoriginal, while B invents a new story instead of analyzing the prompt.",
+      "topTerms": [
+        "hallucinate",
+        "facts",
+        "invents",
+        "story"
+      ]
+    },
+    {
+      "id": "c-104",
+      "x": 0.4905,
+      "y": -0.3206,
+      "comment": "B provides a clear analytical path. A asks a good question but gets stuck in a repetitive, unhelpful loop.",
+      "topTerms": [
+        "clear",
+        "path",
+        "good",
+        "unhelpful"
+      ]
+    },
+    {
+      "id": "c-105",
+      "x": 0.0067,
+      "y": 0.203,
+      "comment": "A analyzes the linguistic function of the phrase, while B invents a personal backstory, hijacking the narrative.",
+      "topTerms": [
+        "personal",
+        "backstory",
+        "hijacking",
+        "invents"
+      ]
+    },
+    {
+      "id": "c-106",
+      "x": 0.0345,
+      "y": -0.1625,
+      "comment": "Both responses are identical failures. They simply repeat the prompt in a loop without adding any analytical or reflexive value.",
+      "topTerms": [
+        "failures",
+        "value",
+        "identical",
+        "adding"
+      ]
+    },
+    {
+      "id": "c-107",
+      "x": 0.3819,
+      "y": -0.2984,
+      "comment": "A provides an insightful analysis connecting to anthropological theory, whereas B is stuck in a degenerative, repetitive loop.",
+      "topTerms": [
+        "theory",
+        "connecting",
+        "whereas",
+        "insightful"
+      ]
+    },
+    {
+      "id": "c-108",
+      "x": -0.603,
+      "y": -0.2681,
+      "comment": "The model failed to generate a response for either input.",
+      "topTerms": [
+        "either",
+        "input",
+        "model",
+        "generate"
+      ]
+    },
+    {
+      "id": "c-109",
+      "x": 0.092,
+      "y": 0.3161,
+      "comment": "Response A offers a more insightful analytical lens ('structural elements'), while B provides more generic advice about maintaining objectivity.",
+      "topTerms": [
+        "lens",
+        "structural",
+        "advice",
+        "about"
+      ]
+    },
+    {
+      "id": "c-110",
+      "x": 0.0201,
+      "y": 0.211,
+      "comment": "B deeply analyzes the provided observation. A invents a new scenario instead of reflecting, hijacking the original narrative.",
+      "topTerms": [
+        "scenario",
+        "reflecting",
+        "original",
+        "hijacking"
+      ]
+    },
+    {
+      "id": "c-111",
+      "x": -0.212,
+      "y": -0.126,
+      "comment": "A is an empty failure. B repeats the prompt and adds narrative instead of providing analysis. Both are equally unhelpful.",
+      "topTerms": [
+        "providing",
+        "adds",
+        "failure",
+        "repeats"
+      ]
+    },
+    {
+      "id": "c-112",
+      "x": 0.6065,
+      "y": -0.5672,
+      "comment": "A provides thoughtful analysis and reflexive questions. B gets stuck in a repetitive, degenerative loop.",
+      "topTerms": [
+        "thoughtful",
+        "reflexive",
+        "gets",
+        "questions"
+      ]
+    },
+    {
+      "id": "c-113",
+      "x": 0.0958,
+      "y": 0.155,
+      "comment": "A poses insightful analytical questions to guide further inquiry, whereas B merely summarizes the prompt's observation without adding analytical depth.",
+      "topTerms": [
+        "guide",
+        "depth",
+        "summarizes",
+        "further"
+      ]
+    },
+    {
+      "id": "c-114",
+      "x": -0.1656,
+      "y": 0.0176,
+      "comment": "No responses were generated to evaluate.",
+      "topTerms": [
+        "evaluate",
+        "generated"
+      ]
+    },
+    {
+      "id": "c-115",
+      "x": 0.0925,
+      "y": 0.1593,
+      "comment": "B introduces a new analytical concept ('ideological work'), while A simply rephrases the prompt's core tension. This demonstrates deeper synthesis.",
+      "topTerms": [
+        "synthesis",
+        "deeper",
+        "introduces",
+        "concept"
+      ]
+    },
+    {
+      "id": "c-116",
+      "x": -0.034,
+      "y": 0.0022,
+      "comment": "A provides thoughtful analytical questions while B is empty.",
+      "topTerms": [
+        "thoughtful",
+        "questions",
+        "empty",
+        "provides"
+      ]
+    },
+    {
+      "id": "c-117",
+      "x": 0.1258,
+      "y": 0.1016,
+      "comment": "A poses a sharp analytical question. B hallucinates details not in the prompt, hijacking the user's narrative with unfounded assumptions.",
+      "topTerms": [
+        "user",
+        "hijacking",
+        "poses",
+        "sharp"
+      ]
+    },
+    {
+      "id": "c-118",
+      "x": 0.0116,
+      "y": 0.1555,
+      "comment": "Both responses are narrative hijackers, hallucinating new characters and backstories instead of analyzing the tension presented in the prompt.",
+      "topTerms": [
+        "characters",
+        "hijackers",
+        "presented",
+        "hallucinating"
+      ]
+    },
+    {
+      "id": "c-119",
+      "x": -0.074,
+      "y": 0.1351,
+      "comment": "A's focus on \"relationship\" is a more comprehensive ethnographic concept than B's narrower focus on \"emotional impact.\"",
+      "topTerms": [
+        "focus",
+        "emotional",
+        "concept",
+        "ethnographic"
+      ]
+    },
+    {
+      "id": "c-120",
+      "x": 0.0439,
+      "y": 0.2525,
+      "comment": "A powerfully analyzes the prompt's core concept. B's use of an academic term is good, but its analysis is less incisive.",
+      "topTerms": [
+        "academic",
+        "concept",
+        "good",
+        "less"
+      ]
+    },
+    {
+      "id": "c-121",
+      "x": 0.0365,
+      "y": 0.4309,
+      "comment": "A provides more specific, actionable advice for analysis. B is a correct but more generic, less helpful summary.",
+      "topTerms": [
+        "summary",
+        "helpful",
+        "actionable",
+        "advice"
+      ]
+    },
+    {
+      "id": "c-122",
+      "x": 0.4547,
+      "y": -0.6229,
+      "comment": "Both are flawed. A gets stuck in a repetitive loop, while B hallucinates details and contradicts the prompt's tone of exploitation.",
+      "topTerms": [
+        "tone",
+        "flawed",
+        "details",
+        "hallucinates"
+      ]
+    },
+    {
+      "id": "c-123",
+      "x": 0.4885,
+      "y": -0.4607,
+      "comment": "B provides a broader, reflexive analysis. In contrast, A becomes highly repetitive and gets stuck in a verbal loop.",
+      "topTerms": [
+        "contrast",
+        "highly",
+        "broader",
+        "reflexive"
+      ]
+    },
+    {
+      "id": "c-124",
+      "x": -0.472,
+      "y": -0.3363,
+      "comment": "Both responses are empty, failing to provide any text or analysis.",
+      "topTerms": [
+        "provide",
+        "failing",
+        "text",
+        "any"
+      ]
+    },
+    {
+      "id": "c-125",
+      "x": -0.0813,
+      "y": 0.1277,
+      "comment": "B provides actionable analytical questions. A just rephrases the prompt's core problem without offering any help.",
+      "topTerms": [
+        "help",
+        "problem",
+        "rephrases",
+        "actionable"
+      ]
+    },
+    {
+      "id": "c-126",
+      "x": -0.6665,
+      "y": -0.3736,
+      "comment": "Both responses are empty. Neither provided any text to evaluate or compare, making them equally unhelpful.",
+      "topTerms": [
+        "evaluate",
+        "text",
+        "provided",
+        "making"
+      ]
+    },
+    {
+      "id": "c-127",
+      "x": -0.001,
+      "y": 0.2571,
+      "comment": "B provides a concrete analytical framework, whereas A only rephrases the researcher's emotional dilemma.",
+      "topTerms": [
+        "emotional",
+        "concrete",
+        "rephrases",
+        "framework"
+      ]
+    },
+    {
+      "id": "c-128",
+      "x": 0.093,
+      "y": 0.3176,
+      "comment": "B is more reflexive, turning the problem into an analytical question. A offers a more generic, descriptive explanation.",
+      "topTerms": [
+        "explanation",
+        "descriptive",
+        "problem",
+        "generic"
+      ]
+    },
+    {
+      "id": "c-129",
+      "x": -0.0063,
+      "y": 0.2333,
+      "comment": "B shows good reflexivity and a clear research action. A fabricates a location and hijacks the narrative instead of analyzing the data.",
+      "topTerms": [
+        "action",
+        "location",
+        "clear",
+        "fabricates"
+      ]
+    },
+    {
+      "id": "c-130",
+      "x": 0.0576,
+      "y": 0.3723,
+      "comment": "B provides a more specific analysis of team morale and complicity. A's response is more generic but still accurate.",
+      "topTerms": [
+        "specific",
+        "generic",
+        "provides",
+        "analysis"
+      ]
+    },
+    {
+      "id": "c-132",
+      "x": 0.0227,
+      "y": 0.3626,
+      "comment": "B provides actionable analytical strategies, while A offers more generic personal advice.",
+      "topTerms": [
+        "personal",
+        "strategies",
+        "actionable",
+        "advice"
+      ]
+    },
+    {
+      "id": "c-133",
+      "x": 0.1008,
+      "y": 0.1289,
+      "comment": "B is superior as it asks reflexive questions that deepen the analysis. A simply describes the core conflict without prompting further thought.",
+      "topTerms": [
+        "describes",
+        "thought",
+        "superior",
+        "further"
+      ]
+    },
+    {
+      "id": "c-134",
+      "x": -0.7482,
+      "y": -0.3448,
+      "comment": "The model failed to generate a response for this prompt.",
+      "topTerms": [
+        "model",
+        "generate",
+        "failed",
+        "prompt"
+      ]
+    },
+    {
+      "id": "c-135",
+      "x": 0.0942,
+      "y": 0.1298,
+      "comment": "A shows better reflexivity by questioning its research frame. B only redirects its questions without the same level of analytical insight.",
+      "topTerms": [
+        "research",
+        "frame",
+        "without",
+        "insight"
+      ]
+    },
+    {
+      "id": "c-136",
+      "x": -0.9034,
+      "y": -0.4621,
+      "comment": "Both responses are empty. The models failed to generate any text, making a comparative choice impossible.",
+      "topTerms": [
+        "choice",
+        "impossible",
+        "models",
+        "text"
+      ]
+    },
+    {
+      "id": "c-137",
+      "x": 0.0793,
+      "y": 0.228,
+      "comment": "B is superior as it poses an analytical question, whereas A merely rephrases the prompt's core observation.",
+      "topTerms": [
+        "superior",
+        "merely",
+        "rephrases",
+        "poses"
+      ]
+    },
+    {
+      "id": "c-138",
+      "x": -0.1441,
+      "y": -0.0059,
+      "comment": "B analyzes the provided text well. A fabricates new examples, failing to stick to the prompt's context and acting as a narrative hijacker.",
+      "topTerms": [
+        "hijacker",
+        "fabricates",
+        "failing",
+        "context"
+      ]
+    },
+    {
+      "id": "c-139",
+      "x": 0.006,
+      "y": 0.2137,
+      "comment": "B offers actionable analytical questions and a conceptual frame. A is competent but mostly just describes the problem back to the user.",
+      "topTerms": [
+        "describes",
+        "conceptual",
+        "mostly",
+        "user"
+      ]
+    },
+    {
+      "id": "c-140",
+      "x": -0.0814,
+      "y": 0.0795,
+      "comment": "B provides a decent analysis of the core tension between tradition and technology. Response A is empty.",
+      "topTerms": [
+        "technology",
+        "tension",
+        "core",
+        "empty"
+      ]
+    },
+    {
+      "id": "c-141",
+      "x": 0.5279,
+      "y": -0.5493,
+      "comment": "A proposes a new analytical direction, while B is repetitive and gets stuck in a summarization loop.",
+      "topTerms": [
+        "proposes",
+        "direction",
+        "gets",
+        "loop"
+      ]
+    },
+    {
+      "id": "c-142",
+      "x": -0.1613,
+      "y": -0.0428,
+      "comment": "Both are unhelpful hashtags. B's 'empowerment' tag is tone-deaf to the prompt, but neither offers any actual guidance or analysis.",
+      "topTerms": [
+        "empowerment",
+        "tone",
+        "guidance",
+        "unhelpful"
+      ]
+    },
+    {
+      "id": "c-143",
+      "x": -0.2463,
+      "y": -0.1271,
+      "comment": "A is empty, while B merely repeats the prompt. Neither response provides any analysis or insight.",
+      "topTerms": [
+        "merely",
+        "repeats",
+        "insight",
+        "any"
+      ]
+    },
+    {
+      "id": "c-144",
+      "x": -0.2683,
+      "y": -0.1573,
+      "comment": "Both responses are empty and fail to address the complex ethnographic and ethical questions raised in the prompt.",
+      "topTerms": [
+        "complex",
+        "address",
+        "ethical",
+        "ethnographic"
+      ]
+    },
+    {
+      "id": "c-145",
+      "x": 0.0196,
+      "y": 0.3027,
+      "comment": "A provides an actionable analytical framework. B ignores the prompt and hijacks the narrative with pure speculation.",
+      "topTerms": [
+        "pure",
+        "ignores",
+        "actionable",
+        "framework"
+      ]
+    },
+    {
+      "id": "c-146",
+      "x": 0.1557,
+      "y": 0.1467,
+      "comment": "B synthesizes the prompt into a sharp analytical question, whereas A merely continues the narrative without insight.",
+      "topTerms": [
+        "synthesizes",
+        "merely",
+        "continues",
+        "sharp"
+      ]
+    },
+    {
+      "id": "c-147",
+      "x": 0.0444,
+      "y": 0.2716,
+      "comment": "A provides a deeper analytical path by focusing on language. B is more generic and largely restates the prompt's core tension.",
+      "topTerms": [
+        "focusing",
+        "largely",
+        "restates",
+        "deeper"
+      ]
+    },
+    {
+      "id": "c-148",
+      "x": -0.3084,
+      "y": -0.1705,
+      "comment": "Both responses are empty and therefore equally fail to address the prompt's core ethnographic questions.",
+      "topTerms": [
+        "therefore",
+        "address",
+        "ethnographic",
+        "fail"
+      ]
+    },
+    {
+      "id": "c-149",
+      "x": 0.0582,
+      "y": 0.2526,
+      "comment": "B actively synthesizes the observation into a sharp research question. A offers only a general, passive reflection on methodology.",
+      "topTerms": [
+        "passive",
+        "actively",
+        "reflection",
+        "general"
+      ]
+    },
+    {
+      "id": "c-150",
+      "x": 0.4948,
+      "y": -0.4396,
+      "comment": "B offers a clearer synthesis of the prompt's themes, whereas A gets stuck in a repetitive analytical loop.",
+      "topTerms": [
+        "synthesis",
+        "themes",
+        "whereas",
+        "gets"
+      ]
+    },
+    {
+      "id": "c-151",
+      "x": 0.1261,
+      "y": 0.2013,
+      "comment": "A introduces a useful analytical concept and asks a sharp follow-up question. B offers a simplistic conclusion and shuts down further analysis.",
+      "topTerms": [
+        "follow",
+        "further",
+        "useful",
+        "simplistic"
+      ]
+    },
+    {
+      "id": "c-152",
+      "x": 0.138,
+      "y": 0.0468,
+      "comment": "A analyzes the power dynamic, despite being repetitive. B hallucinates new details about the manager instead of analyzing the observed interaction.",
+      "topTerms": [
+        "dynamic",
+        "interaction",
+        "despite",
+        "power"
+      ]
+    },
+    {
+      "id": "c-153",
+      "x": 0.6147,
+      "y": -0.3786,
+      "comment": "B provides a sharp analytical frame ('design for display'), while A gets stuck in a repetitive loop with a less insightful analysis.",
+      "topTerms": [
+        "frame",
+        "sharp",
+        "insightful",
+        "less"
+      ]
+    },
+    {
+      "id": "c-154",
+      "x": 0.4623,
+      "y": -0.4938,
+      "comment": "A provides a coherent analysis of the space as a metaphor, while B gets stuck in a repetitive loop.",
+      "topTerms": [
+        "space",
+        "metaphor",
+        "gets",
+        "loop"
+      ]
+    },
+    {
+      "id": "c-155",
+      "x": 0.4637,
+      "y": -0.3235,
+      "comment": "A provides a concise, insightful synthesis. B gets stuck in a repetitive loop, merely restating the prompt's core question.",
+      "topTerms": [
+        "synthesis",
+        "restating",
+        "concise",
+        "merely"
+      ]
+    },
+    {
+      "id": "c-156",
+      "x": 0.1265,
+      "y": 0.1892,
+      "comment": "A synthesizes the prompt's tension into analytical questions. B hijacks the narrative with a new character instead of analyzing.",
+      "topTerms": [
+        "character",
+        "synthesizes",
+        "tension",
+        "hijacks"
+      ]
+    },
+    {
+      "id": "c-157",
+      "x": 0.3813,
+      "y": -0.4955,
+      "comment": "A fabricates a new, irrelevant story. B gets stuck in a repetitive loop. Both fail to analyze the provided observation.",
+      "topTerms": [
+        "irrelevant",
+        "fabricates",
+        "analyze",
+        "provided"
+      ]
+    },
+    {
+      "id": "c-158",
+      "x": -0.1777,
+      "y": 0.0512,
+      "comment": "A asks a relevant question but gives a generic answer, whereas B is an empty, failed response.",
+      "topTerms": [
+        "gives",
+        "answer",
+        "relevant",
+        "whereas"
+      ]
+    },
+    {
+      "id": "c-159",
+      "x": -0.3053,
+      "y": -0.1665,
+      "comment": "Both models hallucinate the prompt is from a film. B's contextual details are better, but the shared error makes them equally flawed.",
+      "topTerms": [
+        "hallucinate",
+        "models",
+        "flawed",
+        "details"
+      ]
+    },
+    {
+      "id": "c-160",
+      "x": 0.1803,
+      "y": 0.112,
+      "comment": "B offers a new analytical frame ('greenwashing through waste'), while A is largely repetitive and just rephrases the prompt's core insight.",
+      "topTerms": [
+        "largely",
+        "frame",
+        "rephrases",
+        "insight"
+      ]
+    },
+    {
+      "id": "c-161",
+      "x": -0.0814,
+      "y": -0.0095,
+      "comment": "Both responses are identical, unhelpful hashtag lists. Neither attempts to theorize the contradiction as requested in the prompt.",
+      "topTerms": [
+        "contradiction",
+        "requested",
+        "identical",
+        "attempts"
+      ]
+    },
+    {
+      "id": "c-162",
+      "x": 0.4877,
+      "y": -0.5368,
+      "comment": "A gets stuck in a repetitive dialogue loop. B hallucinates an entirely new participant (P12). Both are major failures.",
+      "topTerms": [
+        "failures",
+        "entirely",
+        "dialogue",
+        "hallucinates"
+      ]
+    },
+    {
+      "id": "c-163",
+      "x": 0.4828,
+      "y": -0.5206,
+      "comment": "B broadens the analysis to structural issues and poses new questions. A gets stuck in a highly repetitive, unhelpful loop.",
+      "topTerms": [
+        "structural",
+        "highly",
+        "poses",
+        "unhelpful"
+      ]
+    },
+    {
+      "id": "c-164",
+      "x": 0.4097,
+      "y": -0.2697,
+      "comment": "B introduces new analytical concepts like power dynamics. A gets stuck in a repetitive loop, describing its own actions instead of analyzing.",
+      "topTerms": [
+        "actions",
+        "like",
+        "concepts",
+        "dynamics"
+      ]
+    },
+    {
+      "id": "c-165",
+      "x": 0.1643,
+      "y": 0.281,
+      "comment": "B offers a more specific, grounded question. A's question is generic, and the response feels formulaic and repetitive.",
+      "topTerms": [
+        "grounded",
+        "question",
+        "specific",
+        "generic"
+      ]
+    },
+    {
+      "id": "c-166",
+      "x": 0.0428,
+      "y": 0.13,
+      "comment": "B provides a sharper analytical frame by asking about structure. A identifies the theme but begins to narrate its own answer, trailing off.",
+      "topTerms": [
+        "sharper",
+        "begins",
+        "answer",
+        "identifies"
+      ]
+    },
+    {
+      "id": "c-168",
+      "x": 0.2086,
+      "y": -0.3023,
+      "comment": "B reflects on the prompt's core question. A falls into a simple repetitive loop, failing to analyze the input.",
+      "topTerms": [
+        "input",
+        "simple",
+        "reflects",
+        "failing"
+      ]
+    },
+    {
+      "id": "c-169",
+      "x": -0.0026,
+      "y": 0.2944,
+      "comment": "B offers a more sophisticated analytical path. A gives practical but more generic advice.",
+      "topTerms": [
+        "gives",
+        "practical",
+        "sophisticated",
+        "path"
+      ]
+    },
+    {
+      "id": "c-170",
+      "x": 0.5376,
+      "y": -0.6206,
+      "comment": "Response A attempts analysis, whereas B gets stuck in a simple, repetitive loop of the prompt.",
+      "topTerms": [
+        "simple",
+        "attempts",
+        "whereas",
+        "gets"
+      ]
+    },
+    {
+      "id": "c-171",
+      "x": 0.4625,
+      "y": -0.5428,
+      "comment": "B insightfully analyzes the prompt's 'performance of care.' A hallucinates unrelated examples and gets stuck in a repetitive, unhelpful loop.",
+      "topTerms": [
+        "insightfully",
+        "unrelated",
+        "unhelpful",
+        "hallucinates"
+      ]
+    },
+    {
+      "id": "c-172",
+      "x": 0.0219,
+      "y": 0.0762,
+      "comment": "B provides a concise, deeper analysis of power dynamics. A repeats itself and fails to develop its initial point.",
+      "topTerms": [
+        "point",
+        "initial",
+        "concise",
+        "deeper"
+      ]
+    },
+    {
+      "id": "c-173",
+      "x": -0.6829,
+      "y": -0.3224,
+      "comment": "The model failed to generate responses for this input.",
+      "topTerms": [
+        "input",
+        "model",
+        "generate",
+        "failed"
+      ]
+    },
+    {
+      "id": "c-174",
+      "x": -0.0798,
+      "y": 0.0574,
+      "comment": "Response A correctly frames the central ethical question from the prompt, whereas Response B is empty and fails to respond.",
+      "topTerms": [
+        "respond",
+        "central",
+        "correctly",
+        "fails"
+      ]
+    },
+    {
+      "id": "c-175",
+      "x": 0.0947,
+      "y": 0.2188,
+      "comment": "A poses sharp analytical questions about the structure of aid. B shifts focus to the individual's emotional state, hijacking the core insight.",
+      "topTerms": [
+        "shifts",
+        "emotional",
+        "focus",
+        "hijacking"
+      ]
+    },
+    {
+      "id": "c-176",
+      "x": 0.0684,
+      "y": 0.1432,
+      "comment": "B analyzes the symbolic meaning in the prompt. A invents a new, irrelevant narrative, completely missing the core conflict.",
+      "topTerms": [
+        "irrelevant",
+        "completely",
+        "conflict",
+        "invents"
+      ]
+    },
+    {
+      "id": "c-177",
+      "x": -0.0202,
+      "y": 0.0093,
+      "comment": "Both models identify the core tension, but B is more repetitive. A provides a slightly more nuanced analysis of the performative aspects.",
+      "topTerms": [
+        "nuanced",
+        "slightly",
+        "models",
+        "tension"
+      ]
+    },
+    {
+      "id": "c-178",
+      "x": -0.1505,
+      "y": -0.0166,
+      "comment": "A fabricates a story instead of analyzing the prompt. B is empty. A flawed response is better than no response.",
+      "topTerms": [
+        "fabricates",
+        "flawed",
+        "story",
+        "analyzing"
+      ]
+    },
+    {
+      "id": "c-179",
+      "x": 0.0697,
+      "y": 0.1595,
+      "comment": "A poses a sharp, analytical question to guide thinking, while B provides a more basic, definitional response.",
+      "topTerms": [
+        "guide",
+        "basic",
+        "poses",
+        "sharp"
+      ]
+    },
+    {
+      "id": "c-180",
+      "x": 0.4847,
+      "y": -0.5569,
+      "comment": "A provides a coherent analysis of the social dynamics. B gets stuck in a repetitive loop, failing to progress.",
+      "topTerms": [
+        "social",
+        "dynamics",
+        "failing",
+        "gets"
+      ]
+    },
+    {
+      "id": "c-181",
+      "x": -0.0154,
+      "y": 0.2072,
+      "comment": "B offers a more sophisticated analysis by introducing 'cultural capital.' A's 'digital divide' take is correct but less analytically deep.",
+      "topTerms": [
+        "cultural",
+        "deep",
+        "sophisticated",
+        "analytically"
+      ]
+    },
+    {
+      "id": "c-182",
+      "x": 0.0622,
+      "y": 0.222,
+      "comment": "A directly analyzes the consequences of the shift. B asks a broader, more conceptual question about maintaining communities over time.",
+      "topTerms": [
+        "conceptual",
+        "directly",
+        "broader",
+        "about"
+      ]
+    },
+    {
+      "id": "c-183",
+      "x": 0.0298,
+      "y": 0.1958,
+      "comment": "A is better because it asks a question, encouraging reflection. B provides a definitive answer, which shuts down inquiry.",
+      "topTerms": [
+        "because",
+        "answer",
+        "inquiry",
+        "reflection"
+      ]
+    },
+    {
+      "id": "c-184",
+      "x": -0.0071,
+      "y": 0.3305,
+      "comment": "A is better as it directly references the 'pious narrative' from the prompt. B offers similar but more generic advice.",
+      "topTerms": [
+        "similar",
+        "directly",
+        "advice",
+        "generic"
+      ]
+    },
+    {
+      "id": "c-185",
+      "x": 0.0126,
+      "y": 0.1117,
+      "comment": "A asks a thoughtful, reflexive question about research ethics. B is empty and fails to respond.",
+      "topTerms": [
+        "thoughtful",
+        "respond",
+        "research",
+        "fails"
+      ]
+    },
+    {
+      "id": "c-186",
+      "x": -0.0231,
+      "y": 0.2477,
+      "comment": "A analyzes the researcher's 'golden cage' dilemma. B offers platitudes and ignores the central ethical conflict of the prompt.",
+      "topTerms": [
+        "central",
+        "ignores",
+        "conflict",
+        "ethical"
+      ]
+    },
+    {
+      "id": "c-187",
+      "x": -0.0327,
+      "y": 0.1534,
+      "comment": "A provides direct, actionable advice. B is weaker as it wastes space repeating the prompt before offering similar analysis.",
+      "topTerms": [
+        "space",
+        "before",
+        "direct",
+        "similar"
+      ]
+    },
+    {
+      "id": "c-188",
+      "x": 0.4249,
+      "y": -0.7331,
+      "comment": "Response A is an empty failure. B hallucinates new details and gets stuck in a repetitive loop, failing to analyze the prompt.",
+      "topTerms": [
+        "failure",
+        "failing",
+        "analyze",
+        "details"
+      ]
+    },
+    {
+      "id": "c-189",
+      "x": 0.025,
+      "y": 0.158,
+      "comment": "Both responses are virtually identical, asking the same excellent analytical question. The minor phrasing difference is insignificant, so neither is superior.",
+      "topTerms": [
+        "superior",
+        "identical",
+        "excellent",
+        "asking"
+      ]
+    },
+    {
+      "id": "c-190",
+      "x": 0.0186,
+      "y": 0.2452,
+      "comment": "A offers a strong analytical framework for the ethnographer, while B provides simplistic advice that misses the prompt's nuance.",
+      "topTerms": [
+        "ethnographer",
+        "nuance",
+        "misses",
+        "simplistic"
+      ]
+    },
+    {
+      "id": "c-191",
+      "x": 0.0616,
+      "y": 0.2465,
+      "comment": "Response A offers a more detailed analysis of the prompt's themes, while B asks a good but more general question.",
+      "topTerms": [
+        "detailed",
+        "general",
+        "themes",
+        "good"
+      ]
+    },
+    {
+      "id": "c-192",
+      "x": 0.1176,
+      "y": -0.0648,
+      "comment": "A attempts analysis but invents details. B is highly repetitive, offering no insight and just rephrasing the prompt.",
+      "topTerms": [
+        "rephrasing",
+        "highly",
+        "attempts",
+        "offering"
+      ]
+    },
+    {
+      "id": "c-193",
+      "x": 0.1185,
+      "y": 0.2942,
+      "comment": "A offers a new analytical frame for the tension, while B is a good but less generative restatement of the prompt's question.",
+      "topTerms": [
+        "restatement",
+        "frame",
+        "good",
+        "tension"
+      ]
+    },
+    {
+      "id": "c-194",
+      "x": -0.214,
+      "y": 0.0352,
+      "comment": "Response A is empty. Response B successfully analyzes the core tension between ritual and technology presented in the prompt, making it the clear choice.",
+      "topTerms": [
+        "technology",
+        "choice",
+        "presented",
+        "clear"
+      ]
+    },
+    {
+      "id": "c-195",
+      "x": 0.0254,
+      "y": 0.1451,
+      "comment": "A provides a direct analysis of the core conflict. B repeats the prompt and shifts into a narrative continuation.",
+      "topTerms": [
+        "direct",
+        "shifts",
+        "conflict",
+        "repeats"
+      ]
+    },
+    {
+      "id": "c-196",
+      "x": -0.012,
+      "y": 0.1766,
+      "comment": "A correctly analyzes the provided scene, whereas B fails by hallucinating details about the clinic's history not present in the prompt.",
+      "topTerms": [
+        "present",
+        "hallucinating",
+        "correctly",
+        "fails"
+      ]
+    },
+    {
+      "id": "c-197",
+      "x": 0.0638,
+      "y": 0.173,
+      "comment": "B asks a broader, more structural question. A is good but focuses on only one of the analytical threads suggested in the prompt.",
+      "topTerms": [
+        "one",
+        "structural",
+        "focuses",
+        "broader"
+      ]
+    },
+    {
+      "id": "c-198",
+      "x": 0.1278,
+      "y": 0.282,
+      "comment": "B asks a strong analytical question. A invents a new scene rather than analyzing the prompt's core observation.",
+      "topTerms": [
+        "rather",
+        "scene",
+        "strong",
+        "invents"
+      ]
+    },
+    {
+      "id": "c-199",
+      "x": 0.6155,
+      "y": -0.5254,
+      "comment": "A identifies the core tension but gets stuck in a repetitive loop. B avoids analysis by fabricating a new narrative.",
+      "topTerms": [
+        "identifies",
+        "tension",
+        "gets",
+        "core"
+      ]
+    },
+    {
+      "id": "c-200",
+      "x": -0.0154,
+      "y": 0.2524,
+      "comment": "A provides two distinct, actionable lines of inquiry, while B is more generic and its final sentence is circular.",
+      "topTerms": [
+        "sentence",
+        "circular",
+        "inquiry",
+        "actionable"
+      ]
+    },
+    {
+      "id": "c-202",
+      "x": 0.3812,
+      "y": -0.2772,
+      "comment": "A synthesizes the personal feeling into an analytical question, while B fails by getting stuck in a repetitive loop.",
+      "topTerms": [
+        "personal",
+        "getting",
+        "synthesizes",
+        "fails"
+      ]
+    },
+    {
+      "id": "c-203",
+      "x": 0.1815,
+      "y": 0.0437,
+      "comment": "A asks a sharp, analytical question. B is repetitive and descriptive, failing to move the analysis forward.",
+      "topTerms": [
+        "descriptive",
+        "forward",
+        "failing",
+        "sharp"
+      ]
+    },
+    {
+      "id": "c-204",
+      "x": 0.1032,
+      "y": -0.0216,
+      "comment": "A is a sharp, concise analysis. B is verbose and repetitive, restating its initial point without adding further development.",
+      "topTerms": [
+        "point",
+        "restating",
+        "initial",
+        "further"
+      ]
+    },
+    {
+      "id": "c-205",
+      "x": -0.6216,
+      "y": -0.2906,
+      "comment": "Both responses are empty and completely failed to address the user's prompt, making them equally poor.",
+      "topTerms": [
+        "user",
+        "address",
+        "completely",
+        "making"
+      ]
+    },
+    {
+      "id": "c-206",
+      "x": -0.8108,
+      "y": -0.4388,
+      "comment": "Both models failed to generate any text, offering no analysis.",
+      "topTerms": [
+        "models",
+        "text",
+        "offering",
+        "generate"
+      ]
+    },
+    {
+      "id": "c-207",
+      "x": 0.009,
+      "y": 0.2859,
+      "comment": "A correctly analyzes the specific emoji's impact, while B remains too general and misses the prompt's core tension.",
+      "topTerms": [
+        "misses",
+        "general",
+        "correctly",
+        "tension"
+      ]
+    },
+    {
+      "id": "c-208",
+      "x": -0.7998,
+      "y": -0.3929,
+      "comment": "The model failed to generate any response for this complex ethnographic prompt, leaving both outputs empty.",
+      "topTerms": [
+        "complex",
+        "model",
+        "ethnographic",
+        "generate"
+      ]
+    },
+    {
+      "id": "c-209",
+      "x": -0.0007,
+      "y": 0.0724,
+      "comment": "Response B correctly synthesizes the prompt's core analytical conflict, whereas Response A is entirely empty.",
+      "topTerms": [
+        "entirely",
+        "conflict",
+        "synthesizes",
+        "correctly"
+      ]
+    },
+    {
+      "id": "c-210",
+      "x": -0.0419,
+      "y": 0.2186,
+      "comment": "B offers concrete analytical steps, directly answering the prompt. A uselessly repeats the user's question.",
+      "topTerms": [
+        "steps",
+        "directly",
+        "user",
+        "concrete"
+      ]
+    },
+    {
+      "id": "c-211",
+      "x": 0.1169,
+      "y": 0.0063,
+      "comment": "A is repetitive but attempts analysis. B adds unprompted details and just continues the story, which is less helpful.",
+      "topTerms": [
+        "unprompted",
+        "adds",
+        "attempts",
+        "helpful"
+      ]
+    },
+    {
+      "id": "c-212",
+      "x": -0.0291,
+      "y": 0.1654,
+      "comment": "A offers practical, sensitive steps. B's suggestion is simplistic and could be socially harmful and condescending.",
+      "topTerms": [
+        "steps",
+        "suggestion",
+        "practical",
+        "simplistic"
+      ]
+    },
+    {
+      "id": "c-213",
+      "x": -0.1222,
+      "y": 0.0693,
+      "comment": "B provides basic analytical advice, whereas A just restates the prompt's dilemma without offering any help.",
+      "topTerms": [
+        "help",
+        "basic",
+        "restates",
+        "advice"
+      ]
+    },
+    {
+      "id": "c-214",
+      "x": 0.0574,
+      "y": 0.1428,
+      "comment": "B synthesizes the prompt's core insight with a strong parallel, while A presents unrelated analogies and fails to connect them.",
+      "topTerms": [
+        "unrelated",
+        "synthesizes",
+        "fails",
+        "strong"
+      ]
+    },
+    {
+      "id": "c-215",
+      "x": -0.009,
+      "y": 0.1309,
+      "comment": "B is better despite hallucinating context because A is empty. B at least asks an insightful analytical question.",
+      "topTerms": [
+        "because",
+        "despite",
+        "hallucinating",
+        "context"
+      ]
+    },
+    {
+      "id": "c-216",
+      "x": 0.0238,
+      "y": 0.0613,
+      "comment": "A is a perfect reflexive analyst. B hijacks the narrative and fails to analyze the core ethical dilemma presented in the prompt.",
+      "topTerms": [
+        "analyst",
+        "presented",
+        "analyze",
+        "fails"
+      ]
+    },
+    {
+      "id": "c-217",
+      "x": 0.047,
+      "y": 0.1005,
+      "comment": "A reflects on the researcher's role and ethics. B ignores the prompt and hallucinates an entirely new, unrelated conversation.",
+      "topTerms": [
+        "conversation",
+        "role",
+        "entirely",
+        "unrelated"
+      ]
+    },
+    {
+      "id": "c-218",
+      "x": 0.0408,
+      "y": 0.1838,
+      "comment": "B actively poses key questions, embodying the analyst persona. A offers a good but passive summary of the conflict.",
+      "topTerms": [
+        "analyst",
+        "passive",
+        "actively",
+        "persona"
+      ]
+    },
+    {
+      "id": "c-219",
+      "x": 0.074,
+      "y": 0.1355,
+      "comment": "B offers a reflexive, thematic analysis. A continues the narrative with descriptive, unprompted details.",
+      "topTerms": [
+        "thematic",
+        "unprompted",
+        "descriptive",
+        "continues"
+      ]
+    },
+    {
+      "id": "c-220",
+      "x": 0.5038,
+      "y": -0.4577,
+      "comment": "A extends the analysis with new, insightful questions. B gets stuck in a repetitive loop and adds no new value.",
+      "topTerms": [
+        "extends",
+        "value",
+        "adds",
+        "new"
+      ]
+    },
+    {
+      "id": "c-221",
+      "x": 0.0015,
+      "y": 0.1968,
+      "comment": "B better synthesizes the prompt's core tension around 'empowerment.' A is a more literal, less nuanced restatement of the user's question.",
+      "topTerms": [
+        "empowerment",
+        "nuanced",
+        "restatement",
+        "user"
+      ]
+    },
+    {
+      "id": "c-222",
+      "x": 0.1635,
+      "y": 0.3112,
+      "comment": "A asks a strong reflexive question, pushing analysis forward. B summarizes well but offers a generic, conclusory statement instead of a question.",
+      "topTerms": [
+        "summarizes",
+        "forward",
+        "question",
+        "strong"
+      ]
+    },
+    {
+      "id": "c-223",
+      "x": -0.0177,
+      "y": 0.0539,
+      "comment": "B correctly identifies and applies relevant theory. A invents a fictional academic, which is a critical failure.",
+      "topTerms": [
+        "theory",
+        "academic",
+        "fictional",
+        "identifies"
+      ]
+    },
+    {
+      "id": "c-224",
+      "x": 0.0424,
+      "y": 0.1282,
+      "comment": "A poses an excellent analytical question, whereas B shifts from analysis to offering prescriptive solutions.",
+      "topTerms": [
+        "shifts",
+        "prescriptive",
+        "excellent",
+        "poses"
+      ]
+    },
+    {
+      "id": "c-225",
+      "x": -0.0004,
+      "y": 0.1624,
+      "comment": "B better reflects on the prompt's central theme. A fabricates a generic story, ignoring the analytical contrast.",
+      "topTerms": [
+        "contrast",
+        "ignoring",
+        "theme",
+        "central"
+      ]
+    },
+    {
+      "id": "c-226",
+      "x": -0.4013,
+      "y": -0.2169,
+      "comment": "Neither response provides the requested analysis. Response A is empty, while Response B only lists keywords without any generative text.",
+      "topTerms": [
+        "requested",
+        "text",
+        "without",
+        "any"
+      ]
+    },
+    {
+      "id": "c-227",
+      "x": 0.0431,
+      "y": 0.2803,
+      "comment": "Response B provides more reflexive, forward-looking advice. A offers a more limited, tactical solution to the specific error.",
+      "topTerms": [
+        "looking",
+        "solution",
+        "forward",
+        "advice"
+      ]
+    },
+    {
+      "id": "c-228",
+      "x": -0.005,
+      "y": 0.2205,
+      "comment": "A better suggests analytical pathways for the researcher. B offers a more speculative interpretation, verging on telling the participant's story.",
+      "topTerms": [
+        "suggests",
+        "interpretation",
+        "researcher",
+        "story"
+      ]
+    },
+    {
+      "id": "c-229",
+      "x": 0.1315,
+      "y": 0.3402,
+      "comment": "B provides a more expansive analytical framework. A just rephrases the prompt's observation into a single, less insightful question.",
+      "topTerms": [
+        "rephrases",
+        "framework",
+        "observation",
+        "insightful"
+      ]
+    },
+    {
+      "id": "c-230",
+      "x": -0.0049,
+      "y": 0.3857,
+      "comment": "A is more specific by naming 'creative problem-solving,' directly from the prompt. B's question is slightly more generic and less analytically incisive.",
+      "topTerms": [
+        "analytically",
+        "slightly",
+        "directly",
+        "problem"
+      ]
+    },
+    {
+      "id": "c-231",
+      "x": 0.1927,
+      "y": 0.0503,
+      "comment": "A asks a helpful, reflexive question. B is repetitive and simply restates the prompt's analysis.",
+      "topTerms": [
+        "restates",
+        "helpful",
+        "simply",
+        "asks"
+      ]
+    },
+    {
+      "id": "c-232",
+      "x": -0.0399,
+      "y": 0.1267,
+      "comment": "A offers a direct, useful notation method, while B is circular and unhelpfully repeats the prompt's information.",
+      "topTerms": [
+        "circular",
+        "direct",
+        "useful",
+        "repeats"
+      ]
+    },
+    {
+      "id": "c-233",
+      "x": 0.3964,
+      "y": -0.2704,
+      "comment": "B offers a concise, useful analytical framework. A introduces a good concept but then gets stuck in a repetitive, unhelpful loop.",
+      "topTerms": [
+        "concise",
+        "useful",
+        "introduces",
+        "concept"
+      ]
+    },
+    {
+      "id": "c-234",
+      "x": -0.1988,
+      "y": -0.0393,
+      "comment": "A weakly continues the narrative, a hijacker trait, but B is an empty, unusable response and thus a complete failure.",
+      "topTerms": [
+        "thus",
+        "hijacker",
+        "unusable",
+        "complete"
+      ]
+    },
+    {
+      "id": "c-235",
+      "x": -0.0099,
+      "y": 0.3267,
+      "comment": "B provides concrete analytical strategies, while A offers a more general summary of the researcher's dilemma.",
+      "topTerms": [
+        "strategies",
+        "summary",
+        "general",
+        "concrete"
+      ]
+    },
+    {
+      "id": "c-236",
+      "x": 0.0286,
+      "y": 0.174,
+      "comment": "A offers a novel analytical concept ('glitch-space'), while B merely summarizes the insight already present in the prompt.",
+      "topTerms": [
+        "space",
+        "summarizes",
+        "already",
+        "present"
+      ]
+    },
+    {
+      "id": "c-237",
+      "x": 0.1714,
+      "y": 0.1557,
+      "comment": "B provides insightful analytical questions. A's response is just a low-effort keyword list that offers no analysis or assistance.",
+      "topTerms": [
+        "list",
+        "insightful",
+        "questions",
+        "offers"
+      ]
+    },
+    {
+      "id": "c-238",
+      "x": -0.0869,
+      "y": -0.08,
+      "comment": "A hallucinates new context not in the prompt. B is more faithful to the source material, making it the better response.",
+      "topTerms": [
+        "source",
+        "context",
+        "making",
+        "hallucinates"
+      ]
+    },
+    {
+      "id": "c-239",
+      "x": -1,
+      "y": -0.558,
+      "comment": "Both responses are empty and failed to generate any text, making them equally unusable.",
+      "topTerms": [
+        "unusable",
+        "text",
+        "generate",
+        "making"
+      ]
+    },
+    {
+      "id": "c-240",
+      "x": 0.0165,
+      "y": 0.0598,
+      "comment": "A reflects on the prompt's theme of human connection. B completely ignores the prompt and hallucinates an unrelated story.",
+      "topTerms": [
+        "theme",
+        "unrelated",
+        "completely",
+        "reflects"
+      ]
+    },
+    {
+      "id": "c-241",
+      "x": 0.3881,
+      "y": -0.3666,
+      "comment": "A offers a conceptual analysis, even if repetitive. B is worse, getting stuck in a loop and copying the prompt.",
+      "topTerms": [
+        "conceptual",
+        "getting",
+        "loop",
+        "stuck"
+      ]
+    },
+    {
+      "id": "c-242",
+      "x": 0.0049,
+      "y": 0.2553,
+      "comment": "B reflects on the prompt's core tension; A hijacks the narrative with a generic scenario and persona.",
+      "topTerms": [
+        "scenario",
+        "persona",
+        "reflects",
+        "tension"
+      ]
+    },
+    {
+      "id": "c-243",
+      "x": -0.436,
+      "y": -0.1118,
+      "comment": "Both responses are empty and failed to address the prompt, showing no analytical capability or engagement with the provided scene.",
+      "topTerms": [
+        "address",
+        "scene",
+        "provided",
+        "failed"
+      ]
+    },
+    {
+      "id": "c-244",
+      "x": 0.0031,
+      "y": 0.1109,
+      "comment": "B provides helpful analysis and next steps, whereas A only offers unhelpful hashtags.",
+      "topTerms": [
+        "steps",
+        "helpful",
+        "whereas",
+        "unhelpful"
+      ]
+    },
+    {
+      "id": "c-245",
+      "x": 0.1856,
+      "y": 0.0245,
+      "comment": "A analyzes the player's actions insightfully. B is extremely repetitive and offers no new analysis or insight.",
+      "topTerms": [
+        "actions",
+        "insightfully",
+        "insight",
+        "analyzes"
+      ]
+    },
+    {
+      "id": "c-246",
+      "x": 0.5096,
+      "y": -0.7419,
+      "comment": "Both responses fail to analyze the prompt. A hallucinates new scenarios, while B is stuck in a repetitive loop.",
+      "topTerms": [
+        "analyze",
+        "fail",
+        "hallucinates",
+        "loop"
+      ]
+    },
+    {
+      "id": "c-247",
+      "x": -0.0741,
+      "y": 0.0537,
+      "comment": "Response A provides excellent analytical questions to guide the researcher, while Response B is empty and unhelpful.",
+      "topTerms": [
+        "guide",
+        "excellent",
+        "researcher",
+        "unhelpful"
+      ]
+    },
+    {
+      "id": "c-248",
+      "x": -0.0272,
+      "y": -0.0279,
+      "comment": "Response A correctly identifies the ethical conflict from the prompt, whereas Response B is empty and provides no analysis.",
+      "topTerms": [
+        "identifies",
+        "conflict",
+        "correctly",
+        "ethical"
+      ]
+    },
+    {
+      "id": "c-249",
+      "x": 0.0683,
+      "y": 0.4356,
+      "comment": "A provides a more detailed analysis of Maria's specific duality, while B offers a generic, less helpful observation about ethnography.",
+      "topTerms": [
+        "detailed",
+        "helpful",
+        "about",
+        "observation"
+      ]
+    },
+    {
+      "id": "c-250",
+      "x": -0.0711,
+      "y": -0.0776,
+      "comment": "Both responses are identical and merely repeat the prompt without offering any analysis or reflexive questions.",
+      "topTerms": [
+        "identical",
+        "merely",
+        "offering",
+        "without"
+      ]
+    },
+    {
+      "id": "c-251",
+      "x": -0.5453,
+      "y": -0.2928,
+      "comment": "Both responses are empty, representing an equal failure to generate any output for the prompt.",
+      "topTerms": [
+        "representing",
+        "failure",
+        "generate",
+        "any"
+      ]
+    },
+    {
+      "id": "c-252",
+      "x": 0.0729,
+      "y": 0.0831,
+      "comment": "A focuses on the core tension. B hallucinates irrelevant details like religion, derailing the analysis with unsupported narrative.",
+      "topTerms": [
+        "derailing",
+        "focuses",
+        "irrelevant",
+        "like"
+      ]
+    },
+    {
+      "id": "c-253",
+      "x": -0.4922,
+      "y": -0.3585,
+      "comment": "Both responses are empty and fail to engage with the prompt, making them equally unhelpful.",
+      "topTerms": [
+        "engage",
+        "fail",
+        "making",
+        "unhelpful"
+      ]
+    },
+    {
+      "id": "c-254",
+      "x": -0.4902,
+      "y": -0.1764,
+      "comment": "Both responses are empty and failed to address the complex ethnographic prompt.",
+      "topTerms": [
+        "complex",
+        "address",
+        "ethnographic",
+        "failed"
+      ]
+    },
+    {
+      "id": "c-255",
+      "x": -0.2828,
+      "y": -0.1039,
+      "comment": "Both responses invent unverified details (rules, a manager) rather than analyzing the provided text. They are equally flawed.",
+      "topTerms": [
+        "rather",
+        "invent",
+        "text",
+        "flawed"
+      ]
+    },
+    {
+      "id": "c-256",
+      "x": -0.149,
+      "y": 0.0511,
+      "comment": "Response B wins by default as A is empty. B is functional but mostly just rephrases the prompt's themes.",
+      "topTerms": [
+        "mostly",
+        "themes",
+        "rephrases",
+        "empty"
+      ]
+    },
+    {
+      "id": "c-257",
+      "x": 0.4257,
+      "y": -0.4024,
+      "comment": "A weakly formulates a question based on the prompt, whereas B is stuck in a repetitive loop.",
+      "topTerms": [
+        "based",
+        "whereas",
+        "loop",
+        "stuck"
+      ]
+    },
+    {
+      "id": "c-258",
+      "x": -0.0196,
+      "y": 0.2554,
+      "comment": "B analyzes the core ethical dilemma. A hijacks the narrative by continuing the story instead of reflecting on the researcher's compromised position.",
+      "topTerms": [
+        "reflecting",
+        "continuing",
+        "ethical",
+        "dilemma"
+      ]
+    },
+    {
+      "id": "c-259",
+      "x": 0.0223,
+      "y": 0.2037,
+      "comment": "A uses a specific detail (the smirks) to ask a deeper analytical question. B stays superficial, ignoring the social context.",
+      "topTerms": [
+        "uses",
+        "ignoring",
+        "social",
+        "deeper"
+      ]
+    },
+    {
+      "id": "c-260",
+      "x": 0.3176,
+      "y": -0.3206,
+      "comment": "B introduces a useful analytical concept (liminality). A is a failure case, getting stuck in a repetitive loop with no analysis.",
+      "topTerms": [
+        "getting",
+        "useful",
+        "failure",
+        "introduces"
+      ]
+    },
+    {
+      "id": "c-261",
+      "x": 0.0304,
+      "y": 0.3197,
+      "comment": "A offers a more structured analytical framework. B is good but less specific, largely restating the prompt's observations.",
+      "topTerms": [
+        "largely",
+        "restating",
+        "observations",
+        "structured"
+      ]
+    },
+    {
+      "id": "c-262",
+      "x": 0.0549,
+      "y": 0.2611,
+      "comment": "B is better because its questions are purely analytical. A's final question is less helpful as it strays into prescriptive, solution-oriented advice.",
+      "topTerms": [
+        "prescriptive",
+        "solution",
+        "because",
+        "helpful"
+      ]
+    },
+    {
+      "id": "c-263",
+      "x": -0.3994,
+      "y": -0.2577,
+      "comment": "Both responses are empty and thus equally fail to address the prompt.",
+      "topTerms": [
+        "thus",
+        "address",
+        "fail",
+        "equally"
+      ]
+    },
+    {
+      "id": "c-264",
+      "x": -0.0279,
+      "y": 0.2206,
+      "comment": "Both responses are narrative hijackers. They invent a story about conducting interviews instead of analyzing the scene provided.",
+      "topTerms": [
+        "hijackers",
+        "invent",
+        "scene",
+        "provided"
+      ]
+    },
+    {
+      "id": "c-265",
+      "x": 0.0681,
+      "y": 0.0898,
+      "comment": "Both are narrative hijackers, but A attempts some analysis. B only invents a fictional story with new details.",
+      "topTerms": [
+        "hijackers",
+        "fictional",
+        "attempts",
+        "invents"
+      ]
+    },
+    {
+      "id": "c-266",
+      "x": -0.4033,
+      "y": -0.3393,
+      "comment": "Both responses are empty and fail to provide any analysis of the conflicting logics.",
+      "topTerms": [
+        "provide",
+        "fail",
+        "any",
+        "empty"
+      ]
+    },
+    {
+      "id": "c-267",
+      "x": -0.0111,
+      "y": 0.0523,
+      "comment": "B provides a concise, insightful analysis of the prompt's core tension, while A is an empty, non-responsive answer.",
+      "topTerms": [
+        "answer",
+        "concise",
+        "non",
+        "tension"
+      ]
+    },
+    {
+      "id": "c-268",
+      "x": -0.1257,
+      "y": -0.0247,
+      "comment": "Response A provides a basic analysis of the prompt, while B is empty and non-responsive.",
+      "topTerms": [
+        "basic",
+        "non",
+        "empty",
+        "provides"
+      ]
+    },
+    {
+      "id": "c-269",
+      "x": -0.0064,
+      "y": -0.0118,
+      "comment": "A reflects on the prompt's theme, while B completely fabricates a new scene and characters, failing to analyze the provided data.",
+      "topTerms": [
+        "characters",
+        "theme",
+        "fabricates",
+        "data"
+      ]
+    },
+    {
+      "id": "c-270",
+      "x": -0.0095,
+      "y": 0.1571,
+      "comment": "A reflects on the methodological challenge. B invents a linear story, missing the prompt's core insight, and then repeats itself.",
+      "topTerms": [
+        "challenge",
+        "methodological",
+        "reflects",
+        "repeats"
+      ]
+    },
+    {
+      "id": "c-271",
+      "x": 0.3845,
+      "y": -0.3004,
+      "comment": "A provides a concise, analytical synthesis. B is highly repetitive, getting stuck in a loop without adding new insight.",
+      "topTerms": [
+        "synthesis",
+        "getting",
+        "concise",
+        "highly"
+      ]
+    },
+    {
+      "id": "c-272",
+      "x": -0.0477,
+      "y": -0.1026,
+      "comment": "A provides a weak, repetitive answer but is better than the empty response B.",
+      "topTerms": [
+        "weak",
+        "answer",
+        "empty",
+        "repetitive"
+      ]
+    },
+    {
+      "id": "c-273",
+      "x": -0.3879,
+      "y": -0.2636,
+      "comment": "Both responses are empty and equally useless, failing to provide any analysis of the ethical dilemma presented in the prompt.",
+      "topTerms": [
+        "provide",
+        "useless",
+        "presented",
+        "failing"
+      ]
+    },
+    {
+      "id": "c-274",
+      "x": 0.0049,
+      "y": 0.3,
+      "comment": "B provides a more specific, actionable insight. A is generic and incomplete, cutting off mid-sentence.",
+      "topTerms": [
+        "incomplete",
+        "sentence",
+        "actionable",
+        "specific"
+      ]
+    },
+    {
+      "id": "c-275",
+      "x": -0.7878,
+      "y": -0.4104,
+      "comment": "The model failed to generate any response for this input.",
+      "topTerms": [
+        "input",
+        "model",
+        "generate",
+        "failed"
+      ]
+    },
+    {
+      "id": "c-276",
+      "x": -0.0133,
+      "y": 0.2282,
+      "comment": "A analyzes the concept, while B hijacks the narrative by inventing its own context, a key negative persona trait.",
+      "topTerms": [
+        "persona",
+        "key",
+        "inventing",
+        "concept"
+      ]
+    },
+    {
+      "id": "c-277",
+      "x": -0.3235,
+      "y": -0.0165,
+      "comment": "A hijacks the narrative by continuing the story, but B is an empty, failed response.",
+      "topTerms": [
+        "continuing",
+        "hijacks",
+        "failed",
+        "story"
+      ]
+    },
+    {
+      "id": "c-278",
+      "x": 0.0978,
+      "y": 0.1303,
+      "comment": "B synthesizes the observation into a theme. A ignores the prompt and invents a repetitive, fictional narrative.",
+      "topTerms": [
+        "fictional",
+        "theme",
+        "ignores",
+        "synthesizes"
+      ]
+    },
+    {
+      "id": "c-279",
+      "x": -0.1307,
+      "y": 0.0662,
+      "comment": "Both invent a political backstory instead of analyzing the scene. One is generic, the other geographical, but both equally fail as analysts.",
+      "topTerms": [
+        "one",
+        "backstory",
+        "invent",
+        "scene"
+      ]
+    },
+    {
+      "id": "c-280",
+      "x": -0.145,
+      "y": -0.1127,
+      "comment": "Both responses are empty and fail to address the prompt's excellent reflexive question.",
+      "topTerms": [
+        "excellent",
+        "address",
+        "fail",
+        "reflexive"
+      ]
+    },
+    {
+      "id": "c-281",
+      "x": 0.1377,
+      "y": -0.0014,
+      "comment": "B provides deeper analysis by introducing new concepts. A is repetitive and its suggestion is simplistic.",
+      "topTerms": [
+        "suggestion",
+        "concepts",
+        "deeper",
+        "simplistic"
+      ]
+    },
+    {
+      "id": "c-282",
+      "x": -0.2728,
+      "y": 0.0146,
+      "comment": "Response A provides a clear, actionable framework for analysis, while Response B is an empty, failed generation.",
+      "topTerms": [
+        "generation",
+        "clear",
+        "actionable",
+        "framework"
+      ]
+    },
+    {
+      "id": "c-283",
+      "x": -0.0378,
+      "y": 0.2024,
+      "comment": "Both responses are narrative hijackers. They invent context and continue the story instead of analyzing the ethnographic observation.",
+      "topTerms": [
+        "continue",
+        "hijackers",
+        "invent",
+        "context"
+      ]
+    },
+    {
+      "id": "c-284",
+      "x": -0.2186,
+      "y": -0.0243,
+      "comment": "Response A offers excellent reflexive analysis on the ethnographer's role. Response B is an empty, failed generation.",
+      "topTerms": [
+        "ethnographer",
+        "generation",
+        "role",
+        "excellent"
+      ]
+    },
+    {
+      "id": "c-285",
+      "x": -0.5023,
+      "y": -0.1971,
+      "comment": "B poses a strong analytical question, demonstrating the desired persona. A failed to generate any text at all.",
+      "topTerms": [
+        "all",
+        "persona",
+        "text",
+        "poses"
+      ]
+    },
+    {
+      "id": "c-286",
+      "x": -0.0013,
+      "y": 0.1096,
+      "comment": "Both invent dialogue, but A also analyzes power dynamics. B only continues the story with no ethnographic insight.",
+      "topTerms": [
+        "also",
+        "dialogue",
+        "invent",
+        "dynamics"
+      ]
+    },
+    {
+      "id": "c-287",
+      "x": 0.5543,
+      "y": -0.2188,
+      "comment": "B analyzes the core conflict and asks a reflexive question, while A gets stuck in a repetitive, unanalytical narrative.",
+      "topTerms": [
+        "conflict",
+        "asks",
+        "analyzes",
+        "reflexive"
+      ]
+    },
+    {
+      "id": "c-288",
+      "x": 0.0835,
+      "y": 0.1311,
+      "comment": "B asks key reflexive questions based on the observation. A simply elaborates on the analysis already present in the prompt.",
+      "topTerms": [
+        "based",
+        "already",
+        "key",
+        "present"
+      ]
+    },
+    {
+      "id": "c-289",
+      "x": 0.021,
+      "y": 0.1049,
+      "comment": "A analyzes the prompt's central conflict. B ignores the prompt and hallucinates a completely unrelated story and characters.",
+      "topTerms": [
+        "characters",
+        "central",
+        "unrelated",
+        "completely"
+      ]
+    },
+    {
+      "id": "c-290",
+      "x": 0.0826,
+      "y": 0.0965,
+      "comment": "B asks a good analytical question. A invents new facts not present in the prompt, failing to analyze the provided data.",
+      "topTerms": [
+        "present",
+        "data",
+        "facts",
+        "failing"
+      ]
+    },
+    {
+      "id": "c-291",
+      "x": -0.0293,
+      "y": 0.1699,
+      "comment": "A is pure narrative continuation. B is slightly better as it begins to reflect on the researcher's role and the theory/practice gap.",
+      "topTerms": [
+        "pure",
+        "begins",
+        "theory",
+        "slightly"
+      ]
+    },
+    {
+      "id": "c-292",
+      "x": 0.3804,
+      "y": -0.4348,
+      "comment": "Response B insightfully connects the prompt to broader academic concepts. Response A gets stuck in a repetitive loop, failing to develop its analysis.",
+      "topTerms": [
+        "academic",
+        "insightfully",
+        "broader",
+        "concepts"
+      ]
+    },
+    {
+      "id": "c-293",
+      "x": 0.0439,
+      "y": 0.1084,
+      "comment": "B correctly analyzes the empowerment/exhaustion duality from the prompt. A is generic, repetitive, and misses this key nuance.",
+      "topTerms": [
+        "empowerment",
+        "nuance",
+        "misses",
+        "key"
+      ]
+    },
+    {
+      "id": "c-294",
+      "x": -0.2917,
+      "y": -0.1726,
+      "comment": "Both responses are empty and thus equally unhelpful, failing to engage with the prompt's themes of gender and power.",
+      "topTerms": [
+        "thus",
+        "engage",
+        "themes",
+        "failing"
+      ]
+    },
+    {
+      "id": "c-295",
+      "x": -0.0648,
+      "y": 0.1444,
+      "comment": "A reflects on the methodological problem posed in the prompt, while B just gives a generic, unhelpful description of the platform.",
+      "topTerms": [
+        "gives",
+        "description",
+        "methodological",
+        "problem"
+      ]
+    },
+    {
+      "id": "c-296",
+      "x": 0.0259,
+      "y": 0.2972,
+      "comment": "B provides specific, actionable questions for inquiry, whereas A mostly summarizes the prompt. B better empowers the researcher.",
+      "topTerms": [
+        "summarizes",
+        "inquiry",
+        "mostly",
+        "actionable"
+      ]
+    },
+    {
+      "id": "c-297",
+      "x": 0.1078,
+      "y": 0.075,
+      "comment": "Both responses are nearly identical, merely rephrasing the prompt's analysis instead of asking new, insightful questions to advance it.",
+      "topTerms": [
+        "nearly",
+        "rephrasing",
+        "identical",
+        "asking"
+      ]
+    },
+    {
+      "id": "c-298",
+      "x": -0.205,
+      "y": -0.1384,
+      "comment": "Response A is empty. Response B hallucinates a location and merely repeats the prompt's dilemma without offering any analysis.",
+      "topTerms": [
+        "location",
+        "merely",
+        "repeats",
+        "offering"
+      ]
+    },
+    {
+      "id": "c-299",
+      "x": 0.0316,
+      "y": 0.2036,
+      "comment": "A provides a strong analytical framework for the writing dilemma, while B simply continues the narrative sympathetically.",
+      "topTerms": [
+        "writing",
+        "continues",
+        "simply",
+        "strong"
+      ]
+    },
+    {
+      "id": "c-300",
+      "x": -0.0141,
+      "y": 0.2155,
+      "comment": "B offers more sophisticated analytical tools ('cultural codes,' 'context'). A's analysis is more basic and less analytically deep.",
+      "topTerms": [
+        "cultural",
+        "deep",
+        "sophisticated",
+        "analytically"
+      ]
+    },
+    {
+      "id": "c-301",
+      "x": 0.3793,
+      "y": -0.3293,
+      "comment": "B provides a helpful analytical lens (consumption vs. creation). A just repeats the prompt and gets stuck in a loop.",
+      "topTerms": [
+        "lens",
+        "helpful",
+        "repeats",
+        "gets"
+      ]
+    },
+    {
+      "id": "c-302",
+      "x": -0.5351,
+      "y": -0.2575,
+      "comment": "Both responses are empty, making them equally bad as neither addresses the prompt's question.",
+      "topTerms": [
+        "making",
+        "equally",
+        "question",
+        "empty"
+      ]
+    },
+    {
+      "id": "c-303",
+      "x": 0.0111,
+      "y": 0.1527,
+      "comment": "B analyzes the observation through a theoretical lens, while A only extends the narrative with more description.",
+      "topTerms": [
+        "extends",
+        "theoretical",
+        "lens",
+        "description"
+      ]
+    },
+    {
+      "id": "c-304",
+      "x": 0.4048,
+      "y": -0.2507,
+      "comment": "B synthesizes and asks an excellent reflexive question. A is stuck in a repetitive loop, merely rephrasing the prompt's analysis.",
+      "topTerms": [
+        "rephrasing",
+        "excellent",
+        "synthesizes",
+        "merely"
+      ]
+    },
+    {
+      "id": "c-305",
+      "x": 0.0006,
+      "y": -0.1228,
+      "comment": "Both fall into repetitive loops. B hallucinates facts contradicting the prompt, while A simply repeats the interaction without adding any analytical insight.",
+      "topTerms": [
+        "interaction",
+        "adding",
+        "facts",
+        "simply"
+      ]
+    },
+    {
+      "id": "c-306",
+      "x": 0.1389,
+      "y": 0.1905,
+      "comment": "B poses insightful, reflexive questions for analysis. A offers more generic, prescriptive suggestions.",
+      "topTerms": [
+        "suggestions",
+        "prescriptive",
+        "poses",
+        "insightful"
+      ]
+    },
+    {
+      "id": "c-307",
+      "x": 0.1326,
+      "y": 0.1726,
+      "comment": "B provides insightful analysis of the behavior. A hijacks the narrative by inventing a new scene and a confession.",
+      "topTerms": [
+        "inventing",
+        "scene",
+        "hijacks",
+        "insightful"
+      ]
+    },
+    {
+      "id": "c-308",
+      "x": -0.2415,
+      "y": 0.076,
+      "comment": "A offers practical advice but lacks deep analytical reflection. B is an empty, failed response.",
+      "topTerms": [
+        "deep",
+        "practical",
+        "reflection",
+        "advice"
+      ]
+    },
+    {
+      "id": "c-309",
+      "x": -0.0244,
+      "y": 0.2336,
+      "comment": "B provides actionable, forward-looking strategies, while A is more descriptive and mostly rephrases the prompt's observations.",
+      "topTerms": [
+        "looking",
+        "observations",
+        "strategies",
+        "forward"
+      ]
+    },
+    {
+      "id": "c-310",
+      "x": 0.5958,
+      "y": -0.7322,
+      "comment": "Both fail to analyze. A gets stuck in a repetitive loop while B hallucinates new interactions and continues the narrative.",
+      "topTerms": [
+        "analyze",
+        "continues",
+        "fail",
+        "hallucinates"
+      ]
+    },
+    {
+      "id": "c-311",
+      "x": -0.3396,
+      "y": -0.078,
+      "comment": "No responses were generated, making a choice impossible.",
+      "topTerms": [
+        "choice",
+        "generated",
+        "impossible",
+        "making"
+      ]
+    },
+    {
+      "id": "c-312",
+      "x": 0.0337,
+      "y": 0.324,
+      "comment": "A frames the observation as a specific research question, while B offers a more abstract, philosophical summary without a clear next step.",
+      "topTerms": [
+        "abstract",
+        "summary",
+        "clear",
+        "research"
+      ]
+    },
+    {
+      "id": "c-313",
+      "x": 0.0081,
+      "y": 0.1465,
+      "comment": "A provides a strong analytical framework. B makes an unhelpful assumption and focuses on narrative description rather than analysis.",
+      "topTerms": [
+        "description",
+        "focuses",
+        "rather",
+        "strong"
+      ]
+    },
+    {
+      "id": "c-314",
+      "x": -0.0489,
+      "y": -0.0938,
+      "comment": "Response A is better than the empty B, but it is very repetitive and only rephrases the original prompt.",
+      "topTerms": [
+        "original",
+        "rephrases",
+        "empty",
+        "repetitive"
+      ]
+    },
+    {
+      "id": "c-315",
+      "x": 0.028,
+      "y": 0.2536,
+      "comment": "Response A provides a stronger analytical framework by coining a term. B is more descriptive and less conceptually innovative.",
+      "topTerms": [
+        "stronger",
+        "descriptive",
+        "framework",
+        "less"
+      ]
+    },
+    {
+      "id": "c-316",
+      "x": 0.0461,
+      "y": 0.2636,
+      "comment": "Response A offers a clear analytical path by focusing on structural motivations, while B is less insightful and mostly restates the problem.",
+      "topTerms": [
+        "focusing",
+        "structural",
+        "mostly",
+        "restates"
+      ]
+    },
+    {
+      "id": "c-317",
+      "x": 0.0661,
+      "y": 0.129,
+      "comment": "A hallucinates specific, unsupported facts (e.g., India). B is a better analyst, connecting the observation to broader themes and asking clarifying questions.",
+      "topTerms": [
+        "analyst",
+        "connecting",
+        "broader",
+        "facts"
+      ]
+    },
+    {
+      "id": "c-318",
+      "x": -0.0559,
+      "y": -0.5392,
+      "comment": "Response A is a repetitive loop of the prompt. Response B is empty. Both are equally useless.",
+      "topTerms": [
+        "useless",
+        "equally",
+        "loop",
+        "empty"
+      ]
+    },
+    {
+      "id": "c-319",
+      "x": -0.3858,
+      "y": -0.0905,
+      "comment": "No responses were generated, making a comparison impossible.",
+      "topTerms": [
+        "generated",
+        "comparison",
+        "impossible",
+        "making"
+      ]
+    },
+    {
+      "id": "c-320",
+      "x": -0.0325,
+      "y": -0.0553,
+      "comment": "B fabricates a conversation, hijacking the narrative. A is empty. Both fail to analyze the researcher's reflexive crisis from the prompt.",
+      "topTerms": [
+        "conversation",
+        "fabricates",
+        "hijacking",
+        "analyze"
+      ]
+    },
+    {
+      "id": "c-321",
+      "x": 0.0161,
+      "y": 0.1813,
+      "comment": "B provides sharp ethical analysis of the power dynamic, while A offers a more generalized, vague reflection on its role.",
+      "topTerms": [
+        "dynamic",
+        "role",
+        "reflection",
+        "power"
+      ]
+    },
+    {
+      "id": "c-322",
+      "x": 0.0347,
+      "y": 0.1936,
+      "comment": "A insightfully analyzes the prompt's power dynamic. B hijacks the narrative by hallucinating an entirely new research context.",
+      "topTerms": [
+        "dynamic",
+        "entirely",
+        "insightfully",
+        "research"
+      ]
+    },
+    {
+      "id": "c-323",
+      "x": 0.0498,
+      "y": 0.1576,
+      "comment": "Both responses are nearly identical, rephrasing the prompt with only superficial differences. Neither offers a uniquely insightful analytical path.",
+      "topTerms": [
+        "nearly",
+        "rephrasing",
+        "identical",
+        "path"
+      ]
+    },
+    {
+      "id": "c-324",
+      "x": 0.1611,
+      "y": -0.2108,
+      "comment": "A reflects on the prompt and poses analytical questions. B gets stuck, repetitively copying the user's input without adding value.",
+      "topTerms": [
+        "value",
+        "input",
+        "adding",
+        "user"
+      ]
+    },
+    {
+      "id": "c-325",
+      "x": 0.0201,
+      "y": -0.3024,
+      "comment": "Both are generation failures. A gets stuck repeating the prompt, while B produced no text at all.",
+      "topTerms": [
+        "failures",
+        "all",
+        "generation",
+        "repeating"
+      ]
+    },
+    {
+      "id": "c-326",
+      "x": -0.0496,
+      "y": -0.4884,
+      "comment": "While A is extremely repetitive and unanalytical, it is at least a response, unlike B which is empty.",
+      "topTerms": [
+        "empty",
+        "repetitive"
+      ]
+    },
+    {
+      "id": "c-327",
+      "x": -0.0813,
+      "y": 0.0622,
+      "comment": "B distills the prompt into a key methodological question, whereas A is completely empty and fails to respond.",
+      "topTerms": [
+        "respond",
+        "methodological",
+        "key",
+        "completely"
+      ]
+    },
+    {
+      "id": "c-328",
+      "x": -0.0977,
+      "y": 0.0502,
+      "comment": "Response A is empty. Response B is better because it attempts analysis, despite hallucinating facts about the fundraiser.",
+      "topTerms": [
+        "because",
+        "despite",
+        "attempts",
+        "facts"
+      ]
+    },
+    {
+      "id": "c-329",
+      "x": -0.8467,
+      "y": -0.461,
+      "comment": "Both models failed to generate any response, making them equally unhelpful for the user's analytical task.",
+      "topTerms": [
+        "user",
+        "models",
+        "generate",
+        "making"
+      ]
+    },
+    {
+      "id": "c-330",
+      "x": -0.2495,
+      "y": -0.0192,
+      "comment": "No responses were generated for this prompt, so an evaluation is impossible.",
+      "topTerms": [
+        "generated",
+        "impossible",
+        "prompt"
+      ]
+    },
+    {
+      "id": "c-331",
+      "x": -0.11,
+      "y": -0.115,
+      "comment": "Both responses simply paraphrase the prompt's analysis. Neither offers reflexive questions or a new analytical direction, making them equally unhelpful.",
+      "topTerms": [
+        "direction",
+        "simply",
+        "making",
+        "unhelpful"
+      ]
+    },
+    {
+      "id": "c-332",
+      "x": 0.1788,
+      "y": 0.2886,
+      "comment": "B asks insightful, reflexive questions about the host's internal state. A offers a more generic summary of the central conflict.",
+      "topTerms": [
+        "summary",
+        "central",
+        "conflict",
+        "about"
+      ]
+    },
+    {
+      "id": "c-333",
+      "x": -0.0636,
+      "y": 0.0185,
+      "comment": "A provides concrete analytical questions. B repeats the prompt and fails to offer any new insight before cutting off.",
+      "topTerms": [
+        "offer",
+        "before",
+        "concrete",
+        "repeats"
+      ]
+    },
+    {
+      "id": "c-334",
+      "x": -0.065,
+      "y": 0.1925,
+      "comment": "Both hallucinate specific details (company, location) and continue the narrative instead of analyzing the ethnographic data provided.",
+      "topTerms": [
+        "continue",
+        "location",
+        "hallucinate",
+        "data"
+      ]
+    },
+    {
+      "id": "c-335",
+      "x": 0.0115,
+      "y": 0.0201,
+      "comment": "A engages with the prompt's core themes but hallucinates new data. B is a complete non-response.",
+      "topTerms": [
+        "engages",
+        "complete",
+        "non",
+        "data"
+      ]
+    },
+    {
+      "id": "c-336",
+      "x": 0.5531,
+      "y": -0.5664,
+      "comment": "Both are poor. A hallucinates a dialogue instead of analyzing, while B gets stuck in a simple repetitive loop.",
+      "topTerms": [
+        "dialogue",
+        "simple",
+        "hallucinates",
+        "analyzing"
+      ]
+    },
+    {
+      "id": "c-337",
+      "x": 0.5186,
+      "y": -0.4917,
+      "comment": "A is reflexive, asking how to document the scene without replicating its harm. B gets stuck in a simple, repetitive loop.",
+      "topTerms": [
+        "simple",
+        "asking",
+        "scene",
+        "without"
+      ]
+    },
+    {
+      "id": "c-338",
+      "x": -0.0162,
+      "y": 0.0341,
+      "comment": "Both hijack the narrative by inventing facts. B's attempt at reflection doesn't overcome its failure to analyze the actual prompt.",
+      "topTerms": [
+        "hijack",
+        "reflection",
+        "failure",
+        "facts"
+      ]
+    },
+    {
+      "id": "c-339",
+      "x": -0.0369,
+      "y": 0.0229,
+      "comment": "Response B provides an insightful analysis connecting humor to emotional labor. Response A is empty and non-functional.",
+      "topTerms": [
+        "connecting",
+        "emotional",
+        "non",
+        "insightful"
+      ]
+    },
+    {
+      "id": "c-340",
+      "x": 0.1144,
+      "y": 0.069,
+      "comment": "B introduces a theoretical frame for deeper analysis, while A is more generic and repetitive in its questioning.",
+      "topTerms": [
+        "theoretical",
+        "deeper",
+        "frame",
+        "introduces"
+      ]
+    },
+    {
+      "id": "c-341",
+      "x": -0.013,
+      "y": 0.0669,
+      "comment": "Both hijack the prompt by generating new stories. A creates thematic parallels, while B shifts into a first-person dramatic encounter.",
+      "topTerms": [
+        "thematic",
+        "shifts",
+        "hijack",
+        "new"
+      ]
+    },
+    {
+      "id": "c-342",
+      "x": 0.2123,
+      "y": -0.0762,
+      "comment": "Both responses get stuck in severe repetitive loops, hijacking the narrative instead of analyzing the core contradiction.",
+      "topTerms": [
+        "get",
+        "contradiction",
+        "hijacking",
+        "analyzing"
+      ]
+    },
+    {
+      "id": "c-343",
+      "x": -0.1959,
+      "y": -0.2075,
+      "comment": "A attempts an analysis, though it's incomplete and repetitive. B is an empty, failed response.",
+      "topTerms": [
+        "though",
+        "incomplete",
+        "attempts",
+        "failed"
+      ]
+    },
+    {
+      "id": "c-344",
+      "x": -0.3102,
+      "y": -0.1278,
+      "comment": "Both responses are empty and fail to address the complex ethnographic dilemma presented in the prompt.",
+      "topTerms": [
+        "complex",
+        "presented",
+        "address",
+        "ethnographic"
+      ]
+    },
+    {
+      "id": "c-345",
+      "x": 0.0689,
+      "y": 0.1448,
+      "comment": "A asks a concise, analytical question. B pads its response by repeating the prompt before asking an incomplete version of the same question.",
+      "topTerms": [
+        "incomplete",
+        "before",
+        "concise",
+        "repeating"
+      ]
+    },
+    {
+      "id": "c-346",
+      "x": 0.5366,
+      "y": -0.65,
+      "comment": "A gets stuck in a repetitive loop, while B just copies the prompt. Neither offers any analytical insight or reflexive questions.",
+      "topTerms": [
+        "insight",
+        "any",
+        "reflexive",
+        "gets"
+      ]
+    },
+    {
+      "id": "c-347",
+      "x": -0.0252,
+      "y": 0.1469,
+      "comment": "A better analyzes the methodological implications of the event, while B dramatizes the interaction into a personal narrative.",
+      "topTerms": [
+        "event",
+        "interaction",
+        "personal",
+        "methodological"
+      ]
+    },
+    {
+      "id": "c-348",
+      "x": 0.6172,
+      "y": -0.4185,
+      "comment": "B synthesizes the core idea into a new analytical question. A is a list of repetitive questions and gets stuck in a loop.",
+      "topTerms": [
+        "list",
+        "synthesizes",
+        "gets",
+        "questions"
+      ]
+    },
+    {
+      "id": "c-349",
+      "x": 0.0361,
+      "y": 0.1039,
+      "comment": "Both are strong, but A's analysis is more detailed. B's self-instructional format feels more robotic than A's naturally integrated questions.",
+      "topTerms": [
+        "detailed",
+        "strong",
+        "questions",
+        "analysis"
+      ]
+    },
+    {
+      "id": "c-350",
+      "x": 0.0315,
+      "y": 0.1179,
+      "comment": "B provides stronger analytical insight into power. A focuses more on simple, practical navigation steps.",
+      "topTerms": [
+        "stronger",
+        "steps",
+        "focuses",
+        "practical"
+      ]
+    },
+    {
+      "id": "c-351",
+      "x": 0.0673,
+      "y": 0.1323,
+      "comment": "A begins a relevant analysis of the observation. B hijacks the narrative and introduces unrelated new story elements.",
+      "topTerms": [
+        "begins",
+        "relevant",
+        "unrelated",
+        "introduces"
+      ]
+    },
+    {
+      "id": "c-352",
+      "x": 0.4466,
+      "y": -0.3546,
+      "comment": "A asks deep, ethical questions about representation. B gets stuck in a simplistic, repetitive loop.",
+      "topTerms": [
+        "deep",
+        "simplistic",
+        "ethical",
+        "about"
+      ]
+    },
+    {
+      "id": "c-353",
+      "x": -0.1245,
+      "y": 0.0261,
+      "comment": "Response B analyzes the prompt's paradox, even if repetitively. Response A is empty and provides no value.",
+      "topTerms": [
+        "value",
+        "analyzes",
+        "empty",
+        "provides"
+      ]
+    },
+    {
+      "id": "c-354",
+      "x": 0.1115,
+      "y": 0.2691,
+      "comment": "B provides excellent, guiding analytical questions. A offers a generic observation without a clear path for analysis.",
+      "topTerms": [
+        "excellent",
+        "clear",
+        "path",
+        "observation"
+      ]
+    },
+    {
+      "id": "c-355",
+      "x": 0.0453,
+      "y": 0.2284,
+      "comment": "A provides a strong analytical framework. B invents a fictional narrative, ignoring the prompt's request for analysis.",
+      "topTerms": [
+        "ignoring",
+        "fictional",
+        "strong",
+        "framework"
+      ]
+    },
+    {
+      "id": "c-356",
+      "x": -0.3642,
+      "y": -0.0802,
+      "comment": "No responses were generated for either option, making a comparison impossible.",
+      "topTerms": [
+        "either",
+        "generated",
+        "comparison",
+        "impossible"
+      ]
+    },
+    {
+      "id": "c-357",
+      "x": -0.8292,
+      "y": -0.4036,
+      "comment": "The model failed to generate any responses for this input, making a comparison impossible.",
+      "topTerms": [
+        "input",
+        "comparison",
+        "impossible",
+        "model"
+      ]
+    },
+    {
+      "id": "c-358",
+      "x": -0.0272,
+      "y": 0.2074,
+      "comment": "B is slightly better as its focus on 'understanding' and 'challenges' is more analytical than A's more generic focus on 'language'.",
+      "topTerms": [
+        "focus",
+        "slightly",
+        "generic",
+        "analytical"
+      ]
+    },
+    {
+      "id": "c-359",
+      "x": 0.5361,
+      "y": -0.5887,
+      "comment": "A hallucinates new narrative details, while B gets stuck in a repetitive, non-analytical loop. Both are flawed.",
+      "topTerms": [
+        "non",
+        "flawed",
+        "details",
+        "hallucinates"
+      ]
+    },
+    {
+      "id": "c-360",
+      "x": -0.1214,
+      "y": 0.1156,
+      "comment": "A accurately rephrases the prompt's core question. B fails by hallucinating a location, making its context inaccurate and therefore worse.",
+      "topTerms": [
+        "therefore",
+        "location",
+        "hallucinating",
+        "rephrases"
+      ]
+    },
+    {
+      "id": "c-361",
+      "x": -0.4788,
+      "y": -0.314,
+      "comment": "Both responses are empty. They are equally unhelpful as neither answers the prompt.",
+      "topTerms": [
+        "unhelpful",
+        "equally",
+        "empty",
+        "prompt"
+      ]
+    },
+    {
+      "id": "c-362",
+      "x": 0.1276,
+      "y": 0.1372,
+      "comment": "A synthesizes the conflict into a deeper analytical question. B simply continues the narrative with imagined details, avoiding analysis.",
+      "topTerms": [
+        "deeper",
+        "conflict",
+        "synthesizes",
+        "continues"
+      ]
+    },
+    {
+      "id": "c-363",
+      "x": -0.6248,
+      "y": -0.3046,
+      "comment": "The model failed to generate any responses for this prompt, indicating a complete failure to engage with the user's input.",
+      "topTerms": [
+        "complete",
+        "engage",
+        "input",
+        "user"
+      ]
+    },
+    {
+      "id": "c-364",
+      "x": 0.5621,
+      "y": -0.4924,
+      "comment": "B asks a sharp, insightful question to prompt analysis. A identifies the issue but then gets stuck in a repetitive, unhelpful loop.",
+      "topTerms": [
+        "identifies",
+        "sharp",
+        "unhelpful",
+        "insightful"
+      ]
+    },
+    {
+      "id": "c-365",
+      "x": 0.085,
+      "y": 0.1659,
+      "comment": "B is a great analytical partner, asking a reflexive question. A pivots to writing a generic, unhelpful essay, hijacking the prompt's insight.",
+      "topTerms": [
+        "writing",
+        "asking",
+        "hijacking",
+        "unhelpful"
+      ]
+    },
+    {
+      "id": "c-366",
+      "x": 0.0249,
+      "y": 0.1523,
+      "comment": "B offers a structured, thematic analysis, while A romanticizes the scene with narrative and invented details.",
+      "topTerms": [
+        "thematic",
+        "structured",
+        "scene",
+        "details"
+      ]
+    },
+    {
+      "id": "c-367",
+      "x": 0.2195,
+      "y": -0.0383,
+      "comment": "A introduces a new analytical frame (control/domination), whereas B is entirely repetitive and adds no new insight.",
+      "topTerms": [
+        "adds",
+        "entirely",
+        "new",
+        "frame"
+      ]
+    },
+    {
+      "id": "c-368",
+      "x": -0.2725,
+      "y": -0.1513,
+      "comment": "A just repeats the prompt verbatim, while B is completely empty. Both are equally useless and offer no analysis.",
+      "topTerms": [
+        "offer",
+        "useless",
+        "completely",
+        "repeats"
+      ]
+    },
+    {
+      "id": "c-369",
+      "x": 0.2666,
+      "y": -0.2248,
+      "comment": "B provides a deeper analysis and proposes a forward-looking challenge, while A gets stuck repeating the same metaphor in a loop.",
+      "topTerms": [
+        "looking",
+        "metaphor",
+        "proposes",
+        "challenge"
+      ]
+    },
+    {
+      "id": "c-370",
+      "x": 0.0654,
+      "y": 0.1411,
+      "comment": "A is more helpful because it proposes a concrete research action, whereas B only poses the initial reflexive question.",
+      "topTerms": [
+        "action",
+        "proposes",
+        "initial",
+        "because"
+      ]
+    },
+    {
+      "id": "c-371",
+      "x": 0.6087,
+      "y": -0.4059,
+      "comment": "B provides an analytical framework and reflexive question, while A gets stuck in a repetitive loop and adds no insight.",
+      "topTerms": [
+        "adds",
+        "framework",
+        "insight",
+        "reflexive"
+      ]
+    },
+    {
+      "id": "c-372",
+      "x": 0.0402,
+      "y": 0.067,
+      "comment": "A correctly expands on the prompt's analysis, while B introduces a confusing and inaccurate 'formal economy' binary, weakening the insight.",
+      "topTerms": [
+        "introduces",
+        "correctly",
+        "insight",
+        "analysis"
+      ]
+    },
+    {
+      "id": "c-373",
+      "x": 0.0933,
+      "y": 0.4136,
+      "comment": "B probes for specific, analytical detail. A offers a generic summary and continues the narrative instead of analyzing it.",
+      "topTerms": [
+        "summary",
+        "continues",
+        "specific",
+        "analyzing"
+      ]
+    },
+    {
+      "id": "c-374",
+      "x": 0.041,
+      "y": 0.1638,
+      "comment": "B pushes the analysis forward by posing a reflexive question. A mostly rephrases the ideas already present in the prompt.",
+      "topTerms": [
+        "already",
+        "present",
+        "forward",
+        "mostly"
+      ]
+    },
+    {
+      "id": "c-375",
+      "x": -0.2487,
+      "y": -0.0857,
+      "comment": "Response A fabricates a story instead of analyzing the prompt's themes. Response B is empty. Both are equally unhelpful.",
+      "topTerms": [
+        "fabricates",
+        "themes",
+        "unhelpful",
+        "equally"
+      ]
+    },
+    {
+      "id": "c-376",
+      "x": -0.2322,
+      "y": -0.0674,
+      "comment": "Both responses hallucinate a new scenario (Dimitris in Athens) instead of analyzing the provided one, making them equally flawed.",
+      "topTerms": [
+        "scenario",
+        "one",
+        "hallucinate",
+        "flawed"
+      ]
+    },
+    {
+      "id": "c-377",
+      "x": -0.0281,
+      "y": -0.0485,
+      "comment": "Both responses fail. A is empty, while B hallucinates a new scene instead of analyzing the prompt's central tension.",
+      "topTerms": [
+        "central",
+        "scene",
+        "tension",
+        "fail"
+      ]
+    },
+    {
+      "id": "c-378",
+      "x": 0.18,
+      "y": 0.1751,
+      "comment": "B provides insightful reflection and asks a constructive question. A hallucinates context and asks a redundant question.",
+      "topTerms": [
+        "asks",
+        "reflection",
+        "question",
+        "context"
+      ]
+    },
+    {
+      "id": "c-379",
+      "x": -0.132,
+      "y": 0.1625,
+      "comment": "A's advice is more analytically sharp, focusing on critiquing expert models. B's suggestions are good but more general in their comparison.",
+      "topTerms": [
+        "suggestions",
+        "focusing",
+        "analytically",
+        "general"
+      ]
+    },
+    {
+      "id": "c-380",
+      "x": 0.0847,
+      "y": 0.0582,
+      "comment": "A advances the analysis with new concepts, while B simply repeats the prompt's core questions.",
+      "topTerms": [
+        "concepts",
+        "simply",
+        "repeats",
+        "questions"
+      ]
+    },
+    {
+      "id": "c-381",
+      "x": 0.1832,
+      "y": 0.1353,
+      "comment": "A synthesizes the prompt and poses a new reflexive question. B just rephrases the prompt's core question without adding insight.",
+      "topTerms": [
+        "adding",
+        "question",
+        "synthesizes",
+        "rephrases"
+      ]
+    },
+    {
+      "id": "c-382",
+      "x": 0.1417,
+      "y": 0.1165,
+      "comment": "B introduces new analytical concepts like 'self-care'. A is less insightful, mostly just rephrasing the prompt's analysis into a list of questions.",
+      "topTerms": [
+        "list",
+        "like",
+        "rephrasing",
+        "concepts"
+      ]
+    },
+    {
+      "id": "c-383",
+      "x": 0.0429,
+      "y": 0.2367,
+      "comment": "A insightfully analyzes the power dynamics. B hijacks the narrative by continuing the story instead of engaging with the prompt's question.",
+      "topTerms": [
+        "continuing",
+        "insightfully",
+        "dynamics",
+        "power"
+      ]
+    },
+    {
+      "id": "c-384",
+      "x": -0.0823,
+      "y": 0.0058,
+      "comment": "B is better as it attempts some analysis before continuing the story. A is empty and provides no value.",
+      "topTerms": [
+        "before",
+        "value",
+        "continuing",
+        "attempts"
+      ]
+    },
+    {
+      "id": "c-385",
+      "x": 0.0346,
+      "y": 0.0881,
+      "comment": "B, despite hallucinating a source, asks insightful analytical questions. A is unhelpful and simply restates the prompt's themes.",
+      "topTerms": [
+        "source",
+        "restates",
+        "despite",
+        "themes"
+      ]
+    },
+    {
+      "id": "c-386",
+      "x": -0.7556,
+      "y": -0.3269,
+      "comment": "Both models failed to generate a response, making a comparison impossible.",
+      "topTerms": [
+        "comparison",
+        "impossible",
+        "models",
+        "generate"
+      ]
+    },
+    {
+      "id": "c-387",
+      "x": 0.6433,
+      "y": -0.743,
+      "comment": "A hallucinates a new story, while B gets stuck in a repetitive loop. Both fail to analyze or ask reflexive questions.",
+      "topTerms": [
+        "analyze",
+        "fail",
+        "hallucinates",
+        "story"
+      ]
+    },
+    {
+      "id": "c-388",
+      "x": 0.021,
+      "y": 0.2074,
+      "comment": "A provides a structured analytical framework. B continues the narrative instead of offering the requested guidance on how to write about it.",
+      "topTerms": [
+        "guidance",
+        "structured",
+        "requested",
+        "continues"
+      ]
+    },
+    {
+      "id": "c-389",
+      "x": 0.0101,
+      "y": 0.2356,
+      "comment": "Response A offers a superior analytical lens for the problem, while Response B is more simplistic and just rephrases the prompt's tension.",
+      "topTerms": [
+        "lens",
+        "superior",
+        "simplistic",
+        "problem"
+      ]
+    },
+    {
+      "id": "c-390",
+      "x": 0.0017,
+      "y": 0.3875,
+      "comment": "B acknowledges the specific risk of the data, while A offers a generic solution that ignores the user's core concern about identification.",
+      "topTerms": [
+        "solution",
+        "user",
+        "data",
+        "ignores"
+      ]
+    },
+    {
+      "id": "c-391",
+      "x": 0.1229,
+      "y": -0.0395,
+      "comment": "Response A is repetitive, while Response B hallucinates new details. Neither analyzes the researcher's dilemma presented in the prompt.",
+      "topTerms": [
+        "presented",
+        "researcher",
+        "dilemma",
+        "details"
+      ]
+    },
+    {
+      "id": "c-392",
+      "x": 0.052,
+      "y": 0.2103,
+      "comment": "A provides a useful, if generic, analytical question. B is circular, merely restating the tension already described in the prompt.",
+      "topTerms": [
+        "circular",
+        "restating",
+        "already",
+        "useful"
+      ]
+    },
+    {
+      "id": "c-393",
+      "x": 0.0502,
+      "y": 0.3949,
+      "comment": "B correctly analyzes the prompt's core concept. A ignores the specific scene and instead narrates unrelated, generic stories about refugees.",
+      "topTerms": [
+        "unrelated",
+        "concept",
+        "ignores",
+        "correctly"
+      ]
+    },
+    {
+      "id": "c-394",
+      "x": 0.5762,
+      "y": -0.4487,
+      "comment": "A poses insightful analytical questions. B is a broken response stuck in a repetitive loop with no analysis.",
+      "topTerms": [
+        "poses",
+        "insightful",
+        "questions",
+        "loop"
+      ]
+    },
+    {
+      "id": "c-395",
+      "x": 0.1491,
+      "y": 0.1848,
+      "comment": "A asks a better reflexive question, whereas B hijacks the narrative by trying to invent a new story, a key penalized behavior.",
+      "topTerms": [
+        "key",
+        "invent",
+        "whereas",
+        "hijacks"
+      ]
+    },
+    {
+      "id": "c-396",
+      "x": 0.6336,
+      "y": -0.4901,
+      "comment": "A gets stuck in a repetitive reflexive loop. B hallucinates new details and hijacks the narrative instead of analyzing the prompt.",
+      "topTerms": [
+        "details",
+        "hijacks",
+        "hallucinates",
+        "analyzing"
+      ]
+    },
+    {
+      "id": "c-397",
+      "x": 0.0969,
+      "y": 0.1249,
+      "comment": "A invents a fictional story, while B is a repetitive list of actions. Neither response analyzes the core observation from the prompt.",
+      "topTerms": [
+        "list",
+        "actions",
+        "fictional",
+        "invents"
+      ]
+    },
+    {
+      "id": "c-398",
+      "x": 0.0642,
+      "y": 0.2547,
+      "comment": "A analyzes the tension with a sharp, theoretical question. B hijacks the narrative by continuing the story instead of offering insight.",
+      "topTerms": [
+        "theoretical",
+        "continuing",
+        "offering",
+        "sharp"
+      ]
+    },
+    {
+      "id": "c-399",
+      "x": 0.0742,
+      "y": 0.2567,
+      "comment": "Response A asks a direct, analytical question. Response B is a good reflection but less of a prompt for further analysis.",
+      "topTerms": [
+        "direct",
+        "further",
+        "reflection",
+        "good"
+      ]
+    },
+    {
+      "id": "c-400",
+      "x": 0.0507,
+      "y": 0.1022,
+      "comment": "Both invent dialogue, hijacking the narrative instead of analyzing the prompt. A adds a new character; B fabricates a direct confrontation.",
+      "topTerms": [
+        "character",
+        "direct",
+        "adds",
+        "dialogue"
+      ]
+    },
+    {
+      "id": "c-401",
+      "x": 0.0841,
+      "y": 0.1539,
+      "comment": "A correctly analyzes the concept of narrative. B hallucinates a new backstory, hijacking the original story instead of reflecting on it.",
+      "topTerms": [
+        "reflecting",
+        "backstory",
+        "original",
+        "concept"
+      ]
+    },
+    {
+      "id": "c-402",
+      "x": 0.6209,
+      "y": -0.6377,
+      "comment": "A continues the narrative without analysis, but B is worse as it just gets stuck in a repetitive loop.",
+      "topTerms": [
+        "continues",
+        "without",
+        "gets",
+        "loop"
+      ]
+    },
+    {
+      "id": "c-403",
+      "x": 0.2086,
+      "y": -0.4308,
+      "comment": "A gets stuck in a repetitive loop. B, while also flawed, begins to add some basic analytical context, making it better.",
+      "topTerms": [
+        "also",
+        "begins",
+        "basic",
+        "context"
+      ]
+    },
+    {
+      "id": "c-404",
+      "x": -0.8478,
+      "y": -0.438,
+      "comment": "Both models failed to generate any response for the prompt.",
+      "topTerms": [
+        "models",
+        "generate",
+        "failed",
+        "any"
+      ]
+    },
+    {
+      "id": "c-405",
+      "x": 0.4446,
+      "y": -0.2306,
+      "comment": "A analyzes the core conflict and asks strong reflexive questions. B fails by getting stuck in a simple, repetitive loop.",
+      "topTerms": [
+        "getting",
+        "simple",
+        "conflict",
+        "fails"
+      ]
+    },
+    {
+      "id": "c-406",
+      "x": 0.0151,
+      "y": 0.1239,
+      "comment": "A probes the analytical concept of 'competing nostalgias,' while B merely sympathizes with the narrative's emotional tone.",
+      "topTerms": [
+        "tone",
+        "emotional",
+        "concept",
+        "merely"
+      ]
+    },
+    {
+      "id": "c-407",
+      "x": -0.0463,
+      "y": 0.1144,
+      "comment": "B offers helpful analytical paths for the writing dilemma, while A misinterprets the prompt and suggests an irrelevant, unhelpful action.",
+      "topTerms": [
+        "writing",
+        "suggests",
+        "action",
+        "irrelevant"
+      ]
+    },
+    {
+      "id": "c-408",
+      "x": -0.1146,
+      "y": -0.0079,
+      "comment": "A is better as it attempts analysis despite hallucinating context. B is empty and fails completely.",
+      "topTerms": [
+        "despite",
+        "attempts",
+        "completely",
+        "hallucinating"
+      ]
+    },
+    {
+      "id": "c-409",
+      "x": -0.5912,
+      "y": -0.4667,
+      "comment": "Both responses are empty and fail to provide any analysis, making them equally unhelpful.",
+      "topTerms": [
+        "provide",
+        "fail",
+        "making",
+        "unhelpful"
+      ]
+    },
+    {
+      "id": "c-410",
+      "x": -0.0159,
+      "y": 0.2654,
+      "comment": "B is more actionable, suggesting concrete analytical angles like power dynamics. A's advice is more general.",
+      "topTerms": [
+        "like",
+        "general",
+        "concrete",
+        "dynamics"
+      ]
+    },
+    {
+      "id": "c-411",
+      "x": 0.195,
+      "y": 0.1226,
+      "comment": "B asks insightful, analytical questions that deepen the inquiry. A is repetitive and only provides a generic, unhelpful summary.",
+      "topTerms": [
+        "inquiry",
+        "summary",
+        "unhelpful",
+        "insightful"
+      ]
+    },
+    {
+      "id": "c-412",
+      "x": 0.0121,
+      "y": 0.2662,
+      "comment": "A offers actionable, analytical advice. B is a simplistic restatement of the problem without providing a path forward.",
+      "topTerms": [
+        "restatement",
+        "providing",
+        "forward",
+        "simplistic"
+      ]
+    },
+    {
+      "id": "c-413",
+      "x": 0.0731,
+      "y": 0.1114,
+      "comment": "Both responses are too similar. They both merely summarize the prompt's observation without offering deeper analysis or asking reflexive questions.",
+      "topTerms": [
+        "similar",
+        "deeper",
+        "asking",
+        "merely"
+      ]
+    },
+    {
+      "id": "c-414",
+      "x": -0.0131,
+      "y": 0.1674,
+      "comment": "A provides analytical depth and theoretical framing. B invents a clichéd story, ignoring the prompt's request for nuance.",
+      "topTerms": [
+        "depth",
+        "framing",
+        "nuance",
+        "theoretical"
+      ]
+    },
+    {
+      "id": "c-415",
+      "x": 0.0246,
+      "y": 0.1372,
+      "comment": "B asks a great, reflexive question about method. A is empty and provides no help.",
+      "topTerms": [
+        "help",
+        "about",
+        "asks",
+        "reflexive"
+      ]
+    },
+    {
+      "id": "c-416",
+      "x": 0.0379,
+      "y": 0.2381,
+      "comment": "B is better as it repeats specific details and the core insight, whereas A provides a weak, generic interpretation of the data.",
+      "topTerms": [
+        "weak",
+        "interpretation",
+        "data",
+        "repeats"
+      ]
+    },
+    {
+      "id": "c-417",
+      "x": 0.6787,
+      "y": -0.3498,
+      "comment": "B provides a sharp, analytical question. A gets stuck in a repetitive loop, answering its own generic question.",
+      "topTerms": [
+        "question",
+        "sharp",
+        "generic",
+        "gets"
+      ]
+    },
+    {
+      "id": "c-418",
+      "x": -0.2798,
+      "y": -0.0855,
+      "comment": "Response A provides a relevant, though basic, analysis. Response B is an empty, failed generation.",
+      "topTerms": [
+        "though",
+        "generation",
+        "basic",
+        "relevant"
+      ]
+    },
+    {
+      "id": "c-419",
+      "x": -0.103,
+      "y": 0.0386,
+      "comment": "B hallucinates specific military details not in the prompt. A is unhelpful but grounded, making it the less harmful response.",
+      "topTerms": [
+        "grounded",
+        "details",
+        "making",
+        "unhelpful"
+      ]
+    },
+    {
+      "id": "c-420",
+      "x": -0.0624,
+      "y": 0.0456,
+      "comment": "A provides a relevant, if basic, analytical frame. B is an empty string and fails the prompt entirely.",
+      "topTerms": [
+        "basic",
+        "entirely",
+        "relevant",
+        "frame"
+      ]
+    },
+    {
+      "id": "c-421",
+      "x": 0.037,
+      "y": 0.3442,
+      "comment": "Both are good, but B's question is slightly more specific to the prompt's context than A's more generalized question about resource distribution.",
+      "topTerms": [
+        "slightly",
+        "question",
+        "context",
+        "good"
+      ]
+    },
+    {
+      "id": "c-422",
+      "x": 0.0495,
+      "y": 0.2005,
+      "comment": "A is more collaborative by asking a guiding question, while B offers a similar, but more declarative, analysis.",
+      "topTerms": [
+        "similar",
+        "asking",
+        "offers",
+        "question"
+      ]
+    },
+    {
+      "id": "c-423",
+      "x": -0.1822,
+      "y": -0.2119,
+      "comment": "B hallucinates new, irrelevant scenarios. However, A is empty, making a flawed response marginally better than no response at all.",
+      "topTerms": [
+        "all",
+        "irrelevant",
+        "flawed",
+        "making"
+      ]
+    },
+    {
+      "id": "c-424",
+      "x": 0.0373,
+      "y": 0.307,
+      "comment": "A insightfully analyzes the symbolism of repair. B ignores the prompt's core observation, pivoting to a generic policy explanation.",
+      "topTerms": [
+        "explanation",
+        "insightfully",
+        "ignores",
+        "observation"
+      ]
+    },
+    {
+      "id": "c-425",
+      "x": -0.176,
+      "y": 0.0622,
+      "comment": "Response B hijacks the narrative, but is better than the empty Response A.",
+      "topTerms": [
+        "hijacks",
+        "narrative",
+        "empty"
+      ]
+    },
+    {
+      "id": "c-426",
+      "x": 0.009,
+      "y": 0.1461,
+      "comment": "The responses are functionally identical, asking the same question with a negligible wording change. Neither is superior.",
+      "topTerms": [
+        "superior",
+        "identical",
+        "asking",
+        "question"
+      ]
+    },
+    {
+      "id": "c-427",
+      "x": -0.0247,
+      "y": 0.0535,
+      "comment": "B provides specific, structured questions for analysis, whereas A simply rephrases the prompt without offering any new direction.",
+      "topTerms": [
+        "structured",
+        "direction",
+        "rephrases",
+        "simply"
+      ]
+    },
+    {
+      "id": "c-428",
+      "x": 0.07,
+      "y": 0.2234,
+      "comment": "A analyzes the core concept of performative respectability. B fabricates a new interview instead of analyzing the original observation.",
+      "topTerms": [
+        "original",
+        "fabricates",
+        "concept",
+        "observation"
+      ]
+    },
+    {
+      "id": "c-429",
+      "x": -0.0163,
+      "y": 0.302,
+      "comment": "Response A offers deeper analytical strategies, such as historical context. B's suggestions are more generic and less directly address the core analytical challenge.",
+      "topTerms": [
+        "suggestions",
+        "challenge",
+        "strategies",
+        "directly"
+      ]
+    },
+    {
+      "id": "c-430",
+      "x": 0.1315,
+      "y": 0.3413,
+      "comment": "B asks a sharp, focused research question. A offers a good but more general analysis of the same core tension.",
+      "topTerms": [
+        "general",
+        "research",
+        "sharp",
+        "good"
+      ]
+    },
+    {
+      "id": "c-431",
+      "x": -0.0708,
+      "y": 0.1284,
+      "comment": "Both responses are similar summaries. A is slightly better because it is a complete thought, while B cuts off mid-sentence.",
+      "topTerms": [
+        "thought",
+        "sentence",
+        "similar",
+        "complete"
+      ]
+    },
+    {
+      "id": "c-432",
+      "x": 0.1292,
+      "y": 0.0584,
+      "comment": "A provides a strong, reflexive analysis of the power dynamics. B is repetitive and focuses more on narrative than on ethnographic insight.",
+      "topTerms": [
+        "focuses",
+        "dynamics",
+        "power",
+        "ethnographic"
+      ]
+    },
+    {
+      "id": "c-433",
+      "x": -0.4971,
+      "y": -0.2981,
+      "comment": "Both responses are empty and fail to offer any analysis, making a comparison impossible.",
+      "topTerms": [
+        "offer",
+        "comparison",
+        "impossible",
+        "fail"
+      ]
+    },
+    {
+      "id": "c-434",
+      "x": -0.158,
+      "y": -0.0595,
+      "comment": "Both invent a story and hallucinate a conversation. They equally fail to analyze the central ethnographic dilemma of interpretation vs. invention.",
+      "topTerms": [
+        "conversation",
+        "interpretation",
+        "invent",
+        "hallucinate"
+      ]
+    },
+    {
+      "id": "c-435",
+      "x": -0.6873,
+      "y": -0.4212,
+      "comment": "Both responses are empty, failing to generate any text and thus equally unusable.",
+      "topTerms": [
+        "thus",
+        "unusable",
+        "failing",
+        "text"
+      ]
+    },
+    {
+      "id": "c-436",
+      "x": 0.0464,
+      "y": 0.3235,
+      "comment": "A's focus on analytical framing is more precise. B offers a good, but more generic, solution-oriented question.",
+      "topTerms": [
+        "framing",
+        "solution",
+        "focus",
+        "good"
+      ]
+    },
+    {
+      "id": "c-437",
+      "x": 0.0477,
+      "y": 0.2261,
+      "comment": "A is more reflexive, analyzing the researcher's role. B is less insightful and mostly just describes the scene from the prompt.",
+      "topTerms": [
+        "describes",
+        "role",
+        "mostly",
+        "scene"
+      ]
+    },
+    {
+      "id": "c-438",
+      "x": 0.1937,
+      "y": -0.0229,
+      "comment": "B provides a structured analysis of the social norms, while A is highly repetitive and offers no new insight.",
+      "topTerms": [
+        "structured",
+        "social",
+        "highly",
+        "insight"
+      ]
+    },
+    {
+      "id": "c-439",
+      "x": -0.3865,
+      "y": -0.1518,
+      "comment": "Both responses are empty, indicating a model failure on the prompt. No comparison is possible.",
+      "topTerms": [
+        "comparison",
+        "model",
+        "failure",
+        "empty"
+      ]
+    },
+    {
+      "id": "c-440",
+      "x": -0.3218,
+      "y": -0.1605,
+      "comment": "A hallucinates facts and hijacks the narrative instead of analyzing. B is an empty, failed generation. Both are equally flawed.",
+      "topTerms": [
+        "generation",
+        "facts",
+        "flawed",
+        "hijacks"
+      ]
+    },
+    {
+      "id": "c-441",
+      "x": -0.1859,
+      "y": -0.2015,
+      "comment": "A provides a weak, repetitive answer, but B is empty. Any response is better than no response.",
+      "topTerms": [
+        "weak",
+        "answer",
+        "any",
+        "empty"
+      ]
+    },
+    {
+      "id": "c-442",
+      "x": 0.0106,
+      "y": 0.1123,
+      "comment": "B provides a helpful analytical suggestion. A just repeats the prompt, offering no insight or analysis.",
+      "topTerms": [
+        "suggestion",
+        "helpful",
+        "repeats",
+        "offering"
+      ]
+    },
+    {
+      "id": "c-443",
+      "x": -0.0119,
+      "y": 0.178,
+      "comment": "B's analysis of power dynamics is a sharper insight than A's more generic, definitional explanation of ethnographic mapping.",
+      "topTerms": [
+        "sharper",
+        "explanation",
+        "dynamics",
+        "power"
+      ]
+    },
+    {
+      "id": "c-444",
+      "x": -0.0642,
+      "y": 0.307,
+      "comment": "A offers concrete analytical pathways. B's advice is more abstract and less actionable by comparison.",
+      "topTerms": [
+        "abstract",
+        "comparison",
+        "concrete",
+        "advice"
+      ]
+    },
+    {
+      "id": "c-445",
+      "x": 0.2715,
+      "y": -0.2613,
+      "comment": "B attempts analysis, despite hallucinating facts. A is less useful as it is stuck in a simple, repetitive loop of the prompt's ideas.",
+      "topTerms": [
+        "useful",
+        "simple",
+        "despite",
+        "attempts"
+      ]
+    },
+    {
+      "id": "c-446",
+      "x": 0.0203,
+      "y": 0.1619,
+      "comment": "Both responses start with good analysis but then hallucinate facts about the manuscript, derailing their initial insight into narrative invention.",
+      "topTerms": [
+        "derailing",
+        "initial",
+        "hallucinate",
+        "facts"
+      ]
+    },
+    {
+      "id": "c-447",
+      "x": -0.1158,
+      "y": 0.0082,
+      "comment": "A hijacks the prompt to create an unethical story, while B fails to engage with the prompt at all. Both are flawed.",
+      "topTerms": [
+        "all",
+        "engage",
+        "fails",
+        "flawed"
+      ]
+    },
+    {
+      "id": "c-448",
+      "x": 0.1732,
+      "y": 0.1947,
+      "comment": "B asks insightful, reflexive questions. A devolves into narrative hijacking by inventing a story instead of analyzing the dynamic.",
+      "topTerms": [
+        "dynamic",
+        "inventing",
+        "hijacking",
+        "insightful"
+      ]
+    }
+  ],
+  "precomputed": {
+    "tfidfNote": "TF-IDF (292-term vocabulary, df in [3, 60%], L2-normalized) and 2-D PCA computed offline by scripts/prepare-clustering-data.ts over 445 unique synthetic-tier feedback comments. Coordinates are the first two principal components on a shared scale. Only k-means runs live in the browser."
+  }
+}

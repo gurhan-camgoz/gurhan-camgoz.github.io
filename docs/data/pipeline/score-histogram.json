@@ -1,0 +1,46 @@
+{
+  "PLACEHOLDER": true,
+  "note": "Placeholder binned counts shaped to the real thesis statistics (n=1024, bimodal, mean 4.09, median 3.00). Swap with the thesis-table export.",
+  "bins": [
+    {
+      "score": 1,
+      "count": 199
+    },
+    {
+      "score": 2,
+      "count": 150
+    },
+    {
+      "score": 3,
+      "count": 250
+    },
+    {
+      "score": 4,
+      "count": 60
+    },
+    {
+      "score": 5,
+      "count": 40
+    },
+    {
+      "score": 6,
+      "count": 50
+    },
+    {
+      "score": 7,
+      "count": 90
+    },
+    {
+      "score": 8,
+      "count": 110
+    },
+    {
+      "score": 9,
+      "count": 55
+    },
+    {
+      "score": 10,
+      "count": 20
+    }
+  ]
+}
