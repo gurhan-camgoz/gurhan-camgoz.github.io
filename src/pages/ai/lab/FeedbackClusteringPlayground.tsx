@@ -4,28 +4,16 @@ import { DemoShell } from '../../../components/ai/lab/DemoShell';
 import { DemoDataBoundary } from '../../../components/ai/lab/DemoDataBoundary';
 import { useDemoData } from '../../../components/ai/lab/useDemoData';
 import { labDemos } from '../../../data/labDemos';
+import {
+    FeedbackClusteringInteractive,
+    type ClusteringData,
+} from './FeedbackClusteringInteractive';
 
 const demo = labDemos.find((d) => d.id === 'feedback-clustering-playground')!;
 
-export interface ClusterPoint {
-    id: string;
-    x: number;
-    y: number;
-    comment: string;
-    topTerms: string[];
-}
+const PIPELINE_URL =
+    'https://github.com/gurhan-camgoz/ethno-colleague-llm/blob/main/data-scaling/synthetic_data_generator.py';
 
-export interface ClusteringData {
-    points: ClusterPoint[];
-    precomputed: { tfidfNote: string };
-}
-
-/**
- * Data wiring (skeleton / error / success via DemoDataBoundary) is live now,
- * pointed at the eventual data file. The 2-D scatter, k slider, live
- * k-means, and elbow plot land in Phase 4 — see
- * src/components/ai/lab/README.md.
- */
 export function FeedbackClusteringPlayground() {
     const dataState = useDemoData<ClusteringData>('/data/clustering.json');
 
@@ -45,35 +33,77 @@ export function FeedbackClusteringPlayground() {
                         status={demo.status}
                         title={demo.title}
                         claim={demo.claim}
-                        fieldnote="Reproduces the clustering analysis from §4.4.3 — a k=3 empirical structure beneath the five-dimensional theoretical framework — across the 512-entry master dataset (64 human + 448 synthetic)."
+                        fieldnote="Reproduces the clustering analysis from §4.4.3: five theorized dimensions, but a k=3 empirical structure — dimensional compression. The cited structure comes from the human-inclusive analysis of the 512-entry master dataset; the points you're clustering here are the synthetic tier."
                         repoUrl={demo.repoUrl}
                         methodsAndData={
                             <>
                                 <p>
-                                    <span className="text-slate-300">Precomputed:</span> TF-IDF vectorization and
-                                    PCA dimensionality reduction on feedback comments, done offline in Python and
-                                    shipped here as 2-D coordinates.
+                                    <span className="text-slate-300">Displayed — synthetic tier only:</span> every
+                                    point is a feedback comment from the 448-entry synthetic tier of the thesis
+                                    dataset. The 64 human-participant comments are never displayed: they came from 7
+                                    participants in a small academic network, and verbatim display risks
+                                    re-identification. A pattern screen also excluded any comment resembling a name,
+                                    email, phone number, or URL.
                                 </p>
                                 <p>
-                                    <span className="text-slate-300">Live:</span> k-means clustering itself
-                                    (k-means++ init, seeded RNG for reproducibility) and the elbow-plot
-                                    sum-of-squared-distances curve, both recomputed in your browser as you move
-                                    the k slider.
+                                    <span className="text-slate-300">Cited:</span> the k=3 cluster structure, its
+                                    three names, and the five dimension-presence percentages are findings from the
+                                    thesis's human-inclusive analysis, quoted as results only.
                                 </p>
                                 <p>
-                                    <span className="text-slate-300">Anonymized:</span> feedback comments have
-                                    participant names and other identifying details stripped before publication.
+                                    <span className="text-slate-300">Processing:</span> TF-IDF vectorization and 2-D
+                                    PCA were computed offline by the author's preprocessing script
+                                    (scripts/prepare-clustering-data.ts) and shipped as static coordinates and
+                                    per-comment top terms.
+                                </p>
+                                <p>
+                                    <span className="text-slate-300">Live vs. precomputed:</span> k-means itself
+                                    (k-means++ init, seeded RNG, best-of-3 restarts) and the elbow curve are
+                                    recomputed in your browser every time you move the k slider or re-run. Everything
+                                    else is precomputed static JSON.
+                                </p>
+                                <p>
+                                    <span className="text-slate-300">Source:</span>{' '}
+                                    <a
+                                        href={demo.repoUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-blue-400 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded"
+                                    >
+                                        thesis repo
+                                    </a>{' '}
+                                    ·{' '}
+                                    <a
+                                        href={PIPELINE_URL}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-blue-400 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded"
+                                    >
+                                        synthetic generation pipeline (synthetic_data_generator.py)
+                                    </a>
                                 </p>
                             </>
                         }
                     >
                         <DemoDataBoundary state={dataState} repoUrl={demo.repoUrl} minHeight="min-h-80">
-                            {(data) => (
-                                <div className="border border-slate-800 rounded-lg p-6 bg-slate-800/20 text-sm text-slate-400">
-                                    Loaded {data.points.length} points. The 2-D scatter, k slider, live k-means,
-                                    and elbow plot land in Phase 4.
-                                </div>
-                            )}
+                            {(data) =>
+                                data.points.length === 0 ? (
+                                    <div className="border border-slate-800 rounded-lg p-6 bg-slate-800/20 text-sm text-slate-400">
+                                        No points in the data file yet — see the{' '}
+                                        <a
+                                            href={demo.repoUrl}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-blue-400 hover:underline"
+                                        >
+                                            thesis repo
+                                        </a>{' '}
+                                        for the underlying dataset.
+                                    </div>
+                                ) : (
+                                    <FeedbackClusteringInteractive data={data} />
+                                )
+                            }
                         </DemoDataBoundary>
                     </DemoShell>
                 </main>
